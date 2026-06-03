@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mechanisms in Motion: Launch Roadmap</title>
+<style>
+  @page { size: Letter; margin: 0; }
+  * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #1a2332;
+    font-size: 10.5pt;
+    line-height: 1.42;
+    -webkit-font-smoothing: antialiased;
+  }
+  :root {
+    --ink: #1a2332;
+    --slate: #4a5568;
+    --mute: #718096;
+    --amber: #d97a26;
+    --amberlt: #fbeede;
+    --line: #e2e8f0;
+    --navy: #16243b;
+    --bg: #ffffff;
+  }
+  .page {
+    width: 8.5in; height: 11in;
+    padding: 0.62in 0.7in 0.5in 0.7in;
+    page-break-after: always;
+    position: relative;
+    display: flex; flex-direction: column;
+  }
+  .page:last-child { page-break-after: auto; }
+
+  /* Header */
+  .kicker { font-size: 7.5pt; letter-spacing: 0.16em; text-transform: uppercase; color: var(--amber); font-weight: 700; }
+  .pagenum { position: absolute; top: 0.55in; right: 0.7in; font-size: 8pt; color: var(--mute); letter-spacing: 0.06em; }
+  h1.cover { font-size: 30pt; line-height: 1.04; font-weight: 800; letter-spacing: -0.02em; margin: 2px 0 2px; color: var(--navy); }
+  .tagline { font-size: 11pt; color: var(--amber); font-weight: 600; font-style: italic; margin-bottom: 14px; }
+  h2.sec { font-size: 16pt; font-weight: 800; letter-spacing: -0.01em; color: var(--navy); margin: 4px 0 2px; }
+  .govern { font-size: 11.5pt; line-height: 1.34; color: var(--ink); font-weight: 600; border-left: 3px solid var(--amber); padding-left: 11px; margin: 8px 0 14px; }
+  h3 { font-size: 10.5pt; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--slate); margin: 14px 0 6px; }
+  p { margin: 0 0 7px; }
+  .hr { height: 2px; background: var(--navy); margin: 8px 0 0; }
+  .topline { display:flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid var(--line); padding-bottom: 7px; margin-bottom: 4px;}
+  .topline .id { font-size: 8pt; color: var(--mute); letter-spacing: 0.04em; }
+
+  /* Tables */
+  table { width: 100%; border-collapse: collapse; margin: 4px 0 8px; }
+  th { text-align: left; font-size: 7.5pt; text-transform: uppercase; letter-spacing: 0.07em; color: var(--mute); border-bottom: 1.5px solid var(--ink); padding: 5px 7px 4px; font-weight: 700; }
+  td { font-size: 9.3pt; padding: 5px 7px; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.32; }
+  td.pick { font-weight: 700; color: var(--navy); }
+  td.cost { font-variant-numeric: tabular-nums; white-space: nowrap; font-weight: 600; }
+  tr.total td { border-top: 1.5px solid var(--ink); border-bottom: none; font-weight: 800; color: var(--navy); padding-top: 6px; }
+
+  /* Cards */
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin: 6px 0; }
+  .card { border: 1px solid var(--line); border-radius: 7px; padding: 9px 11px; }
+  .card .name { font-size: 11pt; font-weight: 800; color: var(--navy); }
+  .card .price { float: right; font-size: 9pt; font-weight: 700; color: var(--amber); }
+  .card .role { font-size: 7.5pt; text-transform: uppercase; letter-spacing: 0.06em; color: var(--mute); margin: 1px 0 5px; }
+  .card p { font-size: 8.8pt; line-height: 1.34; margin: 0; color: var(--slate); }
+
+  /* Callouts */
+  .box { background: var(--amberlt); border-radius: 7px; padding: 9px 12px; margin: 8px 0; }
+  .box.dark { background: var(--navy); color: #fff; }
+  .box.dark .lbl { color: #f6c177; }
+  .box .lbl { font-size: 7.5pt; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 800; color: var(--amber); margin-bottom: 3px; }
+  .box p { margin: 0; font-size: 9pt; line-height: 1.36; }
+  .box.dark p { color: #e8edf5; }
+
+  /* Lists */
+  ol.steps { margin: 4px 0 6px; padding-left: 0; counter-reset: s; list-style: none; }
+  ol.steps li { position: relative; padding: 0 0 5px 26px; font-size: 9.2pt; line-height: 1.34; }
+  ol.steps li::before { counter-increment: s; content: counter(s); position: absolute; left: 0; top: 0; width: 18px; height: 18px; background: var(--navy); color: #fff; border-radius: 50%; font-size: 8pt; font-weight: 700; text-align: center; line-height: 18px; }
+  ul.check { list-style: none; margin: 4px 0; padding: 0; }
+  ul.check li { position: relative; padding: 0 0 5px 20px; font-size: 9.2pt; line-height: 1.34; }
+  ul.check li::before { content: "▢"; position: absolute; left: 0; color: var(--amber); font-size: 10pt; }
+  ul.check li.loud { font-weight: 700; color: var(--navy); }
+  ul.tight { margin: 3px 0 6px; padding-left: 16px; }
+  ul.tight li { font-size: 9.2pt; line-height: 1.36; margin-bottom: 3px; }
+  .lead { color: var(--navy); font-weight: 700; }
+
+  /* Timeline strip */
+  .strip { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin: 8px 0; }
+  .strip .ph { border-top: 3px solid var(--amber); padding-top: 5px; }
+  .strip .ph .when { font-size: 8pt; font-weight: 800; color: var(--amber); letter-spacing: 0.03em; }
+  .strip .ph .what { font-size: 8.4pt; color: var(--slate); line-height: 1.28; margin-top: 2px; }
+
+  /* two-col */
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .footer { margin-top: auto; padding-top: 8px; border-top: 1px solid var(--line); font-size: 7.5pt; color: var(--mute); display: flex; justify-content: space-between; }
+  a { color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--line); }
+  .src { font-size: 7.5pt; color: var(--mute); }
+  .spec-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 16px; margin: 5px 0; }
+  .spec-grid div { font-size: 9pt; padding: 3px 0; border-bottom: 1px dotted var(--line); }
+  .spec-grid b { color: var(--navy); }
+</style>
+</head>
+<body>
+
+<!-- ===================== PAGE 1 ===================== -->
+<section class="page">
+  <div class="pagenum">01 / 06</div>
+  <div class="kicker">AES &middot; Podcast Launch Roadmap &middot; June 2026</div>
+  <h1 class="cover">Mechanisms in Motion</h1>
+  <div class="tagline">Day 1 Energy for Every Stage of Growth</div>
+
+  <div class="govern">We can launch a professional remote video podcast on four software subscriptions plus one matched hardware kit each, edited in Descript on a workflow you learn in a week. The job between now and late August is to buy two kits, learn Descript on scrap footage, run one full test with a stand-in, then record eight episodes in a four-week sprint and publish weekly.</div>
+
+  <h3>The stack at a glance</h3>
+  <table>
+    <thead><tr><th style="width:23%">Layer</th><th style="width:30%">What we use</th><th style="width:15%">Cost</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td>Record</td><td class="pick">Riverside.fm Pro</td><td class="cost">$24/mo</td><td>Everyone records locally in their browser; a dropped connection never loses the take. Guests join with one link, no install.</td></tr>
+      <tr><td>Edit</td><td class="pick">Descript Creator</td><td class="cost">$24/mo</td><td>Edit video by editing text. Auto-cleans audio, removes "ums," switches cameras, cuts social clips.</td></tr>
+      <tr><td>Host &amp; publish</td><td class="pick">Transistor.fm Pro</td><td class="cost">$49/mo</td><td>One upload feeds Apple + Spotify (audio) and auto-posts the video to YouTube.</td></tr>
+      <tr><td>Schedule</td><td class="pick">Calendly Standard</td><td class="cost">$15/mo</td><td>Guests self-book; auto-handles their timezone and sends them the link and prep doc.</td></tr>
+      <tr><td>Gear (each)</td><td class="pick">Matched host kit</td><td class="cost">~$850</td><td>Studio mic, 4K webcam, key light, headphones, boom arm. Two identical kits.</td></tr>
+      <tr class="total"><td>Run-rate</td><td>4 subscriptions</td><td class="cost">~$112/mo</td><td>Plus ~$1,700 one-time for both kits. Riverside can pause after the sprint.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>The path, in five moves</h3>
+  <div class="strip">
+    <div class="ph"><div class="when">JUN–JUL</div><div class="what">Order 2 kits. Set up the 4 accounts. Learn Descript on scrap footage.</div></div>
+    <div class="ph"><div class="when">EARLY AUG</div><div class="what">Day-1 setup + a full test run with a stand-in guest.</div></div>
+    <div class="ph"><div class="when">AUG 25 – SEP 17</div><div class="what">Record 8 episodes, Tue/Thu mornings, two per week.</div></div>
+    <div class="ph"><div class="when">SEP 17–21</div><div class="what">Final edits; build a 1–2 episode buffer; queue the season.</div></div>
+    <div class="ph"><div class="when">SEP 22 &rarr;</div><div class="what">Launch. Publish every Tuesday from the recorded backlog.</div></div>
+  </div>
+
+  <div class="two" style="margin-top:6px;">
+    <div>
+      <h3>Rich owns logistics</h3>
+      <ul class="tight">
+        <li>The four accounts, billing, and the YouTube/Apple/Spotify setup</li>
+        <li>Both hardware kits and the test run</li>
+        <li>The Descript edit and weekly publishing</li>
+        <li>The Calendly booking calendar and prep one-pager</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Carla owns the guest slate</h3>
+      <ul class="tight">
+        <li>The 6–8 guests for the launch block and their order</li>
+        <li>Warm outreach and the invite</li>
+        <li>The question arc per guest (with Rich)</li>
+        <li>Co-host on every recording</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer"><span>Mechanisms in Motion &middot; Launch Roadmap</span><span>Prepared for Rich &amp; Carla &middot; Page 1</span></div>
+</section>
+
+<!-- ===================== PAGE 2 ===================== -->
+<section class="page">
+  <div class="pagenum">02 / 06</div>
+  <div class="topline"><span class="kicker">The Tech Stack</span><span class="id">Mechanisms in Motion</span></div>
+  <h2 class="sec">Four subscriptions, one job each</h2>
+  <div class="govern">Each tool does exactly one thing and hands cleanly to the next: Riverside records, Descript edits, Transistor publishes, Calendly schedules. Buy each on annual billing and run them on one shared account so there is a single login per layer.</div>
+
+  <div class="cards">
+    <div class="card"><span class="price">$24/mo</span><div class="name">Riverside.fm</div><div class="role">Pro plan &middot; recording studio</div><p>Records every person's camera and mic locally at full quality, then uploads in the background, so a guest's bad wifi can't ruin the take. Guests click one link in Chrome, no account, no download. One-click export hands each person to Descript as a separate track. <b>Record at 1080p</b> (not 4K) to keep uploads fast.</p></div>
+    <div class="card"><span class="price">$24/mo</span><div class="name">Descript</div><div class="role">Creator plan &middot; editing</div><p>You edit the video by editing the transcript. One click cleans the audio (Studio Sound), removes filler words, and switches between cameras automatically (Automatic Multicam). It also generates the vertical clips for social. Annual billing is $24/mo; month-to-month is $35.</p></div>
+    <div class="card"><span class="price">$49/mo</span><div class="name">Transistor.fm</div><div class="role">Professional &middot; hosting</div><p>Your one upload generates the audio feed for every podcast app and auto-posts the full video to YouTube. Unlimited shows on one bill, so a second AES show later costs nothing extra.</p></div>
+    <div class="card"><span class="price">$15/mo</span><div class="name">Calendly</div><div class="role">Standard &middot; booking</div><p>Guests self-book a recording slot; it detects their timezone and emails them the Riverside link, the prep one-pager, and reminders automatically. One shared booking calendar avoids double-booking.</p></div>
+  </div>
+
+  <h3>How an episode reaches the world</h3>
+  <div class="box dark">
+    <div class="lbl">Guaranteed path (set up once, runs itself)</div>
+    <p><b>Audio:</b> Transistor &rarr; one RSS feed &rarr; Apple Podcasts + Spotify + every podcast app, automatically on each publish. &nbsp; <b>Video:</b> Transistor auto-posts the full episode to <b>YouTube</b>, the primary home for video discovery (about a third of US podcast viewing).</p>
+  </div>
+  <div class="box">
+    <div class="lbl">Bonus path (only if it's live on the account)</div>
+    <p>Native <b>video</b> on Apple Podcasts and Spotify ships through Transistor's HLS video distribution, which is still rolling out in 2026. Treat it as a bonus we switch on if available during setup, never something the launch depends on. YouTube is the guaranteed video home.</p>
+  </div>
+
+  <h3>"Record once, clip many"</h3>
+  <p>The full edited episode is the master. From it: the audio track fans out to every podcast app, the full video lands on YouTube, and Descript cuts 2–4 vertical clips per episode for YouTube Shorts, LinkedIn, and Instagram. Audio still reaches roughly twice the weekly US audience of video, so the show never waits on video to ship.</p>
+
+  <div class="footer"><span>Recurring cost: ~$112/mo on annual billing &middot; external directories are free</span><span>Page 2</span></div>
+</section>
+
+<!-- ===================== PAGE 3 ===================== -->
+<section class="page">
+  <div class="pagenum">03 / 06</div>
+  <div class="topline"><span class="kicker">The Hardware</span><span class="id">Mechanisms in Motion</span></div>
+  <h2 class="sec">Two identical kits, weighted toward the mic</h2>
+  <div class="govern">Buy two matching ~$850 kits, one for Rich in San Diego and one for Carla near Seattle, built around a plug-and-play USB mic that needs no audio interface and a webcam that needs no capture card. The mic takes $279 of the $850 because a guest will forgive your camera before they forgive your audio.</div>
+
+  <table>
+    <thead><tr><th style="width:26%">Item</th><th style="width:30%">Buy this</th><th style="width:13%">Price</th><th>Why this one</th></tr></thead>
+    <tbody>
+      <tr><td>Microphone</td><td class="pick">Shure MV7+ (black)</td><td class="cost">$279</td><td>USB-C, no interface needed. Auto-levels your voice so you never ride a gain knob.</td></tr>
+      <tr><td>Webcam</td><td class="pick">Logitech MX Brio 4K</td><td class="cost">$199</td><td>One USB-C cable, sharp in low light. No dummy battery, no overheating, no capture card.</td></tr>
+      <tr><td>Key light</td><td class="pick">Elgato Key Light Neo</td><td class="cost">$99</td><td>USB-powered, no Wi-Fi or app to fail on record day. Place 45&deg; off to one side.</td></tr>
+      <tr><td>Headphones</td><td class="pick">Sony MDR-7506</td><td class="cost">$100</td><td>Closed-back kills echo and bleed. Plug straight into the mic. Industry standard.</td></tr>
+      <tr><td>Boom arm</td><td class="pick">RODE PSA1+</td><td class="cost">$126</td><td>Silent springs, rated to hold the heavy MV7+ without drooping mid-record.</td></tr>
+      <tr><td>Room treatment</td><td class="pick">Reflection filter / foam</td><td class="cost">~$50</td><td>Sits behind the mic to kill echo. A rug, curtains, and a bookshelf do the rest free.</td></tr>
+      <tr class="total"><td>Per kit</td><td>6 items</td><td class="cost">~$850</td><td>Two kits ~$1,700. Inside budget with headroom for cables.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="box">
+    <div class="lbl">The one dollar that matters most</div>
+    <p>The microphone. If anything has to flex, keep the MV7+ and trade down elsewhere. We run it over USB-C in "Auto Level" mode with light denoise and <b>reverb off</b>; an XLR upgrade path exists later but is not needed now.</p>
+  </div>
+
+  <h3>Guest uplift kit (optional, for marquee guests only)</h3>
+  <p>Guests are the weakest link in remote A/V; a senior operator on a bad laptop webcam will be the most-watched face in the episode. For high-value guests, offer to ship a tiny uplift kit ahead of the record: a clip-on light and a USB mic or lav (about $25–60 total). Everyone else uses what they have; the platform protects the audio.</p>
+
+  <h3>Buy from</h3>
+  <p class="src">Shure MV7+: shure.com or B&amp;H &middot; Logitech MX Brio: logitech.com &middot; Elgato Key Light Neo: elgato.com &middot; Sony MDR-7506: any pro-audio retailer &middot; RODE PSA1+: rode.com &middot; reflection filter: Amazon (TONOR / TroyStudio). Order both kits in one pass so they arrive together and stay identical.</p>
+
+  <div class="footer"><span>Buy two identical kits &middot; change components together to keep both feeds matched</span><span>Page 3</span></div>
+</section>
+
+<!-- ===================== PAGE 4 ===================== -->
+<section class="page">
+  <div class="pagenum">04 / 06</div>
+  <div class="topline"><span class="kicker">The Production Workflow</span><span class="id">Mechanisms in Motion</span></div>
+  <h2 class="sec">Record clean, edit by text, ship to spec</h2>
+  <div class="govern">Quality is decided at record time, not in the edit. Get separate local tracks and matched settings on the way in, then Descript does the heavy lifting on the way out. Two rules prevent almost every disaster: confirm the real mic is selected, and never close the tab until uploads finish.</div>
+
+  <div class="two">
+    <div>
+      <h3>Session-day checklist</h3>
+      <ul class="check">
+        <li class="loud">Both hosts join 10 min early in Chrome</li>
+        <li class="loud">In Riverside, select the MV7+ as the mic (not the laptop default)</li>
+        <li class="loud">Confirm "separate tracks / local recording" is ON</li>
+        <li>Headphones on for everyone (kills echo)</li>
+        <li>Both hosts run a QuickTime audio backup</li>
+        <li>Hit Record, say the slate ("Episode N, take 1"), pause 3 seconds silent for sync</li>
+        <li>Record the conversation</li>
+        <li class="loud">At the end, STAY on the page until every track shows 100% uploaded</li>
+      </ul>
+      <div class="box" style="margin-top:4px;">
+        <div class="lbl">If a guest's audio is rough</div>
+        <p>Ask them, live: move closer to the screen, turn off fans/AC, put on headphones. Do it in the warm-up minutes, not in the edit.</p>
+      </div>
+    </div>
+    <div>
+      <h3>The Descript edit (4–6 hrs early, 2–3 later)</h3>
+      <ol class="steps">
+        <li>Import the multitrack; confirm one track per speaker</li>
+        <li>Apply <b>Studio Sound</b> per track at <b>60–80%</b> (not 100%, it gets robotic)</li>
+        <li>Edit by deleting text; then Remove Filler Words, keeping a few natural ones</li>
+        <li>Run <b>Automatic Multicam</b>, then fix the obvious miscuts</li>
+        <li>Add captions (auto-synced from the transcript)</li>
+        <li>Generate 2–4 vertical clips; keep the best; hook in first 2 seconds</li>
+        <li>Export video for YouTube and audio for Transistor</li>
+      </ol>
+    </div>
+  </div>
+
+  <h3>Export to spec: the same numbers every time</h3>
+  <div class="box dark">
+    <div class="spec-grid">
+      <div><b>Loudness:</b> &minus;14 LUFS integrated</div>
+      <div><b>True peak:</b> &minus;1.0 dBTP (prevents distortion)</div>
+      <div><b>Video:</b> 1080p, 30fps, H.264 MP4 &rarr; YouTube</div>
+      <div><b>Audio:</b> stereo MP3/AAC, 48kHz &rarr; Transistor</div>
+      <div><b>Frame rate:</b> 30fps locked across both kits + guests</div>
+      <div><b>Same audio bed</b> in the video and the podcast file</div>
+    </div>
+  </div>
+  <p style="font-size:9pt; margin-top:2px;"><b>Pre-publish QA gate (3 checks, every episode):</b> (1) confirm the export reads &minus;14 LUFS / &minus;1.0 dBTP; (2) spot-check lip-sync at the start, middle, and final minute of the video; (3) confirm captions track the audio at the end of the file. Drift and loudness errors are invisible until a listener hits them on Spotify.</p>
+
+  <div class="footer"><span>Record at 1080p / 30fps &middot; lock frame rate before the test run</span><span>Page 4</span></div>
+</section>
+
+<!-- ===================== PAGE 5 ===================== -->
+<section class="page">
+  <div class="pagenum">05 / 06</div>
+  <div class="topline"><span class="kicker">Scheduling &amp; Guest Ops</span><span class="id">Mechanisms in Motion</span></div>
+  <h2 class="sec">Guests self-book; the system preps them</h2>
+  <div class="govern">One Calendly event and one prep doc run the entire guest journey. Carla sources and invites the guest; the guest books their own slot; Calendly handles timezones and sends everything they need. The tech check happens in the first five minutes of the recording.</div>
+
+  <div class="two">
+    <div>
+      <h3>The one Calendly event</h3>
+      <ul class="tight">
+        <li><span class="lead">Name:</span> "Mechanisms in Motion: Recording"</li>
+        <li><span class="lead">Length:</span> 75 min (60 of conversation + warm-up + slack)</li>
+        <li><span class="lead">Buffers:</span> 15 min before and after</li>
+        <li><span class="lead">Location:</span> the Riverside studio link, pasted as the meeting location so every booking carries it</li>
+        <li><span class="lead">Availability:</span> a dedicated block, Tue/Thu mornings Pacific, capped at 1–2 recordings/day; no Saturdays</li>
+        <li><span class="lead">Intake questions:</span> headline/title, LinkedIn or bio link, one Amazon-mechanism story they want to tell</li>
+        <li><span class="lead">Owner:</span> one shared booking calendar; the co-host is a guest on the invite</li>
+      </ul>
+    </div>
+    <div>
+      <h3>The prep one-pager (one doc, reused)</h3>
+      <ul class="tight">
+        <li>The show premise and the "Day 1 Energy" tagline</li>
+        <li>The 5–6 question arc for their episode</li>
+        <li>Format: conversational, ~60 min, video on</li>
+        <li>The 4-line tech checklist: <b>laptop + Chrome, headphones on, wired internet or sit near the router, close Slack/email/notifications</b></li>
+        <li>"We record locally, so a dropped connection won't ruin the audio. If you glitch, keep talking."</li>
+        <li>What to bring: one or two stories, a metric or two</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>The guest journey, end to end</h3>
+  <div class="strip" style="grid-template-columns: repeat(4,1fr);">
+    <div class="ph"><div class="when">CARLA INVITES</div><div class="what">Warm outreach; sends the Calendly link.</div></div>
+    <div class="ph"><div class="when">GUEST BOOKS</div><div class="what">Picks a slot; Calendly sends link + prep doc + reminders.</div></div>
+    <div class="ph"><div class="when">RECORD DAY</div><div class="what">5-min device check, then record. Hosts run the session checklist.</div></div>
+    <div class="ph"><div class="when">AFTER</div><div class="what">Edit, publish on its scheduled Tuesday, send the guest their clips.</div></div>
+  </div>
+
+  <h3>Release cadence</h3>
+  <p>Record the 8 plus one hosts-only evergreen, then publish <b>weekly on a fixed day</b> ("new episodes every Tuesday"). <b>Launch gate: do not launch until 4 episodes are fully edited and QA-passed</b>; editing, not recording, is the real constraint. <b>Never publish below a one-episode buffer</b>; if it hits zero, pause the streak on purpose rather than ship unedited. Use Transistor's scheduled-publish to queue the season, and start booking Season 2 in mid-October so the show never cliffs.</p>
+
+  <div class="footer"><span>Two tools run guest ops: Calendly + Riverside &middot; one prep doc, reused</span><span>Page 5</span></div>
+</section>
+
+<!-- ===================== PAGE 6 ===================== -->
+<section class="page">
+  <div class="pagenum">06 / 06</div>
+  <div class="topline"><span class="kicker">Working Backwards</span><span class="id">Mechanisms in Motion</span></div>
+  <h2 class="sec">From late-August recording, back to this week</h2>
+  <div class="govern">Back-solving from a late-August record start, the long-lead items are buying gear and learning Descript, both of which must finish before the early-August test run. Everything else is a one-time account setup we do once and never touch again.</div>
+
+  <table>
+    <thead><tr><th style="width:20%">By when</th><th style="width:34%">Milestone</th><th>What "done" looks like</th></tr></thead>
+    <tbody>
+      <tr><td class="cost">This week (Jun 3)</td><td class="pick">Lock the plan + dates with Carla</td><td>Stack approved; Aug/Sept recording dates on both calendars (this ICS).</td></tr>
+      <tr><td class="cost">Mid-June</td><td class="pick">Carla starts the guest slate</td><td>First guests identified and invited. Gate: 3+ guests booked by late July before the gear spend.</td></tr>
+      <tr><td class="cost">By Jul 1</td><td class="pick">Order both hardware kits</td><td>Two identical kits ordered early to absorb back-order risk; assembled by late July.</td></tr>
+      <tr><td class="cost">Late July</td><td class="pick">Learn Descript on scrap footage</td><td>Rich runs one mock edit end to end: Studio Sound, multicam, clip, export.</td></tr>
+      <tr><td class="cost">Early Aug</td><td class="pick">Day-1 software setup (see below)</td><td>All four accounts live; feeds submitted; YouTube connected.</td></tr>
+      <tr><td class="cost">Thu Aug 13</td><td class="pick">Full test run</td><td>Stand-in record; uploads complete; separate-track export; lip-sync clean at the END. Rehearse a disconnect and a degraded guest.</td></tr>
+      <tr><td class="cost">Aug 25 – Sep 17</td><td class="pick">Record 8 episodes</td><td>Two per week, Tue/Thu mornings. Each one edited within a few days.</td></tr>
+      <tr><td class="cost">Tue Sep 22</td><td class="pick">Launch</td><td>First episode publishes; weekly Tuesdays thereafter from the backlog.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Day-1 software setup checklist (one time, early August)</h3>
+  <ul class="check">
+    <li>Create all four accounts on annual billing (Riverside, Descript, Transistor, Calendly)</li>
+    <li class="loud">In Riverside, enable "Export to Descript" (email support now if the button is missing)</li>
+    <li>Connect the YouTube channel inside Transistor so video auto-posts</li>
+    <li class="loud">Publish a trailer now and submit the feed to Apple + Spotify early (review takes days)</li>
+    <li>Build the Calendly "Recording" event (Riverside link, buffers, intake questions)</li>
+    <li>Write the guest prep one-pager (Google Doc, view-only)</li>
+    <li>Decide who edits: Rich drafts, Carla reviews via shared Descript link</li>
+  </ul>
+
+  <div class="box dark">
+    <div class="lbl">The win condition</div>
+    <p>By Thursday August 13 we have proven the whole chain on a throwaway take: record, upload, edit, export. After that, the eight sessions are execution.</p>
+  </div>
+
+  <div class="box">
+    <div class="lbl">Your calendar is the spine</div>
+    <p>Import <b>mim-recording-schedule.ics</b> into both calendars. Every event carries three things in its notes: <b>what to do</b>, <b>what "right" looks like</b>, and a <b>ready-to-paste prompt for your AI assistant</b>. To run any step, open its event and follow the list or paste the prompt into Claude. Full project and files: <b>github.com/rwsmith96/mechanisms-in-motion</b>.</p>
+  </div>
+
+  <div class="footer"><span>Mechanisms in Motion &middot; Launch Roadmap &middot; June 2026</span><span>Page 6</span></div>
+</section>
+
+</body>
+</html>
