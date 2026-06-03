@@ -5,7 +5,7 @@ Everything you need to run Mechanisms in Motion with Rich is in one place. You d
 ## 1. The two files that matter
 
 - **The roadmap:** [mim-podcast-roadmap.pdf](mim-podcast-roadmap.pdf) — a six-page picture of the whole launch (the tools, the gear, the workflow, the timeline). Read this first.
-- **The calendar:** [mim-recording-schedule.ics](mim-recording-schedule.ics) — the spine of the project. Import it once and your calendar tells you what to do, when, for every step.
+- **The calendar:** [mim-recording-schedule.ics](https://rwsmith96.github.io/mechanisms-in-motion/mim-recording-schedule.ics) — the spine of the project (click to download). Import it once and your calendar tells you what to do, when, for every step.
 
 ## 2. How to get the files
 

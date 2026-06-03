@@ -2,7 +2,7 @@
 
 The project runs off one calendar file: **mim-recording-schedule.ics**. An ".ics" file is just a standard calendar file that any calendar app can read. Import it once and every step of the launch, the prep deadlines, the recording sessions, the publish reminders, appears in your own calendar, each with instructions in its notes.
 
-**Download it here:** [mim-recording-schedule.ics](https://raw.githubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-recording-schedule.ics) (your browser may show text; use right-click > "Save Link As" to download the file).
+**Download it here:** [mim-recording-schedule.ics](https://rwsmith96.github.io/mechanisms-in-motion/mim-recording-schedule.ics) (clicking should download the file or offer to add it to your calendar).
 
 ## Import it
 

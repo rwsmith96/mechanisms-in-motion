@@ -9,7 +9,7 @@ The launch plan for **Mechanisms in Motion**, the AES podcast that turns Amazon'
 | File | What it is |
 |---|---|
 | [mim-podcast-roadmap.pdf](mim-podcast-roadmap.pdf) | The six-page roadmap: stack, hardware, workflow, scheduling, and the working-backwards timeline. Start here for the whole picture. |
-| [mim-recording-schedule.ics](mim-recording-schedule.ics) | The project calendar. Import it into your calendar and it becomes the spine of the whole launch. |
+| [mim-recording-schedule.ics](https://rwsmith96.github.io/mechanisms-in-motion/mim-recording-schedule.ics) | The project calendar (click to download). Import it into your calendar and it becomes the spine of the whole launch. |
 | [mim-assistant-context.md](mim-assistant-context.md) | The canonical spec for any AI assistant helping run the show. Every calendar prompt points here. |
 | [generate_ics.py](generate_ics.py) | Regenerates the calendar. Edit the dates/steps here and re-run; never hand-edit the `.ics`. |
 | [CARLA-START-HERE.md](CARLA-START-HERE.md) | Plain-language onboarding for Carla: how to access everything and use the calendar. |
