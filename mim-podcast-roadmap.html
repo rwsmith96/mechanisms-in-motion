@@ -91,7 +91,10 @@
   /* two-col */
   .two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
   .footer { margin-top: auto; padding-top: 8px; border-top: 1px solid var(--line); font-size: 7.5pt; color: var(--mute); display: flex; justify-content: space-between; }
-  a { color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--line); }
+  a { color: var(--navy); text-decoration: none; border-bottom: 1px solid #c9b79a; }
+  .box.dark a { color: #bcd3f5; border-bottom-color: rgba(255,255,255,.35); }
+  .gl { font-size: 7.5pt; font-weight: 700; color: var(--amber); border: none; white-space: nowrap; }
+  .gl::before { content: "› "; }
   .src { font-size: 7.5pt; color: var(--mute); }
   .spec-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 16px; margin: 5px 0; }
   .spec-grid div { font-size: 9pt; padding: 3px 0; border-bottom: 1px dotted var(--line); }
@@ -107,17 +110,19 @@
   <h1 class="cover">Mechanisms in Motion</h1>
   <div class="tagline">Day 1 Energy for Every Stage of Growth</div>
 
-  <div class="govern">We can launch a professional remote video podcast on four software subscriptions plus one matched hardware kit each, edited in Descript on a workflow you learn in a week. The job between now and late August is to buy two kits, learn Descript on scrap footage, run one full test with a stand-in, then record eight episodes in a four-week sprint and publish weekly.</div>
+  <div class="govern">We can launch a professional remote video podcast on four software subscriptions (all four run in your web browser, nothing to install) plus one matched hardware kit each, edited in Descript on a workflow you learn in a week. The job between now and late August is to buy two kits, learn Descript on scrap footage, run one full test with a stand-in, then record eight episodes in a four-week sprint and publish weekly.</div>
 
-  <h3>The stack at a glance</h3>
+  <div class="box" style="margin:7px 0;"><p style="margin:0;font-size:9pt;"><b>New to this?</b> Every step links to a plain-language how-to guide (jargon decoded, with a prompt for Claude/ChatGPT). Start by downloading the calendar that runs the project: <a href="https://raw.githubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-recording-schedule.ics">download the .ics</a>, then <a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/import-calendar.md">how to import it</a>.</p></div>
+
+  <h3>The stack at a glance <a class="gl" href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md">all how-to guides</a></h3>
   <table>
     <thead><tr><th style="width:23%">Layer</th><th style="width:30%">What we use</th><th style="width:15%">Cost</th><th>Why</th></tr></thead>
     <tbody>
-      <tr><td>Record</td><td class="pick">Riverside.fm Pro</td><td class="cost">$24/mo</td><td>Everyone records locally in their browser; a dropped connection never loses the take. Guests join with one link, no install.</td></tr>
-      <tr><td>Edit</td><td class="pick">Descript Creator</td><td class="cost">$24/mo</td><td>Edit video by editing text. Auto-cleans audio, removes "ums," switches cameras, cuts social clips.</td></tr>
-      <tr><td>Host &amp; publish</td><td class="pick">Transistor.fm Pro</td><td class="cost">$49/mo</td><td>One upload feeds Apple + Spotify (audio) and auto-posts the video to YouTube.</td></tr>
-      <tr><td>Schedule</td><td class="pick">Calendly Standard</td><td class="cost">$15/mo</td><td>Guests self-book; auto-handles their timezone and sends them the link and prep doc.</td></tr>
-      <tr><td>Gear (each)</td><td class="pick">Matched host kit</td><td class="cost">~$850</td><td>Studio mic, 4K webcam, key light, headphones, boom arm. Two identical kits.</td></tr>
+      <tr><td>Record</td><td class="pick"><a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/riverside-record.md">Riverside.fm Pro</a></td><td class="cost">$24/mo</td><td>Everyone records locally in their browser; a dropped connection never loses the take. Guests join with one link, no install.</td></tr>
+      <tr><td>Edit</td><td class="pick"><a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/descript-edit.md">Descript Creator</a></td><td class="cost">$24/mo</td><td>Edit video by editing text. Auto-cleans audio, removes "ums," switches cameras, cuts social clips.</td></tr>
+      <tr><td>Host &amp; publish</td><td class="pick"><a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/publish-and-qa.md">Transistor.fm Pro</a></td><td class="cost">$49/mo</td><td>One upload feeds Apple + Spotify (audio) and auto-posts the video to YouTube.</td></tr>
+      <tr><td>Schedule</td><td class="pick"><a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/day1-setup.md">Calendly Standard</a></td><td class="cost">$15/mo</td><td>Guests self-book; auto-handles their timezone and sends them the link and prep doc.</td></tr>
+      <tr><td>Gear (each)</td><td class="pick"><a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/hardware-setup.md">Matched host kit</a></td><td class="cost">~$850</td><td>Studio mic, 4K webcam, key light, headphones, boom arm. Two identical kits.</td></tr>
       <tr class="total"><td>Run-rate</td><td>4 subscriptions</td><td class="cost">~$112/mo</td><td>Plus ~$1,700 one-time for both kits. Riverside can pause after the sprint.</td></tr>
     </tbody>
   </table>
@@ -135,7 +140,7 @@
     <div>
       <h3>Rich owns logistics</h3>
       <ul class="tight">
-        <li>The four accounts, billing, and the YouTube/Apple/Spotify setup</li>
+        <li>The four accounts, billing, and channel setup</li>
         <li>Both hardware kits and the test run</li>
         <li>The Descript edit and weekly publishing</li>
         <li>The Calendly booking calendar and prep one-pager</li>
@@ -163,24 +168,24 @@
   <div class="govern">Each tool does exactly one thing and hands cleanly to the next: Riverside records, Descript edits, Transistor publishes, Calendly schedules. Buy each on annual billing and run them on one shared account so there is a single login per layer.</div>
 
   <div class="cards">
-    <div class="card"><span class="price">$24/mo</span><div class="name">Riverside.fm</div><div class="role">Pro plan &middot; recording studio</div><p>Records every person's camera and mic locally at full quality, then uploads in the background, so a guest's bad wifi can't ruin the take. Guests click one link in Chrome, no account, no download. One-click export hands each person to Descript as a separate track. <b>Record at 1080p</b> (not 4K) to keep uploads fast.</p></div>
-    <div class="card"><span class="price">$24/mo</span><div class="name">Descript</div><div class="role">Creator plan &middot; editing</div><p>You edit the video by editing the transcript. One click cleans the audio (Studio Sound), removes filler words, and switches between cameras automatically (Automatic Multicam). It also generates the vertical clips for social. Annual billing is $24/mo; month-to-month is $35.</p></div>
-    <div class="card"><span class="price">$49/mo</span><div class="name">Transistor.fm</div><div class="role">Professional &middot; hosting</div><p>Your one upload generates the audio feed for every podcast app and auto-posts the full video to YouTube. Unlimited shows on one bill, so a second AES show later costs nothing extra.</p></div>
-    <div class="card"><span class="price">$15/mo</span><div class="name">Calendly</div><div class="role">Standard &middot; booking</div><p>Guests self-book a recording slot; it detects their timezone and emails them the Riverside link, the prep one-pager, and reminders automatically. One shared booking calendar avoids double-booking.</p></div>
+    <div class="card"><span class="price">$24/mo</span><div class="name"><a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/riverside-record.md">Riverside.fm</a></div><div class="role">Pro plan &middot; recording studio</div><p>Records every person's camera and mic locally (to their own computer, not just over the internet), so a guest's bad wifi can't ruin the take. Guests click one link in Chrome, no account, no download. One-click export hands each person to Descript as a separate track (each voice as its own file). <b>Record at 1080p</b>, the standard HD; 4K just makes files four times bigger for no visible gain.</p></div>
+    <div class="card"><span class="price">$24/mo</span><div class="name"><a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/descript-edit.md">Descript</a></div><div class="role">Creator plan &middot; editing</div><p>You edit the video by editing the transcript. One click cleans the audio (Studio Sound), removes filler words (the "ums"), and switches between cameras automatically (Automatic Multicam). It also generates the vertical clips for social. Annual billing is $24/mo; month-to-month is $35.</p></div>
+    <div class="card"><span class="price">$49/mo</span><div class="name"><a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/publish-and-qa.md">Transistor.fm</a></div><div class="role">Professional &middot; hosting</div><p>Your one upload puts the show in every podcast app and auto-posts the full video to your YouTube channel. Unlimited shows on one bill, so a second AES show later costs nothing extra.</p></div>
+    <div class="card"><span class="price">$15/mo</span><div class="name"><a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/day1-setup.md">Calendly</a></div><div class="role">Standard &middot; booking</div><p>Guests self-book a recording slot; it detects their timezone and emails them the Riverside link, the prep one-pager, and reminders automatically. One shared booking calendar avoids double-booking.</p></div>
   </div>
 
   <h3>How an episode reaches the world</h3>
   <div class="box dark">
     <div class="lbl">Guaranteed path (set up once, runs itself)</div>
-    <p><b>Audio:</b> Transistor &rarr; one RSS feed &rarr; Apple Podcasts + Spotify + every podcast app, automatically on each publish. &nbsp; <b>Video:</b> Transistor auto-posts the full episode to <b>YouTube</b>, the primary home for video discovery (about a third of US podcast viewing).</p>
+    <p><b>Audio:</b> Transistor &rarr; one RSS feed &rarr; Apple Podcasts + Spotify + every podcast app, automatically on each publish. (An RSS feed is the standard format podcast apps watch for new episodes; Transistor manages it, which is why one upload reaches every app.) &nbsp; <b>Video:</b> Transistor auto-posts the full episode to <b>YouTube</b>, the primary home for video discovery (about a third of US podcast viewing).</p>
   </div>
   <div class="box">
     <div class="lbl">Bonus path (only if it's live on the account)</div>
-    <p>Native <b>video</b> on Apple Podcasts and Spotify ships through Transistor's HLS video distribution, which is still rolling out in 2026. Treat it as a bonus we switch on if available during setup, never something the launch depends on. YouTube is the guaranteed video home.</p>
+    <p>Native <b>video</b> on Apple Podcasts and Spotify ships through Transistor's HLS distribution (a format that plays video inside those apps, not just audio), still rolling out in 2026. Treat it as a bonus we switch on if available, never something the launch depends on. YouTube is the guaranteed video home.</p>
   </div>
 
   <h3>"Record once, clip many"</h3>
-  <p>The full edited episode is the master. From it: the audio track fans out to every podcast app, the full video lands on YouTube, and Descript cuts 2–4 vertical clips per episode for YouTube Shorts, LinkedIn, and Instagram. Audio still reaches roughly twice the weekly US audience of video, so the show never waits on video to ship.</p>
+  <p>The full edited episode is the master. From it: the audio goes to every podcast app automatically, the full video lands on YouTube, and Descript finds the best moments and generates 2–4 short vertical clips (phone-screen format) for YouTube Shorts, LinkedIn, and Instagram, from which you keep the best. Audio still reaches roughly twice the weekly US audience of video, so the show never waits on video to ship.</p>
 
   <div class="footer"><span>Recurring cost: ~$112/mo on annual billing &middot; external directories are free</span><span>Page 2</span></div>
 </section>
@@ -189,8 +194,8 @@
 <section class="page">
   <div class="pagenum">03 / 06</div>
   <div class="topline"><span class="kicker">The Hardware</span><span class="id">Mechanisms in Motion</span></div>
-  <h2 class="sec">Two identical kits, weighted toward the mic</h2>
-  <div class="govern">Buy two matching ~$850 kits, one for Rich in San Diego and one for Carla near Seattle, built around a plug-and-play USB mic that needs no audio interface and a webcam that needs no capture card. The mic takes $279 of the $850 because a guest will forgive your camera before they forgive your audio.</div>
+  <h2 class="sec">Two identical kits, weighted toward the mic <a class="gl" href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/hardware-setup.md">how to set up your kit</a></h2>
+  <div class="govern">Buy two matching ~$850 kits, one for Rich in San Diego and one for Carla near Seattle, built around a plug-and-play USB mic (it plugs straight into your laptop, no extra hardware box) and a webcam that needs no capture card. The mic takes $279 of the $850 because a guest will forgive your camera before they forgive your audio.</div>
 
   <table>
     <thead><tr><th style="width:26%">Item</th><th style="width:30%">Buy this</th><th style="width:13%">Price</th><th>Why this one</th></tr></thead>
@@ -214,7 +219,7 @@
   <p>Guests are the weakest link in remote A/V; a senior operator on a bad laptop webcam will be the most-watched face in the episode. For high-value guests, offer to ship a tiny uplift kit ahead of the record: a clip-on light and a USB mic or lav (about $25–60 total). Everyone else uses what they have; the platform protects the audio.</p>
 
   <h3>Buy from</h3>
-  <p class="src">Shure MV7+: shure.com or B&amp;H &middot; Logitech MX Brio: logitech.com &middot; Elgato Key Light Neo: elgato.com &middot; Sony MDR-7506: any pro-audio retailer &middot; RODE PSA1+: rode.com &middot; reflection filter: Amazon (TONOR / TroyStudio). Order both kits in one pass so they arrive together and stay identical.</p>
+  <p class="src">Shure MV7+: <a href="https://www.shure.com">shure.com</a> or B&amp;H &middot; Logitech MX Brio: <a href="https://www.logitech.com">logitech.com</a> &middot; Elgato Key Light Neo: <a href="https://www.elgato.com">elgato.com</a> &middot; Sony MDR-7506: <a href="https://www.bhphotovideo.com">B&amp;H</a> or Sweetwater &middot; RODE PSA1+: <a href="https://rode.com">rode.com</a> &middot; reflection filter: Amazon (TONOR / TroyStudio). Order both kits in one pass so they arrive together and stay identical. Full setup walkthrough: <a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/hardware-setup.md">hardware-setup guide</a>.</p>
 
   <div class="footer"><span>Buy two identical kits &middot; change components together to keep both feeds matched</span><span>Page 3</span></div>
 </section>
@@ -228,14 +233,14 @@
 
   <div class="two">
     <div>
-      <h3>Session-day checklist</h3>
+      <h3>Session-day checklist <a class="gl" href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/riverside-record.md">recording how-to</a></h3>
       <ul class="check">
         <li class="loud">Both hosts join 10 min early in Chrome</li>
-        <li class="loud">In Riverside, select the MV7+ as the mic (not the laptop default)</li>
-        <li class="loud">Confirm "separate tracks / local recording" is ON</li>
+        <li class="loud"><a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/riverside-record.md">In Riverside, select the MV7+ as the mic</a> (not the laptop default)</li>
+        <li class="loud">Confirm "separate tracks / local recording" is ON (each voice saved as its own file)</li>
         <li>Headphones on for everyone (kills echo)</li>
-        <li>Both hosts run a QuickTime audio backup</li>
-        <li>Hit Record, say the slate ("Episode N, take 1"), pause 3 seconds silent for sync</li>
+        <li>Both hosts run a <a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-backup.md">QuickTime audio backup</a> (free local safety copy)</li>
+        <li>Hit Record, say the slate ("Episode N, take 1"), pause 3 seconds silent (gives the editor a point to line up tracks)</li>
         <li>Record the conversation</li>
         <li class="loud">At the end, STAY on the page until every track shows 100% uploaded</li>
       </ul>
@@ -245,12 +250,12 @@
       </div>
     </div>
     <div>
-      <h3>The Descript edit (4–6 hrs early, 2–3 later)</h3>
+      <h3>The Descript edit (4–6 hrs early, 2–3 later) <a class="gl" href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/descript-edit.md">edit how-to</a></h3>
       <ol class="steps">
-        <li>Import the multitrack; confirm one track per speaker</li>
-        <li>Apply <b>Studio Sound</b> per track at <b>60–80%</b> (not 100%, it gets robotic)</li>
+        <li>Import the multitrack (the recording with each person on their own track)</li>
+        <li>Apply <b>Studio Sound</b> (one-click noise cleanup) per track at <b>60–80%</b> (not 100%, it gets robotic)</li>
         <li>Edit by deleting text; then Remove Filler Words, keeping a few natural ones</li>
-        <li>Run <b>Automatic Multicam</b>, then fix the obvious miscuts</li>
+        <li>Run <b>Automatic Multicam</b> (auto camera-switching), then fix the obvious miscuts</li>
         <li>Add captions (auto-synced from the transcript)</li>
         <li>Generate 2–4 vertical clips; keep the best; hook in first 2 seconds</li>
         <li>Export video for YouTube and audio for Transistor</li>
@@ -258,18 +263,19 @@
     </div>
   </div>
 
-  <h3>Export to spec: the same numbers every time</h3>
+  <h3>Export to spec: the same numbers every time <a class="gl" href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/export-settings.md">what these mean, in plain English</a></h3>
+  <p style="font-size:8.8pt; margin:0 0 5px; color:var(--slate);"><b>In plain English:</b> make every episode the same loudness as other professional shows, sharp HD video, and identical audio in the YouTube and podcast versions. Descript's export presets do almost all of this for you; the numbers below are just the targets. <a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/export-settings.md">Every term decoded here.</a></p>
   <div class="box dark">
     <div class="spec-grid">
-      <div><b>Loudness:</b> &minus;14 LUFS integrated</div>
-      <div><b>True peak:</b> &minus;1.0 dBTP (prevents distortion)</div>
-      <div><b>Video:</b> 1080p, 30fps, H.264 MP4 &rarr; YouTube</div>
-      <div><b>Audio:</b> stereo MP3/AAC, 48kHz &rarr; Transistor</div>
-      <div><b>Frame rate:</b> 30fps locked across both kits + guests</div>
-      <div><b>Same audio bed</b> in the video and the podcast file</div>
+      <div><b>Loudness:</b> &minus;14 LUFS (how loud; matches Spotify/YouTube)</div>
+      <div><b>True peak:</b> &minus;1.0 dBTP (headroom; prevents crackle)</div>
+      <div><b>Video:</b> 1080p, 30fps, H.264 MP4 (HD video) &rarr; YouTube</div>
+      <div><b>Audio:</b> stereo MP3/AAC, 48kHz (podcast audio) &rarr; Transistor</div>
+      <div><b>Frame rate:</b> 30fps for everyone (keeps lips in sync)</div>
+      <div><b>Same cleaned audio</b> in the video and the podcast file</div>
     </div>
   </div>
-  <p style="font-size:9pt; margin-top:2px;"><b>Pre-publish QA gate (3 checks, every episode):</b> (1) confirm the export reads &minus;14 LUFS / &minus;1.0 dBTP; (2) spot-check lip-sync at the start, middle, and final minute of the video; (3) confirm captions track the audio at the end of the file. Drift and loudness errors are invisible until a listener hits them on Spotify.</p>
+  <p style="font-size:9pt; margin-top:2px;"><b>Pre-publish QA gate (a 30-second check before each episode goes out):</b> (1) confirm the export reads &minus;14 LUFS / &minus;1.0 dBTP (Descript shows it); (2) play the video at the start, middle, and last minute and check the mouths match the words; (3) confirm captions still match at the end. <a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/publish-and-qa.md">Publish + QA how-to.</a></p>
 
   <div class="footer"><span>Record at 1080p / 30fps &middot; lock frame rate before the test run</span><span>Page 4</span></div>
 </section>
@@ -283,12 +289,12 @@
 
   <div class="two">
     <div>
-      <h3>The one Calendly event</h3>
+      <h3>The one Calendly event <a class="gl" href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/day1-setup.md">how to build it</a></h3>
       <ul class="tight">
         <li><span class="lead">Name:</span> "Mechanisms in Motion: Recording"</li>
         <li><span class="lead">Length:</span> 75 min (60 of conversation + warm-up + slack)</li>
-        <li><span class="lead">Buffers:</span> 15 min before and after</li>
-        <li><span class="lead">Location:</span> the Riverside studio link, pasted as the meeting location so every booking carries it</li>
+        <li><span class="lead">Buffers:</span> 15 min before and after (so you're never rushed or double-booked)</li>
+        <li><span class="lead">Location:</span> the Riverside studio link (Riverside's one permanent room link); paste it once and every booking carries it</li>
         <li><span class="lead">Availability:</span> a dedicated block, Tue/Thu mornings Pacific, capped at 1–2 recordings/day; no Saturdays</li>
         <li><span class="lead">Intake questions:</span> headline/title, LinkedIn or bio link, one Amazon-mechanism story they want to tell</li>
         <li><span class="lead">Owner:</span> one shared booking calendar; the co-host is a guest on the invite</li>
@@ -316,7 +322,7 @@
   </div>
 
   <h3>Release cadence</h3>
-  <p>Record the 8 plus one hosts-only evergreen, then publish <b>weekly on a fixed day</b> ("new episodes every Tuesday"). <b>Launch gate: do not launch until 4 episodes are fully edited and QA-passed</b>; editing, not recording, is the real constraint. <b>Never publish below a one-episode buffer</b>; if it hits zero, pause the streak on purpose rather than ship unedited. Use Transistor's scheduled-publish to queue the season, and start booking Season 2 in mid-October so the show never cliffs.</p>
+  <p>Record the 8 plus one hosts-only evergreen (a no-guest episode held in reserve), then publish <b>weekly on a fixed day</b> ("new episodes every Tuesday"). <b>Launch gate: do not launch until 4 episodes are fully edited and QA-passed</b>; editing, not recording, is the real constraint. <b>Never publish below a one-episode buffer</b>; if it hits zero, pause the streak on purpose rather than ship unedited. Use Transistor's scheduled-publish (queue episodes to go live on future dates automatically) to load the season, and start booking Season 2 in mid-October so the show never runs out of episodes. <a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/publish-and-qa.md">Publish + QA how-to.</a></p>
 
   <div class="footer"><span>Two tools run guest ops: Calendly + Riverside &middot; one prep doc, reused</span><span>Page 5</span></div>
 </section>
@@ -342,12 +348,12 @@
     </tbody>
   </table>
 
-  <h3>Day-1 software setup checklist (one time, early August)</h3>
+  <h3>Day-1 software setup checklist (one time, early August) <a class="gl" href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/day1-setup.md">setup how-to</a></h3>
   <ul class="check">
     <li>Create all four accounts on annual billing (Riverside, Descript, Transistor, Calendly)</li>
     <li class="loud">In Riverside, enable "Export to Descript" (email support now if the button is missing)</li>
     <li>Connect the YouTube channel inside Transistor so video auto-posts</li>
-    <li class="loud">Publish a trailer now and submit the feed to Apple + Spotify early (review takes days)</li>
+    <li class="loud">Publish a trailer now and submit the feed (register the show with Apple + Spotify) early; review takes days</li>
     <li>Build the Calendly "Recording" event (Riverside link, buffers, intake questions)</li>
     <li>Write the guest prep one-pager (Google Doc, view-only)</li>
     <li>Decide who edits: Rich drafts, Carla reviews via shared Descript link</li>
@@ -355,11 +361,10 @@
 
   <div class="box">
     <div class="lbl">Your calendar is the spine &middot; everything you need is linked here</div>
-    <p>Every calendar event carries <b>what to do</b>, <b>what "right" looks like</b>, and a <b>ready-to-paste prompt</b> for your AI assistant. Open an event, follow the list, or paste the prompt into Claude. Three links, all you need:</p>
-    <p style="margin-top:5px; line-height:1.7;">
-      <b>1. Start here</b> (5-minute setup guide): <a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/CARLA-START-HERE.md">github.com/rwsmith96/mechanisms-in-motion/CARLA-START-HERE</a><br>
-      <b>2. The calendar</b> (download, then import): <a href="https://raw.githubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-recording-schedule.ics">mim-recording-schedule.ics</a><br>
-      <b>3. The full project</b> (all files): <a href="https://github.com/rwsmith96/mechanisms-in-motion">github.com/rwsmith96/mechanisms-in-motion</a>
+    <p>Every calendar event carries <b>what to do</b>, <b>what "right" looks like</b>, and a <b>prompt</b> you can copy into Claude or ChatGPT for step-by-step help. The links below open plain reading pages (no coding, just click and read):</p>
+    <p style="margin-top:5px; line-height:1.65;">
+      <b>1. Start here</b> (5-minute setup): <a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/CARLA-START-HERE.md">CARLA-START-HERE</a> &nbsp;&middot;&nbsp; <b>2. The calendar</b> (download + <a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/import-calendar.md">import</a>): <a href="https://raw.githubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-recording-schedule.ics">download the .ics file</a><br>
+      <b>3. The how-to guides</b> (every step, jargon decoded): <a href="https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md">all guides</a> &nbsp;&middot;&nbsp; <b>4. The full project</b>: <a href="https://github.com/rwsmith96/mechanisms-in-motion">github.com/rwsmith96/mechanisms-in-motion</a>
     </p>
   </div>
 

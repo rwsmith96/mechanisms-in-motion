@@ -34,18 +34,23 @@ DESCRIPTION:The gate that starts everything. Confirm the build with Carla
  t hardware spend.\n- Lock the eight Tue/Thu recording slots on both cale
  ndars.\n- Confirm the split: Rich = logistics\, Carla = guest slate.\n\n
  RIGHT LOOKS LIKE\n- Stack approved\; 8 slots on both calendars\; guest-s
- late ownership confirmed with Carla.\n\nASSISTANT PROMPT (paste into Cla
- ude)\nYou are helping run Mechanisms in Motion\, the AES podcast: a remo
- te\, two-host video interview show that turns Amazon's internal operatin
- g mechanisms into playbooks any company can use (tagline 'Day 1 Energy f
- or Every Stage of Growth'). Rich owns logistics\; Carla owns the guest s
- late. The DO list and RIGHT LOOKS LIKE in this calendar event (above) ar
- e your brief for this step. Use them. Then do this: We are at STEP 1: lo
- ck the stack and dates. Draft a 5-line confirmation message to Carla in 
- Rich's voice summarizing the stack\, the cost\, the Aug/Sept recording d
- ates\, and the logistics/guest-slate split.\n\nFULL PROJECT SPEC (option
- al\, for deep context): https://raw.githubusercontent.com/rwsmith96/mech
- anisms-in-motion/main/mim-assistant-context.md
+ late ownership confirmed with Carla.\n\nHOW-TO GUIDES (plain language\, 
+ jargon decoded\, each with a chatbot prompt)\n- Import this calendar int
+ o your own: https://github.com/rwsmith96/mechanisms-in-motion/blob/main/
+ how-to/import-calendar.md\n- All guides: https://github.com/rwsmith96/me
+ chanisms-in-motion/blob/main/how-to/README.md\n\nASSISTANT PROMPT (paste
+  into Claude or ChatGPT for step-by-step help)\nYou are helping run Mech
+ anisms in Motion\, the AES podcast: a remote\, two-host video interview 
+ show that turns Amazon's internal operating mechanisms into playbooks an
+ y company can use (tagline 'Day 1 Energy for Every Stage of Growth'). Ri
+ ch owns logistics\; Carla owns the guest slate. The DO list and RIGHT LO
+ OKS LIKE in this calendar event (above) are your brief for this step. Us
+ e them. Then do this: We are at STEP 1: lock the stack and dates. Draft 
+ a 5-line confirmation message to Carla in Rich's voice summarizing the s
+ tack\, the cost\, the Aug/Sept recording dates\, and the logistics/guest
+ -slate split.\n\nFULL PROJECT SPEC (optional\, for deep context): https:
+ //raw.githubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-assi
+ stant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -64,18 +69,21 @@ DESCRIPTION:Carla's first deliverable: seed the guest slate.\n\nDO\n- Nam
  e the first 4 guests for the launch block and their order.\n- Send warm 
  invites with the Calendly booking link for the Aug 25+ slots.\n- Aim for
   a full 6-8 slate by early July.\n\nRIGHT LOOKS LIKE\n- 4 names chosen\;
-  4 warm invites sent\; a 6-8 guest slate forming.\n\nASSISTANT PROMPT (p
- aste into Claude)\nYou are helping run Mechanisms in Motion\, the AES po
- dcast: a remote\, two-host video interview show that turns Amazon's inte
- rnal operating mechanisms into playbooks any company can use (tagline 'D
- ay 1 Energy for Every Stage of Growth'). Rich owns logistics\; Carla own
- s the guest slate. The DO list and RIGHT LOOKS LIKE in this calendar eve
- nt (above) are your brief for this step. Use them. Then do this: We are 
- at STEP 2: guest-slate kickoff (Carla owns). Draft a warm\, peer-to-peer
-  guest-invite template (subject + 6-8 lines): the show in one line\, the
-  ask (75-min remote video)\, and a placeholder for the Calendly link.\n\
- nFULL PROJECT SPEC (optional\, for deep context): https://raw.githubuser
- content.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
+  4 warm invites sent\; a 6-8 guest slate forming.\n\nHOW-TO GUIDES (plai
+ n language\, jargon decoded\, each with a chatbot prompt)\n- All guides:
+  https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/READ
+ ME.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT for step-by-step
+  help)\nYou are helping run Mechanisms in Motion\, the AES podcast: a re
+ mote\, two-host video interview show that turns Amazon's internal operat
+ ing mechanisms into playbooks any company can use (tagline 'Day 1 Energy
+  for Every Stage of Growth'). Rich owns logistics\; Carla owns the guest
+  slate. The DO list and RIGHT LOOKS LIKE in this calendar event (above) 
+ are your brief for this step. Use them. Then do this: We are at STEP 2: 
+ guest-slate kickoff (Carla owns). Draft a warm\, peer-to-peer guest-invi
+ te template (subject + 6-8 lines): the show in one line\, the ask (75-mi
+ n remote video)\, and a placeholder for the Calendly link.\n\nFULL PROJE
+ CT SPEC (optional\, for deep context): https://raw.githubusercontent.com
+ /rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -101,18 +109,23 @@ DESCRIPTION:Order two identical kits (~$850 each) so they arrive together
  es $100 - any pro-audio retailer\n- RODE PSA1+ boom arm $126 - rode.com\
  n- Reflection filter / acoustic foam ~$50 - Amazon (TONOR / TroyStudio)\
  n\nRIGHT LOOKS LIKE\n- Two identical kits ordered\; arriving before late
-  July\; no item silently back-ordered past Jul 25.\n\nASSISTANT PROMPT (
- paste into Claude)\nYou are helping run Mechanisms in Motion\, the AES p
- odcast: a remote\, two-host video interview show that turns Amazon's int
- ernal operating mechanisms into playbooks any company can use (tagline '
- Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Carla ow
- ns the guest slate. The DO list and RIGHT LOOKS LIKE in this calendar ev
- ent (above) are your brief for this step. Use them. Then do this: We are
-  at STEP 3: order hardware. Confirm the kit list and current prices/link
- s\, flag any out-of-stock item with the nearest equivalent\, and produce
-  one ordered shopping list with direct buy links for both kits.\n\nFULL 
- PROJECT SPEC (optional\, for deep context): https://raw.githubuserconten
- t.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
+  July\; no item silently back-ordered past Jul 25.\n\nHOW-TO GUIDES (pla
+ in language\, jargon decoded\, each with a chatbot prompt)\n- Set up the
+  kit once it arrives: https://github.com/rwsmith96/mechanisms-in-motion/
+ blob/main/how-to/hardware-setup.md\n- All guides: https://github.com/rws
+ mith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTANT PROM
+ PT (paste into Claude or ChatGPT for step-by-step help)\nYou are helping
+  run Mechanisms in Motion\, the AES podcast: a remote\, two-host video i
+ nterview show that turns Amazon's internal operating mechanisms into pla
+ ybooks any company can use (tagline 'Day 1 Energy for Every Stage of Gro
+ wth'). Rich owns logistics\; Carla owns the guest slate. The DO list and
+  RIGHT LOOKS LIKE in this calendar event (above) are your brief for this
+  step. Use them. Then do this: We are at STEP 3: order hardware. Confirm
+  the kit list and current prices/links\, flag any out-of-stock item with
+  the nearest equivalent\, and produce one ordered shopping list with dir
+ ect buy links for both kits.\n\nFULL PROJECT SPEC (optional\, for deep c
+ ontext): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-motio
+ n/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -133,18 +146,21 @@ DESCRIPTION:Hard go/no-go gate. The slate is the critical path\, so it ge
   intros\; Rich executes the outreach\, chasing\, and booking off the sha
  red list.\n- If short of 3\, hold the sprint start or plan to open with 
  hosts-only evergreens.\n\nRIGHT LOOKS LIKE\n- 3+ guests booked into real
-  Aug/Sept slots\; Rich has made the go/no-go call on the sprint.\n\nASSI
- STANT PROMPT (paste into Claude)\nYou are helping run Mechanisms in Moti
- on\, the AES podcast: a remote\, two-host video interview show that turn
- s Amazon's internal operating mechanisms into playbooks any company can 
- use (tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns logist
- ics\; Carla owns the guest slate. The DO list and RIGHT LOOKS LIKE in th
- is calendar event (above) are your brief for this step. Use them. Then d
- o this: We are at the GUEST GATE. Help me check we have 3+ guests booked
- \, draft chase notes to any invited-but-unbooked guests\, and decide go 
- / no-go on starting the Aug 25 sprint.\n\nFULL PROJECT SPEC (optional\, 
- for deep context): https://raw.githubusercontent.com/rwsmith96/mechanism
- s-in-motion/main/mim-assistant-context.md
+  Aug/Sept slots\; Rich has made the go/no-go call on the sprint.\n\nHOW-
+ TO GUIDES (plain language\, jargon decoded\, each with a chatbot prompt)
+ \n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/blob/m
+ ain/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT f
+ or step-by-step help)\nYou are helping run Mechanisms in Motion\, the AE
+ S podcast: a remote\, two-host video interview show that turns Amazon's 
+ internal operating mechanisms into playbooks any company can use (taglin
+ e 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Carla
+  owns the guest slate. The DO list and RIGHT LOOKS LIKE in this calendar
+  event (above) are your brief for this step. Use them. Then do this: We 
+ are at the GUEST GATE. Help me check we have 3+ guests booked\, draft ch
+ ase notes to any invited-but-unbooked guests\, and decide go / no-go on 
+ starting the Aug 25 sprint.\n\nFULL PROJECT SPEC (optional\, for deep co
+ ntext): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-motion
+ /main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -164,19 +180,23 @@ DESCRIPTION:Build and bench-test both kits before the test run.\n\nDO\n-
  re Motiv app\; set Auto Level on\, light denoise\, reverb OFF.\n- Confir
  m mic\, webcam\, light\, and headphones work on each machine.\n\nRIGHT L
  OOKS LIKE\n- Both kits built and bench-tested\; Motiv settings applied o
- n each machine.\n\nASSISTANT PROMPT (paste into Claude)\nYou are helping
-  run Mechanisms in Motion\, the AES podcast: a remote\, two-host video i
- nterview show that turns Amazon's internal operating mechanisms into pla
- ybooks any company can use (tagline 'Day 1 Energy for Every Stage of Gro
- wth'). Rich owns logistics\; Carla owns the guest slate. The DO list and
-  RIGHT LOOKS LIKE in this calendar event (above) are your brief for this
-  step. Use them. Then do this: We are at STEP 4: assemble + bench-test t
- he kits. Give me a 10-minute setup checklist for the MV7+ (USB-C mode + 
- Motiv settings)\, the MX Brio\, Key Light Neo placement (45 degrees\, sl
- ightly above eye level)\, and a 30-second test-recording to confirm each
-  kit.\n\nFULL PROJECT SPEC (optional\, for deep context): https://raw.gi
- thubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-co
- ntext.md
+ n each machine.\n\nHOW-TO GUIDES (plain language\, jargon decoded\, each
+  with a chatbot prompt)\n- Assemble + settings\, step by step: https://g
+ ithub.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/hardware-setup
+ .md\n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/blo
+ b/main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGP
+ T for step-by-step help)\nYou are helping run Mechanisms in Motion\, the
+  AES podcast: a remote\, two-host video interview show that turns Amazon
+ 's internal operating mechanisms into playbooks any company can use (tag
+ line 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Ca
+ rla owns the guest slate. The DO list and RIGHT LOOKS LIKE in this calen
+ dar event (above) are your brief for this step. Use them. Then do this: 
+ We are at STEP 4: assemble + bench-test the kits. Give me a 10-minute se
+ tup checklist for the MV7+ (USB-C mode + Motiv settings)\, the MX Brio\,
+  Key Light Neo placement (45 degrees\, slightly above eye level)\, and a
+  30-second test-recording to confirm each kit.\n\nFULL PROJECT SPEC (opt
+ ional\, for deep context): https://raw.githubusercontent.com/rwsmith96/m
+ echanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -195,20 +215,26 @@ DESCRIPTION:Build Descript muscle memory before the test run.\n\nDO\n- Ru
  n one full mock edit end to end on throwaway footage.\n- Import multitra
  ck\, Studio Sound 60-80%\, filler removal\, Automatic Multicam\, caption
  s\, one vertical clip\, export to spec.\n\nRIGHT LOOKS LIKE\n- One full 
- mock edit done\; export reads -14 LUFS / -1.0 dBTP at 1080p/30fps.\n\nAS
- SISTANT PROMPT (paste into Claude)\nYou are helping run Mechanisms in Mo
- tion\, the AES podcast: a remote\, two-host video interview show that tu
- rns Amazon's internal operating mechanisms into playbooks any company ca
- n use (tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns logi
- stics\; Carla owns the guest slate. The DO list and RIGHT LOOKS LIKE in 
- this calendar event (above) are your brief for this step. Use them. Then
-  do this: We are at STEP 5: learn Descript. Walk me\, in order\, through
-  one full mock edit of a 5-minute multitrack remote interview with the e
- xact spec settings (Studio Sound 60-80%\, filler removal\, Automatic Mul
- ticam\, captions\, one 9:16 clip\, export -14 LUFS / -1.0 dBTP at 1080p/
- 30fps). Flag the top 3 beginner mistakes as we go.\n\nFULL PROJECT SPEC 
- (optional\, for deep context): https://raw.githubusercontent.com/rwsmith
- 96/mechanisms-in-motion/main/mim-assistant-context.md
+ mock edit done\; export reads -14 LUFS / -1.0 dBTP at 1080p/30fps.\n\nHO
+ W-TO GUIDES (plain language\, jargon decoded\, each with a chatbot promp
+ t)\n- The edit\, step by step: https://github.com/rwsmith96/mechanisms-i
+ n-motion/blob/main/how-to/descript-edit.md\n- What the export numbers me
+ an: https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/e
+ xport-settings.md\n- All guides: https://github.com/rwsmith96/mechanisms
+ -in-motion/blob/main/how-to/README.md\n\nASSISTANT PROMPT (paste into Cl
+ aude or ChatGPT for step-by-step help)\nYou are helping run Mechanisms i
+ n Motion\, the AES podcast: a remote\, two-host video interview show tha
+ t turns Amazon's internal operating mechanisms into playbooks any compan
+ y can use (tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns 
+ logistics\; Carla owns the guest slate. The DO list and RIGHT LOOKS LIKE
+  in this calendar event (above) are your brief for this step. Use them. 
+ Then do this: We are at STEP 5: learn Descript. Walk me\, in order\, thr
+ ough one full mock edit of a 5-minute multitrack remote interview with t
+ he exact spec settings (Studio Sound 60-80%\, filler removal\, Automatic
+  Multicam\, captions\, one 9:16 clip\, export -14 LUFS / -1.0 dBTP at 10
+ 80p/30fps). Flag the top 3 beginner mistakes as we go.\n\nFULL PROJECT S
+ PEC (optional\, for deep context): https://raw.githubusercontent.com/rws
+ mith96/mechanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -243,20 +269,24 @@ DESCRIPTION:One-time account setup. Do it once\, never touch again.\n\nDO
   owns clip selection + caption QA + guest-clip send.\n\nRIGHT LOOKS LIKE
  \n- Accounts live + both admins\; trailer published and feeds submitted 
  for early review\; private end-to-end publish proven\; YouTube connected
- \; Calendly + prep doc verified\; shared asset folder ready.\n\nASSISTAN
- T PROMPT (paste into Claude)\nYou are helping run Mechanisms in Motion\,
-  the AES podcast: a remote\, two-host video interview show that turns Am
- azon's internal operating mechanisms into playbooks any company can use 
- (tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\
- ; Carla owns the guest slate. The DO list and RIGHT LOOKS LIKE in this c
- alendar event (above) are your brief for this step. Use them. Then do th
- is: We are at STEP 6: Day-1 software setup. Give me an ordered runbook w
- ith the exact click-path for each task\, the trailer + private-test-epis
- ode procedure\, the precise Calendly 'Recording' fields\, and the full t
- ext of the guest prep one-pager (include a one-line audio+video reuse co
- nsent).\n\nFULL PROJECT SPEC (optional\, for deep context): https://raw.
- githubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-
- context.md
+ \; Calendly + prep doc verified\; shared asset folder ready.\n\nHOW-TO G
+ UIDES (plain language\, jargon decoded\, each with a chatbot prompt)\n- 
+ Day-1 setup\, step by step: https://github.com/rwsmith96/mechanisms-in-m
+ otion/blob/main/how-to/day1-setup.md\n- All guides: https://github.com/r
+ wsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTANT PR
+ OMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are helpi
+ ng run Mechanisms in Motion\, the AES podcast: a remote\, two-host video
+  interview show that turns Amazon's internal operating mechanisms into p
+ laybooks any company can use (tagline 'Day 1 Energy for Every Stage of G
+ rowth'). Rich owns logistics\; Carla owns the guest slate. The DO list a
+ nd RIGHT LOOKS LIKE in this calendar event (above) are your brief for th
+ is step. Use them. Then do this: We are at STEP 6: Day-1 software setup.
+  Give me an ordered runbook with the exact click-path for each task\, th
+ e trailer + private-test-episode procedure\, the precise Calendly 'Recor
+ ding' fields\, and the full text of the guest prep one-pager (include a 
+ one-line audio+video reuse consent).\n\nFULL PROJECT SPEC (optional\, fo
+ r deep context): https://raw.githubusercontent.com/rwsmith96/mechanisms-
+ in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -283,8 +313,14 @@ DESCRIPTION:Prove the whole chain AND rehearse the real failure modes bef
  rson lands as a SEPARATE track\; verify lip-sync at the END of the take.
  \n- Confirm 30fps everywhere\; export reads -14 LUFS / -1.0 dBTP.\n\nRIG
  HT LOOKS LIKE\n- Chain proven AND a disconnect/rejoin + degraded-guest +
-  CFR-transcode rehearsed. Lip-sync clean at the end.\n\nASSISTANT PROMPT
-  (paste into Claude)\nYou are helping run Mechanisms in Motion\, the AES
+  CFR-transcode rehearsed. Lip-sync clean at the end.\n\nHOW-TO GUIDES (p
+ lain language\, jargon decoded\, each with a chatbot prompt)\n- Recordin
+ g in Riverside: https://github.com/rwsmith96/mechanisms-in-motion/blob/m
+ ain/how-to/riverside-record.md\n- Editing + export numbers: https://gith
+ ub.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/descript-edit.md\
+ n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/blob/ma
+ in/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT fo
+ r step-by-step help)\nYou are helping run Mechanisms in Motion\, the AES
   podcast: a remote\, two-host video interview show that turns Amazon's i
  nternal operating mechanisms into playbooks any company can use (tagline
   'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Carla 
@@ -337,20 +373,28 @@ DESCRIPTION:Mechanisms in Motion\, Episode 01. 105-min block: 15 setup +
  ed cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing.\n\nRIGH
  T LOOKS LIKE\n- Clean separate local tracks captured\; slate + 3-sec syn
  c pause\; GUEST track confirmed 100% before release\; Ep01 archived to t
- he shared cloud folder\; edit started within 48 hours.\n\nASSISTANT PROM
- PT (paste into Claude)\nYou are helping run Mechanisms in Motion\, the A
- ES podcast: a remote\, two-host video interview show that turns Amazon's
-  internal operating mechanisms into playbooks any company can use (tagli
- ne 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Carl
- a owns the guest slate. The DO list and RIGHT LOOKS LIKE in this calenda
- r event (above) are your brief for this step. Use them. Then do this: We
-  are recording Episode 01 today. Before we start\, quiz me on the record
- -day non-negotiables (T-minus mic/local-recording/QuickTime check\, head
- phones\, slate + sync pause\, upload marshal confirms the GUEST track to
-  100% before release\, archive to the shared folder). After the session\
- , remind me to archive and to start the edit within 48 hours.\n\nFULL PR
- OJECT SPEC (optional\, for deep context): https://raw.githubusercontent.
- com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
+ he shared cloud folder\; edit started within 48 hours.\n\nHOW-TO GUIDES 
+ (plain language\, jargon decoded\, each with a chatbot prompt)\n- Record
+ ing run-of-show: https://github.com/rwsmith96/mechanisms-in-motion/blob/
+ main/how-to/riverside-record.md\n- Your free local backup: https://githu
+ b.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-ba
+ ckup.md\n- Editing afterward: https://github.com/rwsmith96/mechanisms-in
+ -motion/blob/main/how-to/descript-edit.md\n- All guides: https://github.
+ com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTA
+ NT PROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are 
+ helping run Mechanisms in Motion\, the AES podcast: a remote\, two-host 
+ video interview show that turns Amazon's internal operating mechanisms i
+ nto playbooks any company can use (tagline 'Day 1 Energy for Every Stage
+  of Growth'). Rich owns logistics\; Carla owns the guest slate. The DO l
+ ist and RIGHT LOOKS LIKE in this calendar event (above) are your brief f
+ or this step. Use them. Then do this: We are recording Episode 01 today.
+  Before we start\, quiz me on the record-day non-negotiables (T-minus mi
+ c/local-recording/QuickTime check\, headphones\, slate + sync pause\, up
+ load marshal confirms the GUEST track to 100% before release\, archive t
+ o the shared folder). After the session\, remind me to archive and to st
+ art the edit within 48 hours.\n\nFULL PROJECT SPEC (optional\, for deep 
+ context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
+ on/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -391,20 +435,28 @@ DESCRIPTION:Mechanisms in Motion\, Episode 02. 105-min block: 15 setup +
  ed cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing.\n\nRIGH
  T LOOKS LIKE\n- Clean separate local tracks captured\; slate + 3-sec syn
  c pause\; GUEST track confirmed 100% before release\; Ep02 archived to t
- he shared cloud folder\; edit started within 48 hours.\n\nASSISTANT PROM
- PT (paste into Claude)\nYou are helping run Mechanisms in Motion\, the A
- ES podcast: a remote\, two-host video interview show that turns Amazon's
-  internal operating mechanisms into playbooks any company can use (tagli
- ne 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Carl
- a owns the guest slate. The DO list and RIGHT LOOKS LIKE in this calenda
- r event (above) are your brief for this step. Use them. Then do this: We
-  are recording Episode 02 today. Before we start\, quiz me on the record
- -day non-negotiables (T-minus mic/local-recording/QuickTime check\, head
- phones\, slate + sync pause\, upload marshal confirms the GUEST track to
-  100% before release\, archive to the shared folder). After the session\
- , remind me to archive and to start the edit within 48 hours.\n\nFULL PR
- OJECT SPEC (optional\, for deep context): https://raw.githubusercontent.
- com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
+ he shared cloud folder\; edit started within 48 hours.\n\nHOW-TO GUIDES 
+ (plain language\, jargon decoded\, each with a chatbot prompt)\n- Record
+ ing run-of-show: https://github.com/rwsmith96/mechanisms-in-motion/blob/
+ main/how-to/riverside-record.md\n- Your free local backup: https://githu
+ b.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-ba
+ ckup.md\n- Editing afterward: https://github.com/rwsmith96/mechanisms-in
+ -motion/blob/main/how-to/descript-edit.md\n- All guides: https://github.
+ com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTA
+ NT PROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are 
+ helping run Mechanisms in Motion\, the AES podcast: a remote\, two-host 
+ video interview show that turns Amazon's internal operating mechanisms i
+ nto playbooks any company can use (tagline 'Day 1 Energy for Every Stage
+  of Growth'). Rich owns logistics\; Carla owns the guest slate. The DO l
+ ist and RIGHT LOOKS LIKE in this calendar event (above) are your brief f
+ or this step. Use them. Then do this: We are recording Episode 02 today.
+  Before we start\, quiz me on the record-day non-negotiables (T-minus mi
+ c/local-recording/QuickTime check\, headphones\, slate + sync pause\, up
+ load marshal confirms the GUEST track to 100% before release\, archive t
+ o the shared folder). After the session\, remind me to archive and to st
+ art the edit within 48 hours.\n\nFULL PROJECT SPEC (optional\, for deep 
+ context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
+ on/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -445,20 +497,28 @@ DESCRIPTION:Mechanisms in Motion\, Episode 03. 105-min block: 15 setup +
  ed cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing.\n\nRIGH
  T LOOKS LIKE\n- Clean separate local tracks captured\; slate + 3-sec syn
  c pause\; GUEST track confirmed 100% before release\; Ep03 archived to t
- he shared cloud folder\; edit started within 48 hours.\n\nASSISTANT PROM
- PT (paste into Claude)\nYou are helping run Mechanisms in Motion\, the A
- ES podcast: a remote\, two-host video interview show that turns Amazon's
-  internal operating mechanisms into playbooks any company can use (tagli
- ne 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Carl
- a owns the guest slate. The DO list and RIGHT LOOKS LIKE in this calenda
- r event (above) are your brief for this step. Use them. Then do this: We
-  are recording Episode 03 today. Before we start\, quiz me on the record
- -day non-negotiables (T-minus mic/local-recording/QuickTime check\, head
- phones\, slate + sync pause\, upload marshal confirms the GUEST track to
-  100% before release\, archive to the shared folder). After the session\
- , remind me to archive and to start the edit within 48 hours.\n\nFULL PR
- OJECT SPEC (optional\, for deep context): https://raw.githubusercontent.
- com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
+ he shared cloud folder\; edit started within 48 hours.\n\nHOW-TO GUIDES 
+ (plain language\, jargon decoded\, each with a chatbot prompt)\n- Record
+ ing run-of-show: https://github.com/rwsmith96/mechanisms-in-motion/blob/
+ main/how-to/riverside-record.md\n- Your free local backup: https://githu
+ b.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-ba
+ ckup.md\n- Editing afterward: https://github.com/rwsmith96/mechanisms-in
+ -motion/blob/main/how-to/descript-edit.md\n- All guides: https://github.
+ com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTA
+ NT PROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are 
+ helping run Mechanisms in Motion\, the AES podcast: a remote\, two-host 
+ video interview show that turns Amazon's internal operating mechanisms i
+ nto playbooks any company can use (tagline 'Day 1 Energy for Every Stage
+  of Growth'). Rich owns logistics\; Carla owns the guest slate. The DO l
+ ist and RIGHT LOOKS LIKE in this calendar event (above) are your brief f
+ or this step. Use them. Then do this: We are recording Episode 03 today.
+  Before we start\, quiz me on the record-day non-negotiables (T-minus mi
+ c/local-recording/QuickTime check\, headphones\, slate + sync pause\, up
+ load marshal confirms the GUEST track to 100% before release\, archive t
+ o the shared folder). After the session\, remind me to archive and to st
+ art the edit within 48 hours.\n\nFULL PROJECT SPEC (optional\, for deep 
+ context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
+ on/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -499,20 +559,28 @@ DESCRIPTION:Mechanisms in Motion\, Episode 04. 105-min block: 15 setup +
  ed cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing.\n\nRIGH
  T LOOKS LIKE\n- Clean separate local tracks captured\; slate + 3-sec syn
  c pause\; GUEST track confirmed 100% before release\; Ep04 archived to t
- he shared cloud folder\; edit started within 48 hours.\n\nASSISTANT PROM
- PT (paste into Claude)\nYou are helping run Mechanisms in Motion\, the A
- ES podcast: a remote\, two-host video interview show that turns Amazon's
-  internal operating mechanisms into playbooks any company can use (tagli
- ne 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Carl
- a owns the guest slate. The DO list and RIGHT LOOKS LIKE in this calenda
- r event (above) are your brief for this step. Use them. Then do this: We
-  are recording Episode 04 today. Before we start\, quiz me on the record
- -day non-negotiables (T-minus mic/local-recording/QuickTime check\, head
- phones\, slate + sync pause\, upload marshal confirms the GUEST track to
-  100% before release\, archive to the shared folder). After the session\
- , remind me to archive and to start the edit within 48 hours.\n\nFULL PR
- OJECT SPEC (optional\, for deep context): https://raw.githubusercontent.
- com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
+ he shared cloud folder\; edit started within 48 hours.\n\nHOW-TO GUIDES 
+ (plain language\, jargon decoded\, each with a chatbot prompt)\n- Record
+ ing run-of-show: https://github.com/rwsmith96/mechanisms-in-motion/blob/
+ main/how-to/riverside-record.md\n- Your free local backup: https://githu
+ b.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-ba
+ ckup.md\n- Editing afterward: https://github.com/rwsmith96/mechanisms-in
+ -motion/blob/main/how-to/descript-edit.md\n- All guides: https://github.
+ com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTA
+ NT PROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are 
+ helping run Mechanisms in Motion\, the AES podcast: a remote\, two-host 
+ video interview show that turns Amazon's internal operating mechanisms i
+ nto playbooks any company can use (tagline 'Day 1 Energy for Every Stage
+  of Growth'). Rich owns logistics\; Carla owns the guest slate. The DO l
+ ist and RIGHT LOOKS LIKE in this calendar event (above) are your brief f
+ or this step. Use them. Then do this: We are recording Episode 04 today.
+  Before we start\, quiz me on the record-day non-negotiables (T-minus mi
+ c/local-recording/QuickTime check\, headphones\, slate + sync pause\, up
+ load marshal confirms the GUEST track to 100% before release\, archive t
+ o the shared folder). After the session\, remind me to archive and to st
+ art the edit within 48 hours.\n\nFULL PROJECT SPEC (optional\, for deep 
+ context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
+ on/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -553,20 +621,28 @@ DESCRIPTION:Mechanisms in Motion\, Episode 05. 105-min block: 15 setup +
  ed cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing.\n\nRIGH
  T LOOKS LIKE\n- Clean separate local tracks captured\; slate + 3-sec syn
  c pause\; GUEST track confirmed 100% before release\; Ep05 archived to t
- he shared cloud folder\; edit started within 48 hours.\n\nASSISTANT PROM
- PT (paste into Claude)\nYou are helping run Mechanisms in Motion\, the A
- ES podcast: a remote\, two-host video interview show that turns Amazon's
-  internal operating mechanisms into playbooks any company can use (tagli
- ne 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Carl
- a owns the guest slate. The DO list and RIGHT LOOKS LIKE in this calenda
- r event (above) are your brief for this step. Use them. Then do this: We
-  are recording Episode 05 today. Before we start\, quiz me on the record
- -day non-negotiables (T-minus mic/local-recording/QuickTime check\, head
- phones\, slate + sync pause\, upload marshal confirms the GUEST track to
-  100% before release\, archive to the shared folder). After the session\
- , remind me to archive and to start the edit within 48 hours.\n\nFULL PR
- OJECT SPEC (optional\, for deep context): https://raw.githubusercontent.
- com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
+ he shared cloud folder\; edit started within 48 hours.\n\nHOW-TO GUIDES 
+ (plain language\, jargon decoded\, each with a chatbot prompt)\n- Record
+ ing run-of-show: https://github.com/rwsmith96/mechanisms-in-motion/blob/
+ main/how-to/riverside-record.md\n- Your free local backup: https://githu
+ b.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-ba
+ ckup.md\n- Editing afterward: https://github.com/rwsmith96/mechanisms-in
+ -motion/blob/main/how-to/descript-edit.md\n- All guides: https://github.
+ com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTA
+ NT PROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are 
+ helping run Mechanisms in Motion\, the AES podcast: a remote\, two-host 
+ video interview show that turns Amazon's internal operating mechanisms i
+ nto playbooks any company can use (tagline 'Day 1 Energy for Every Stage
+  of Growth'). Rich owns logistics\; Carla owns the guest slate. The DO l
+ ist and RIGHT LOOKS LIKE in this calendar event (above) are your brief f
+ or this step. Use them. Then do this: We are recording Episode 05 today.
+  Before we start\, quiz me on the record-day non-negotiables (T-minus mi
+ c/local-recording/QuickTime check\, headphones\, slate + sync pause\, up
+ load marshal confirms the GUEST track to 100% before release\, archive t
+ o the shared folder). After the session\, remind me to archive and to st
+ art the edit within 48 hours.\n\nFULL PROJECT SPEC (optional\, for deep 
+ context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
+ on/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -607,20 +683,28 @@ DESCRIPTION:Mechanisms in Motion\, Episode 06. 105-min block: 15 setup +
  ed cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing.\n\nRIGH
  T LOOKS LIKE\n- Clean separate local tracks captured\; slate + 3-sec syn
  c pause\; GUEST track confirmed 100% before release\; Ep06 archived to t
- he shared cloud folder\; edit started within 48 hours.\n\nASSISTANT PROM
- PT (paste into Claude)\nYou are helping run Mechanisms in Motion\, the A
- ES podcast: a remote\, two-host video interview show that turns Amazon's
-  internal operating mechanisms into playbooks any company can use (tagli
- ne 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Carl
- a owns the guest slate. The DO list and RIGHT LOOKS LIKE in this calenda
- r event (above) are your brief for this step. Use them. Then do this: We
-  are recording Episode 06 today. Before we start\, quiz me on the record
- -day non-negotiables (T-minus mic/local-recording/QuickTime check\, head
- phones\, slate + sync pause\, upload marshal confirms the GUEST track to
-  100% before release\, archive to the shared folder). After the session\
- , remind me to archive and to start the edit within 48 hours.\n\nFULL PR
- OJECT SPEC (optional\, for deep context): https://raw.githubusercontent.
- com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
+ he shared cloud folder\; edit started within 48 hours.\n\nHOW-TO GUIDES 
+ (plain language\, jargon decoded\, each with a chatbot prompt)\n- Record
+ ing run-of-show: https://github.com/rwsmith96/mechanisms-in-motion/blob/
+ main/how-to/riverside-record.md\n- Your free local backup: https://githu
+ b.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-ba
+ ckup.md\n- Editing afterward: https://github.com/rwsmith96/mechanisms-in
+ -motion/blob/main/how-to/descript-edit.md\n- All guides: https://github.
+ com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTA
+ NT PROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are 
+ helping run Mechanisms in Motion\, the AES podcast: a remote\, two-host 
+ video interview show that turns Amazon's internal operating mechanisms i
+ nto playbooks any company can use (tagline 'Day 1 Energy for Every Stage
+  of Growth'). Rich owns logistics\; Carla owns the guest slate. The DO l
+ ist and RIGHT LOOKS LIKE in this calendar event (above) are your brief f
+ or this step. Use them. Then do this: We are recording Episode 06 today.
+  Before we start\, quiz me on the record-day non-negotiables (T-minus mi
+ c/local-recording/QuickTime check\, headphones\, slate + sync pause\, up
+ load marshal confirms the GUEST track to 100% before release\, archive t
+ o the shared folder). After the session\, remind me to archive and to st
+ art the edit within 48 hours.\n\nFULL PROJECT SPEC (optional\, for deep 
+ context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
+ on/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -661,20 +745,28 @@ DESCRIPTION:Mechanisms in Motion\, Episode 07. 105-min block: 15 setup +
  ed cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing.\n\nRIGH
  T LOOKS LIKE\n- Clean separate local tracks captured\; slate + 3-sec syn
  c pause\; GUEST track confirmed 100% before release\; Ep07 archived to t
- he shared cloud folder\; edit started within 48 hours.\n\nASSISTANT PROM
- PT (paste into Claude)\nYou are helping run Mechanisms in Motion\, the A
- ES podcast: a remote\, two-host video interview show that turns Amazon's
-  internal operating mechanisms into playbooks any company can use (tagli
- ne 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Carl
- a owns the guest slate. The DO list and RIGHT LOOKS LIKE in this calenda
- r event (above) are your brief for this step. Use them. Then do this: We
-  are recording Episode 07 today. Before we start\, quiz me on the record
- -day non-negotiables (T-minus mic/local-recording/QuickTime check\, head
- phones\, slate + sync pause\, upload marshal confirms the GUEST track to
-  100% before release\, archive to the shared folder). After the session\
- , remind me to archive and to start the edit within 48 hours.\n\nFULL PR
- OJECT SPEC (optional\, for deep context): https://raw.githubusercontent.
- com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
+ he shared cloud folder\; edit started within 48 hours.\n\nHOW-TO GUIDES 
+ (plain language\, jargon decoded\, each with a chatbot prompt)\n- Record
+ ing run-of-show: https://github.com/rwsmith96/mechanisms-in-motion/blob/
+ main/how-to/riverside-record.md\n- Your free local backup: https://githu
+ b.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-ba
+ ckup.md\n- Editing afterward: https://github.com/rwsmith96/mechanisms-in
+ -motion/blob/main/how-to/descript-edit.md\n- All guides: https://github.
+ com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTA
+ NT PROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are 
+ helping run Mechanisms in Motion\, the AES podcast: a remote\, two-host 
+ video interview show that turns Amazon's internal operating mechanisms i
+ nto playbooks any company can use (tagline 'Day 1 Energy for Every Stage
+  of Growth'). Rich owns logistics\; Carla owns the guest slate. The DO l
+ ist and RIGHT LOOKS LIKE in this calendar event (above) are your brief f
+ or this step. Use them. Then do this: We are recording Episode 07 today.
+  Before we start\, quiz me on the record-day non-negotiables (T-minus mi
+ c/local-recording/QuickTime check\, headphones\, slate + sync pause\, up
+ load marshal confirms the GUEST track to 100% before release\, archive t
+ o the shared folder). After the session\, remind me to archive and to st
+ art the edit within 48 hours.\n\nFULL PROJECT SPEC (optional\, for deep 
+ context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
+ on/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -715,20 +807,28 @@ DESCRIPTION:Mechanisms in Motion\, Episode 08. 105-min block: 15 setup +
  ed cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing.\n\nRIGH
  T LOOKS LIKE\n- Clean separate local tracks captured\; slate + 3-sec syn
  c pause\; GUEST track confirmed 100% before release\; Ep08 archived to t
- he shared cloud folder\; edit started within 48 hours.\n\nASSISTANT PROM
- PT (paste into Claude)\nYou are helping run Mechanisms in Motion\, the A
- ES podcast: a remote\, two-host video interview show that turns Amazon's
-  internal operating mechanisms into playbooks any company can use (tagli
- ne 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Carl
- a owns the guest slate. The DO list and RIGHT LOOKS LIKE in this calenda
- r event (above) are your brief for this step. Use them. Then do this: We
-  are recording Episode 08 today. Before we start\, quiz me on the record
- -day non-negotiables (T-minus mic/local-recording/QuickTime check\, head
- phones\, slate + sync pause\, upload marshal confirms the GUEST track to
-  100% before release\, archive to the shared folder). After the session\
- , remind me to archive and to start the edit within 48 hours.\n\nFULL PR
- OJECT SPEC (optional\, for deep context): https://raw.githubusercontent.
- com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
+ he shared cloud folder\; edit started within 48 hours.\n\nHOW-TO GUIDES 
+ (plain language\, jargon decoded\, each with a chatbot prompt)\n- Record
+ ing run-of-show: https://github.com/rwsmith96/mechanisms-in-motion/blob/
+ main/how-to/riverside-record.md\n- Your free local backup: https://githu
+ b.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-ba
+ ckup.md\n- Editing afterward: https://github.com/rwsmith96/mechanisms-in
+ -motion/blob/main/how-to/descript-edit.md\n- All guides: https://github.
+ com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTA
+ NT PROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are 
+ helping run Mechanisms in Motion\, the AES podcast: a remote\, two-host 
+ video interview show that turns Amazon's internal operating mechanisms i
+ nto playbooks any company can use (tagline 'Day 1 Energy for Every Stage
+  of Growth'). Rich owns logistics\; Carla owns the guest slate. The DO l
+ ist and RIGHT LOOKS LIKE in this calendar event (above) are your brief f
+ or this step. Use them. Then do this: We are recording Episode 08 today.
+  Before we start\, quiz me on the record-day non-negotiables (T-minus mi
+ c/local-recording/QuickTime check\, headphones\, slate + sync pause\, up
+ load marshal confirms the GUEST track to 100% before release\, archive t
+ o the shared folder). After the session\, remind me to archive and to st
+ art the edit within 48 hours.\n\nFULL PROJECT SPEC (optional\, for deep 
+ context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
+ on/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -758,19 +858,25 @@ DESCRIPTION:New episode goes live today. The first occurrence is launch d
  er hits zero\, pause the streak by design with a pre-written note\; do n
  ot ship unedited.\n\nRIGHT LOOKS LIKE\n- Episode live\; QA gate passed\;
   guest sent their clips\; buffer >= 1 maintained (or streak paused on pu
- rpose).\n\nASSISTANT PROMPT (paste into Claude)\nYou are helping run Mec
- hanisms in Motion\, the AES podcast: a remote\, two-host video interview
-  show that turns Amazon's internal operating mechanisms into playbooks a
- ny company can use (tagline 'Day 1 Energy for Every Stage of Growth'). R
- ich owns logistics\; Carla owns the guest slate. The DO list and RIGHT L
- OOKS LIKE in this calendar event (above) are your brief for this step. U
- se them. Then do this: We are at the weekly PUBLISH step. First confirm 
- we still hold a 1-episode buffer (if not\, help me decide pause-vs-ship)
- . Then run the 3-check pre-publish QA gate (-14 LUFS / -1.0 dBTP\, lip-s
- ync at start/mid/end\, captions tracking)\, the Transistor publish steps
- \, and a short note to the guest with clips.\n\nFULL PROJECT SPEC (optio
- nal\, for deep context): https://raw.githubusercontent.com/rwsmith96/mec
- hanisms-in-motion/main/mim-assistant-context.md
+ rpose).\n\nHOW-TO GUIDES (plain language\, jargon decoded\, each with a 
+ chatbot prompt)\n- Publish + the QA check: https://github.com/rwsmith96/
+ mechanisms-in-motion/blob/main/how-to/publish-and-qa.md\n- What the loud
+ ness numbers mean: https://github.com/rwsmith96/mechanisms-in-motion/blo
+ b/main/how-to/export-settings.md\n- All guides: https://github.com/rwsmi
+ th96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTANT PROMPT
+  (paste into Claude or ChatGPT for step-by-step help)\nYou are helping r
+ un Mechanisms in Motion\, the AES podcast: a remote\, two-host video int
+ erview show that turns Amazon's internal operating mechanisms into playb
+ ooks any company can use (tagline 'Day 1 Energy for Every Stage of Growt
+ h'). Rich owns logistics\; Carla owns the guest slate. The DO list and R
+ IGHT LOOKS LIKE in this calendar event (above) are your brief for this s
+ tep. Use them. Then do this: We are at the weekly PUBLISH step. First co
+ nfirm we still hold a 1-episode buffer (if not\, help me decide pause-vs
+ -ship). Then run the 3-check pre-publish QA gate (-14 LUFS / -1.0 dBTP\,
+  lip-sync at start/mid/end\, captions tracking)\, the Transistor publish
+  steps\, and a short note to the guest with clips.\n\nFULL PROJECT SPEC 
+ (optional\, for deep context): https://raw.githubusercontent.com/rwsmith
+ 96/mechanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -793,17 +899,20 @@ DESCRIPTION:Short standing check so the slate and the schedule never drif
  endar.\n- Make any go/no-go or date-shift calls now\, not on a record mo
  rning.\n\nRIGHT LOOKS LIKE\n- Slate and schedule status known\; any slip
   named and owned\; decisions made by Rich as launch-readiness owner.\n\n
- ASSISTANT PROMPT (paste into Claude)\nYou are helping run Mechanisms in 
- Motion\, the AES podcast: a remote\, two-host video interview show that 
- turns Amazon's internal operating mechanisms into playbooks any company 
- can use (tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns lo
- gistics\; Carla owns the guest slate. The DO list and RIGHT LOOKS LIKE i
- n this calendar event (above) are your brief for this step. Use them. Th
- en do this: This is our weekly MiM check-in. Ask me the 4 numbers that m
- atter (guests named / invited / booked\, episodes edited) and flag anyth
- ing off-track against the calendar with a recommended fix.\n\nFULL PROJE
- CT SPEC (optional\, for deep context): https://raw.githubusercontent.com
- /rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
+ HOW-TO GUIDES (plain language\, jargon decoded\, each with a chatbot pro
+ mpt)\n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/bl
+ ob/main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatG
+ PT for step-by-step help)\nYou are helping run Mechanisms in Motion\, th
+ e AES podcast: a remote\, two-host video interview show that turns Amazo
+ n's internal operating mechanisms into playbooks any company can use (ta
+ gline 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; C
+ arla owns the guest slate. The DO list and RIGHT LOOKS LIKE in this cale
+ ndar event (above) are your brief for this step. Use them. Then do this:
+  This is our weekly MiM check-in. Ask me the 4 numbers that matter (gues
+ ts named / invited / booked\, episodes edited) and flag anything off-tra
+ ck against the calendar with a recommended fix.\n\nFULL PROJECT SPEC (op
+ tional\, for deep context): https://raw.githubusercontent.com/rwsmith96/
+ mechanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -827,19 +936,21 @@ DESCRIPTION:A protected 3-hr editing block so the edit backlog can't coll
  -started for more than two days.\n- If editing falls more than one episo
  de behind\, publish from buffer and outsource the next first-pass to a f
  reelance Descript editor.\n\nRIGHT LOOKS LIKE\n- Backlog held to <= 1 ep
- isode\; every recording edit-started within 48h\; buffer protected.\n\nA
- SSISTANT PROMPT (paste into Claude)\nYou are helping run Mechanisms in M
- otion\, the AES podcast: a remote\, two-host video interview show that t
- urns Amazon's internal operating mechanisms into playbooks any company c
- an use (tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns log
- istics\; Carla owns the guest slate. The DO list and RIGHT LOOKS LIKE in
-  this calendar event (above) are your brief for this step. Use them. The
- n do this: This is my weekly edit block. Help me pick which episode to e
- dit\, run the Descript steps in order to the spec\, and tell me honestly
-  if I'm falling behind the publish cadence and should outsource a cut.\n
- \nFULL PROJECT SPEC (optional\, for deep context): https://raw.githubuse
- rcontent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.m
- d
+ isode\; every recording edit-started within 48h\; buffer protected.\n\nH
+ OW-TO GUIDES (plain language\, jargon decoded\, each with a chatbot prom
+ pt)\n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/blo
+ b/main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGP
+ T for step-by-step help)\nYou are helping run Mechanisms in Motion\, the
+  AES podcast: a remote\, two-host video interview show that turns Amazon
+ 's internal operating mechanisms into playbooks any company can use (tag
+ line 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Ca
+ rla owns the guest slate. The DO list and RIGHT LOOKS LIKE in this calen
+ dar event (above) are your brief for this step. Use them. Then do this: 
+ This is my weekly edit block. Help me pick which episode to edit\, run t
+ he Descript steps in order to the spec\, and tell me honestly if I'm fal
+ ling behind the publish cadence and should outsource a cut.\n\nFULL PROJ
+ ECT SPEC (optional\, for deep context): https://raw.githubusercontent.co
+ m/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -863,18 +974,23 @@ DESCRIPTION:Bank one publishable hosts-only episode as launch insurance a
  record-day discipline (mic select\, local recording\, upload marshal\, a
  rchive).\n- Edit it like any episode\; keep it ready to drop into any we
  ek the pipeline gaps.\n\nRIGHT LOOKS LIKE\n- One evergreen episode recor
- ded\, edited\, archived\, and held in reserve before launch.\n\nASSISTAN
- T PROMPT (paste into Claude)\nYou are helping run Mechanisms in Motion\,
-  the AES podcast: a remote\, two-host video interview show that turns Am
- azon's internal operating mechanisms into playbooks any company can use 
- (tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\
- ; Carla owns the guest slate. The DO list and RIGHT LOOKS LIKE in this c
- alendar event (above) are your brief for this step. Use them. Then do th
- is: We are recording the evergreen buffer episode (hosts-only). Suggest 
- a strong standalone topic from the Amazon-mechanisms catalog that needs 
- no guest\, and run me through the same record-day checklist.\n\nFULL PRO
- JECT SPEC (optional\, for deep context): https://raw.githubusercontent.c
- om/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
+ ded\, edited\, archived\, and held in reserve before launch.\n\nHOW-TO G
+ UIDES (plain language\, jargon decoded\, each with a chatbot prompt)\n- 
+ Recording run-of-show: https://github.com/rwsmith96/mechanisms-in-motion
+ /blob/main/how-to/riverside-record.md\n- All guides: https://github.com/
+ rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTANT P
+ ROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are help
+ ing run Mechanisms in Motion\, the AES podcast: a remote\, two-host vide
+ o interview show that turns Amazon's internal operating mechanisms into 
+ playbooks any company can use (tagline 'Day 1 Energy for Every Stage of 
+ Growth'). Rich owns logistics\; Carla owns the guest slate. The DO list 
+ and RIGHT LOOKS LIKE in this calendar event (above) are your brief for t
+ his step. Use them. Then do this: We are recording the evergreen buffer 
+ episode (hosts-only). Suggest a strong standalone topic from the Amazon-
+ mechanisms catalog that needs no guest\, and run me through the same rec
+ ord-day checklist.\n\nFULL PROJECT SPEC (optional\, for deep context): h
+ ttps://raw.githubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim
+ -assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -896,17 +1012,20 @@ DESCRIPTION:The Season 1 backlog runs out in November. Start the next bat
  ord the next 4-6 before the Season 1 buffer is exhausted.\n- Keep one ev
  ergreen in reserve at all times.\n\nRIGHT LOOKS LIKE\n- Season 2 slate s
  tarted and first sessions booked while Season 1 is still publishing.\n\n
- ASSISTANT PROMPT (paste into Claude)\nYou are helping run Mechanisms in 
- Motion\, the AES podcast: a remote\, two-host video interview show that 
- turns Amazon's internal operating mechanisms into playbooks any company 
- can use (tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns lo
- gistics\; Carla owns the guest slate. The DO list and RIGHT LOOKS LIKE i
- n this calendar event (above) are your brief for this step. Use them. Th
- en do this: We are at the Season 2 trigger. Help me plan the next record
- ing batch so the weekly streak never breaks: how many to book\, by when\
- , given the Season 1 buffer.\n\nFULL PROJECT SPEC (optional\, for deep c
- ontext): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-motio
- n/main/mim-assistant-context.md
+ HOW-TO GUIDES (plain language\, jargon decoded\, each with a chatbot pro
+ mpt)\n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/bl
+ ob/main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatG
+ PT for step-by-step help)\nYou are helping run Mechanisms in Motion\, th
+ e AES podcast: a remote\, two-host video interview show that turns Amazo
+ n's internal operating mechanisms into playbooks any company can use (ta
+ gline 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; C
+ arla owns the guest slate. The DO list and RIGHT LOOKS LIKE in this cale
+ ndar event (above) are your brief for this step. Use them. Then do this:
+  We are at the Season 2 trigger. Help me plan the next recording batch s
+ o the weekly streak never breaks: how many to book\, by when\, given the
+  Season 1 buffer.\n\nFULL PROJECT SPEC (optional\, for deep context): ht
+ tps://raw.githubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-
+ assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM

@@ -22,6 +22,7 @@ DTSTAMP = "20260603T160000Z"  # fixed so re-runs are reproducible
 # it is for whoever wants the full spec. Update this one line once the project is published
 # to a shared URL (so Carla's web assistant can fetch it too), then re-run to refresh every prompt.
 SPEC_REF = "https://raw.githubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md"
+HOWTO = "https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/"  # plain-language guides
 
 # Self-contained preamble: works pasted into ANY assistant (Claude.ai, ChatGPT, Claude Code),
 # with no repo or file access required. The event's own DO and RIGHT LOOKS LIKE are the brief.
@@ -57,7 +58,7 @@ def local(date: str, hm: str) -> str:
     return f"{y}{mo}{d}T{h}{mi}00"
 
 
-def build_desc(lead, do, buy, done, prompt):
+def build_desc(lead, do, buy, done, prompt, guides=None):
     parts = [lead, ""]
     parts.append("DO")
     parts += [f"- {x}" for x in do]
@@ -69,7 +70,12 @@ def build_desc(lead, do, buy, done, prompt):
     parts.append("RIGHT LOOKS LIKE")
     parts += [f"- {x}" for x in done]
     parts.append("")
-    parts.append("ASSISTANT PROMPT (paste into Claude)")
+    parts.append("HOW-TO GUIDES (plain language, jargon decoded, each with a chatbot prompt)")
+    for g in (guides or []):
+        parts.append(f"- {g}")
+    parts.append(f"- All guides: {HOWTO}README.md")
+    parts.append("")
+    parts.append("ASSISTANT PROMPT (paste into Claude or ChatGPT for step-by-step help)")
     parts.append(PROMPT_HEAD + prompt)
     parts.append("")
     parts.append(f"FULL PROJECT SPEC (optional, for deep context): {SPEC_REF}")
@@ -127,7 +133,8 @@ events.append(event(
         ["Stack approved; 8 slots on both calendars; guest-slate ownership confirmed with Carla."],
         "We are at STEP 1: lock the stack and dates. Draft a 5-line confirmation message to Carla "
         "in Rich's voice summarizing the stack, the cost, the Aug/Sept recording dates, and the "
-        "logistics/guest-slate split.")))
+        "logistics/guest-slate split.",
+        guides=[f"Import this calendar into your own: {HOWTO}import-calendar.md"])))
 
 events.append(event(
     "mim-guest-slate",
@@ -158,7 +165,8 @@ events.append(event(
         ["Two identical kits ordered; arriving before late July; no item silently back-ordered past Jul 25."],
         "We are at STEP 3: order hardware. Confirm the kit list and current prices/links, flag any "
         "out-of-stock item with the nearest equivalent, and produce one ordered shopping list with "
-        "direct buy links for both kits.")))
+        "direct buy links for both kits.",
+        guides=[f"Set up the kit once it arrives: {HOWTO}hardware-setup.md"])))
 
 # Booked-guest gate (PM-critic fix: critical path runs through the guest slate)
 events.append(event(
@@ -188,7 +196,8 @@ events.append(event(
         ["Both kits built and bench-tested; Motiv settings applied on each machine."],
         "We are at STEP 4: assemble + bench-test the kits. Give me a 10-minute setup checklist for "
         "the MV7+ (USB-C mode + Motiv settings), the MX Brio, Key Light Neo placement (45 degrees, "
-        "slightly above eye level), and a 30-second test-recording to confirm each kit.")))
+        "slightly above eye level), and a 30-second test-recording to confirm each kit.",
+        guides=[f"Assemble + settings, step by step: {HOWTO}hardware-setup.md"])))
 
 events.append(event(
     "mim-learn-descript",
@@ -203,7 +212,9 @@ events.append(event(
         "We are at STEP 5: learn Descript. Walk me, in order, through one full mock edit of a 5-minute "
         "multitrack remote interview with the exact spec settings (Studio Sound 60-80%, filler removal, "
         "Automatic Multicam, captions, one 9:16 clip, export -14 LUFS / -1.0 dBTP at 1080p/30fps). Flag "
-        "the top 3 beginner mistakes as we go.")))
+        "the top 3 beginner mistakes as we go.",
+        guides=[f"The edit, step by step: {HOWTO}descript-edit.md",
+                f"What the export numbers mean: {HOWTO}export-settings.md"])))
 
 # --- Day-1 setup (timed) ---
 events.append(event(
@@ -226,7 +237,8 @@ events.append(event(
         ["Accounts live + both admins; trailer published and feeds submitted for early review; private end-to-end publish proven; YouTube connected; Calendly + prep doc verified; shared asset folder ready."],
         "We are at STEP 6: Day-1 software setup. Give me an ordered runbook with the exact click-path for "
         "each task, the trailer + private-test-episode procedure, the precise Calendly 'Recording' fields, "
-        "and the full text of the guest prep one-pager (include a one-line audio+video reuse consent).")))
+        "and the full text of the guest prep one-pager (include a one-line audio+video reuse consent).",
+        guides=[f"Day-1 setup, step by step: {HOWTO}day1-setup.md"])))
 
 # --- Test run (timed) ---
 events.append(event(
@@ -245,7 +257,9 @@ events.append(event(
         "We are at STEP 7: full test run. Give me a 10-minute test-run script that deliberately rehearses a "
         "degraded guest, a mid-record disconnect/rejoin, and the transcode-to-CFR fix, plus a pass/fail "
         "checklist for the chain (100% upload, separate-track export, end-of-take lip-sync, -14 LUFS / "
-        "-1.0 dBTP, 30fps), and exactly what to do if any check fails.")))
+        "-1.0 dBTP, 30fps), and exactly what to do if any check fails.",
+        guides=[f"Recording in Riverside: {HOWTO}riverside-record.md",
+                f"Editing + export numbers: {HOWTO}descript-edit.md"])))
 
 # --- Recording sessions ---
 SESSIONS = [("2026-08-25", 1), ("2026-08-27", 2), ("2026-09-01", 3), ("2026-09-03", 4),
@@ -273,7 +287,10 @@ for date, ep in SESSIONS:
             f"We are recording Episode {ep:02d} today. Before we start, quiz me on the record-day "
             "non-negotiables (T-minus mic/local-recording/QuickTime check, headphones, slate + sync pause, "
             "upload marshal confirms the GUEST track to 100% before release, archive to the shared folder). "
-            "After the session, remind me to archive and to start the edit within 48 hours.")))
+            "After the session, remind me to archive and to start the edit within 48 hours.",
+            guides=[f"Recording run-of-show: {HOWTO}riverside-record.md",
+                    f"Your free local backup: {HOWTO}quicktime-audio-backup.md",
+                    f"Editing afterward: {HOWTO}descript-edit.md"])))
 
 # --- Launch + weekly publish (recurring) ---
 events.append(event(
@@ -291,7 +308,9 @@ events.append(event(
         ["Episode live; QA gate passed; guest sent their clips; buffer >= 1 maintained (or streak paused on purpose)."],
         "We are at the weekly PUBLISH step. First confirm we still hold a 1-episode buffer (if not, help me "
         "decide pause-vs-ship). Then run the 3-check pre-publish QA gate (-14 LUFS / -1.0 dBTP, lip-sync at "
-        "start/mid/end, captions tracking), the Transistor publish steps, and a short note to the guest with clips.")))
+        "start/mid/end, captions tracking), the Transistor publish steps, and a short note to the guest with clips.",
+        guides=[f"Publish + the QA check: {HOWTO}publish-and-qa.md",
+                f"What the loudness numbers mean: {HOWTO}export-settings.md"])))
 
 # --- Recurring program cadence + contingency events (PM/Ops-critic fixes) ---
 events.append(event(
@@ -336,7 +355,8 @@ events.append(event(
         None,
         ["One evergreen episode recorded, edited, archived, and held in reserve before launch."],
         "We are recording the evergreen buffer episode (hosts-only). Suggest a strong standalone topic from "
-        "the Amazon-mechanisms catalog that needs no guest, and run me through the same record-day checklist.")))
+        "the Amazon-mechanisms catalog that needs no guest, and run me through the same record-day checklist.",
+        guides=[f"Recording run-of-show: {HOWTO}riverside-record.md"])))
 
 events.append(event(
     "mim-season2-trigger",
