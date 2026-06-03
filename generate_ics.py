@@ -160,7 +160,7 @@ events.append(event(
     desc=build_desc(
         "Order two identical kits (~$850 each) so they arrive together and stay matched. Pulled to Jul 1 "
         "from Jul 10 to absorb back-order risk on the long-lead items.",
-        ["Order both kits in one pass; add a spare XLR cable.",
+        ["Order both kits in one pass; add a spare XLR cable (a common audio cable; order one as backup).",
          "Ship one to Rich (San Diego), one to Carla (Seattle area).",
          "Target arrival before late July; if any item is back-ordered, sub the nearest equivalent now."],
         KIT_ITEMS,
@@ -228,7 +228,7 @@ events.append(event(
         ["Create the 4 accounts on annual billing (Riverside Pro, Descript Creator, Transistor Pro, Calendly Standard).",
          "In Riverside, enable 'Export to Descript' (email Riverside support now if the button is missing).",
          "Connect the YouTube channel inside Transistor (document the manual-upload fallback if it won't connect).",
-         "Publish a 60-second TRAILER now and submit the RSS feed to Apple Podcasts Connect + Spotify for Creators, so directory review (days, sometimes weeks) clears well before launch.",
+         "Publish a 60-second TRAILER now and submit the RSS feed to Apple Podcasts Connect and Spotify for Creators (Apple's and Spotify's podcast submission sites), so directory review (days, sometimes weeks) clears well before launch.",
          "Run one private/unlisted end-to-end test episode: Transistor -> confirm Apple/Spotify ingest + YouTube auto-post actually fire.",
          "Build the Calendly 'Recording' event (75 min, 15-min buffers, Riverside link as location, 3 intake questions); confirm the invite carries the link and the prep doc resolves view-only.",
          "Write the guest prep one-pager (Google Doc, view-only).",

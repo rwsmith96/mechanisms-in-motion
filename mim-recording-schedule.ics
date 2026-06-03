@@ -113,37 +113,38 @@ SUMMARY:MiM DUE: Order both hardware kits (Rich)
 DESCRIPTION:Order two identical kits (~$850 each) so they arrive together
   and stay matched. Pulled to Jul 1 from Jul 10 to absorb back-order risk
   on the long-lead items.\n\nDO\n- Order both kits in one pass\; add a sp
- are XLR cable.\n- Ship one to Rich (San Diego)\, one to Carla (Seattle a
- rea).\n- Target arrival before late July\; if any item is back-ordered\,
-  sub the nearest equivalent now.\n\nBUY / HAVE READY\n- Shure MV7+ (blac
- k\, USB-C) $279 - shure.com or B&H\n- Logitech MX Brio 4K $199 - logitec
- h.com\n- Elgato Key Light Neo $99 - elgato.com\n- Sony MDR-7506 headphon
- es $100 - any pro-audio retailer\n- RODE PSA1+ boom arm $126 - rode.com\
- n- Reflection filter / acoustic foam ~$50 - Amazon (TONOR / TroyStudio)\
- n\nRIGHT LOOKS LIKE\n- Two identical kits ordered\; arriving before late
-  July\; no item silently back-ordered past Jul 25.\n\nHOW-TO GUIDES (pla
- in language\, jargon decoded\, each with a chatbot prompt)\n- Set up the
-  kit once it arrives: https://github.com/rwsmith96/mechanisms-in-motion/
- blob/main/how-to/hardware-setup.md\n- All guides: https://github.com/rws
- mith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTANT PROM
- PT (paste into Claude or ChatGPT for step-by-step help)\nYou are helping
-  run Mechanisms in Motion\, the AES podcast: a remote\, two-host video i
- nterview show that turns Amazon's internal operating mechanisms into pla
- ybooks any company can use (tagline 'Day 1 Energy for Every Stage of Gro
- wth'). Rich owns logistics\; Carla owns the guest slate. Today's step: O
- rder two identical kits (~$850 each) so they arrive together and stay ma
- tched. Pulled to Jul 1 from Jul 10 to absorb back-order risk on the long
- -lead items. WHAT TO DO: (1) Order both kits in one pass\; add a spare X
- LR cable. (2) Ship one to Rich (San Diego)\, one to Carla (Seattle area)
- . (3) Target arrival before late July\; if any item is back-ordered\, su
- b the nearest equivalent now. DONE WHEN: Two identical kits ordered\; ar
- riving before late July\; no item silently back-ordered past Jul 25.. YO
- UR TASK: We are at STEP 3: order hardware. Confirm the kit list and curr
- ent prices/links\, flag any out-of-stock item with the nearest equivalen
- t\, and produce one ordered shopping list with direct buy links for both
-  kits.\n\nFULL PROJECT SPEC (optional\, for deep context): https://raw.g
- ithubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-c
- ontext.md
+ are XLR cable (a common audio cable\; order one as backup).\n- Ship one 
+ to Rich (San Diego)\, one to Carla (Seattle area).\n- Target arrival bef
+ ore late July\; if any item is back-ordered\, sub the nearest equivalent
+  now.\n\nBUY / HAVE READY\n- Shure MV7+ (black\, USB-C) $279 - shure.com
+  or B&H\n- Logitech MX Brio 4K $199 - logitech.com\n- Elgato Key Light N
+ eo $99 - elgato.com\n- Sony MDR-7506 headphones $100 - any pro-audio ret
+ ailer\n- RODE PSA1+ boom arm $126 - rode.com\n- Reflection filter / acou
+ stic foam ~$50 - Amazon (TONOR / TroyStudio)\n\nRIGHT LOOKS LIKE\n- Two 
+ identical kits ordered\; arriving before late July\; no item silently ba
+ ck-ordered past Jul 25.\n\nHOW-TO GUIDES (plain language\, jargon decode
+ d\, each with a chatbot prompt)\n- Set up the kit once it arrives: https
+ ://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/hardware-s
+ etup.md\n- All guides: https://github.com/rwsmith96/mechanisms-in-motion
+ /blob/main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or Ch
+ atGPT for step-by-step help)\nYou are helping run Mechanisms in Motion\,
+  the AES podcast: a remote\, two-host video interview show that turns Am
+ azon's internal operating mechanisms into playbooks any company can use 
+ (tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\
+ ; Carla owns the guest slate. Today's step: Order two identical kits (~$
+ 850 each) so they arrive together and stay matched. Pulled to Jul 1 from
+  Jul 10 to absorb back-order risk on the long-lead items. WHAT TO DO: (1
+ ) Order both kits in one pass\; add a spare XLR cable (a common audio ca
+ ble\; order one as backup). (2) Ship one to Rich (San Diego)\, one to Ca
+ rla (Seattle area). (3) Target arrival before late July\; if any item is
+  back-ordered\, sub the nearest equivalent now. DONE WHEN: Two identical
+  kits ordered\; arriving before late July\; no item silently back-ordere
+ d past Jul 25.. YOUR TASK: We are at STEP 3: order hardware. Confirm the
+  kit list and current prices/links\, flag any out-of-stock item with the
+  nearest equivalent\, and produce one ordered shopping list with direct 
+ buy links for both kits.\n\nFULL PROJECT SPEC (optional\, for deep conte
+ xt): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-motion/ma
+ in/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -289,58 +290,59 @@ DESCRIPTION:One-time account setup. Do it once\, never touch again.\n\nDO
  xport to Descript' (email Riverside support now if the button is missing
  ).\n- Connect the YouTube channel inside Transistor (document the manual
  -upload fallback if it won't connect).\n- Publish a 60-second TRAILER no
- w and submit the RSS feed to Apple Podcasts Connect + Spotify for Creato
- rs\, so directory review (days\, sometimes weeks) clears well before lau
- nch.\n- Run one private/unlisted end-to-end test episode: Transistor -> 
- confirm Apple/Spotify ingest + YouTube auto-post actually fire.\n- Build
-  the Calendly 'Recording' event (75 min\, 15-min buffers\, Riverside lin
- k as location\, 3 intake questions)\; confirm the invite carries the lin
- k and the prep doc resolves view-only.\n- Write the guest prep one-pager
-  (Google Doc\, view-only).\n- Set up the shared master-asset cloud folde
- r (Drive/Dropbox)\, one folder per episode.\n- Add both Rich and Carla a
- s admins on each account where allowed\; record logins in a credentials 
- note.\n- Confirm editor lanes: Rich owns the cut/multicam/export\; Carla
-  owns clip selection + caption QA + guest-clip send.\n\nRIGHT LOOKS LIKE
- \n- Accounts live + both admins\; trailer published and feeds submitted 
- for early review\; private end-to-end publish proven\; YouTube connected
- \; Calendly + prep doc verified\; shared asset folder ready.\n\nHOW-TO G
- UIDES (plain language\, jargon decoded\, each with a chatbot prompt)\n- 
- Day-1 setup\, step by step: https://github.com/rwsmith96/mechanisms-in-m
- otion/blob/main/how-to/day1-setup.md\n- All guides: https://github.com/r
- wsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTANT PR
- OMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are helpi
- ng run Mechanisms in Motion\, the AES podcast: a remote\, two-host video
-  interview show that turns Amazon's internal operating mechanisms into p
- laybooks any company can use (tagline 'Day 1 Energy for Every Stage of G
- rowth'). Rich owns logistics\; Carla owns the guest slate. Today's step:
-  One-time account setup. Do it once\, never touch again. WHAT TO DO: (1)
-  Create the 4 accounts on annual billing (Riverside Pro\, Descript Creat
- or\, Transistor Pro\, Calendly Standard). (2) In Riverside\, enable 'Exp
- ort to Descript' (email Riverside support now if the button is missing).
-  (3) Connect the YouTube channel inside Transistor (document the manual-
- upload fallback if it won't connect). (4) Publish a 60-second TRAILER no
- w and submit the RSS feed to Apple Podcasts Connect + Spotify for Creato
- rs\, so directory review (days\, sometimes weeks) clears well before lau
- nch. (5) Run one private/unlisted end-to-end test episode: Transistor ->
-  confirm Apple/Spotify ingest + YouTube auto-post actually fire. (6) Bui
- ld the Calendly 'Recording' event (75 min\, 15-min buffers\, Riverside l
- ink as location\, 3 intake questions)\; confirm the invite carries the l
- ink and the prep doc resolves view-only. (7) Write the guest prep one-pa
- ger (Google Doc\, view-only). (8) Set up the shared master-asset cloud f
- older (Drive/Dropbox)\, one folder per episode. (9) Add both Rich and Ca
- rla as admins on each account where allowed\; record logins in a credent
- ials note. (10) Confirm editor lanes: Rich owns the cut/multicam/export\
- ; Carla owns clip selection + caption QA + guest-clip send. DONE WHEN: A
- ccounts live + both admins\; trailer published and feeds submitted for e
- arly review\; private end-to-end publish proven\; YouTube connected\; Ca
- lendly + prep doc verified\; shared asset folder ready.. YOUR TASK: We a
- re at STEP 6: Day-1 software setup. Give me an ordered runbook with the 
- exact click-path for each task\, the trailer + private-test-episode proc
- edure\, the precise Calendly 'Recording' fields\, and the full text of t
- he guest prep one-pager (include a one-line audio+video reuse consent).\
- n\nFULL PROJECT SPEC (optional\, for deep context): https://raw.githubus
- ercontent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.
- md
+ w and submit the RSS feed to Apple Podcasts Connect and Spotify for Crea
+ tors (Apple's and Spotify's podcast submission sites)\, so directory rev
+ iew (days\, sometimes weeks) clears well before launch.\n- Run one priva
+ te/unlisted end-to-end test episode: Transistor -> confirm Apple/Spotify
+  ingest + YouTube auto-post actually fire.\n- Build the Calendly 'Record
+ ing' event (75 min\, 15-min buffers\, Riverside link as location\, 3 int
+ ake questions)\; confirm the invite carries the link and the prep doc re
+ solves view-only.\n- Write the guest prep one-pager (Google Doc\, view-o
+ nly).\n- Set up the shared master-asset cloud folder (Drive/Dropbox)\, o
+ ne folder per episode.\n- Add both Rich and Carla as admins on each acco
+ unt where allowed\; record logins in a credentials note.\n- Confirm edit
+ or lanes: Rich owns the cut/multicam/export\; Carla owns clip selection 
+ + caption QA + guest-clip send.\n\nRIGHT LOOKS LIKE\n- Accounts live + b
+ oth admins\; trailer published and feeds submitted for early review\; pr
+ ivate end-to-end publish proven\; YouTube connected\; Calendly + prep do
+ c verified\; shared asset folder ready.\n\nHOW-TO GUIDES (plain language
+ \, jargon decoded\, each with a chatbot prompt)\n- Day-1 setup\, step by
+  step: https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-t
+ o/day1-setup.md\n- All guides: https://github.com/rwsmith96/mechanisms-i
+ n-motion/blob/main/how-to/README.md\n\nASSISTANT PROMPT (paste into Clau
+ de or ChatGPT for step-by-step help)\nYou are helping run Mechanisms in 
+ Motion\, the AES podcast: a remote\, two-host video interview show that 
+ turns Amazon's internal operating mechanisms into playbooks any company 
+ can use (tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns lo
+ gistics\; Carla owns the guest slate. Today's step: One-time account set
+ up. Do it once\, never touch again. WHAT TO DO: (1) Create the 4 account
+ s on annual billing (Riverside Pro\, Descript Creator\, Transistor Pro\,
+  Calendly Standard). (2) In Riverside\, enable 'Export to Descript' (ema
+ il Riverside support now if the button is missing). (3) Connect the YouT
+ ube channel inside Transistor (document the manual-upload fallback if it
+  won't connect). (4) Publish a 60-second TRAILER now and submit the RSS 
+ feed to Apple Podcasts Connect and Spotify for Creators (Apple's and Spo
+ tify's podcast submission sites)\, so directory review (days\, sometimes
+  weeks) clears well before launch. (5) Run one private/unlisted end-to-e
+ nd test episode: Transistor -> confirm Apple/Spotify ingest + YouTube au
+ to-post actually fire. (6) Build the Calendly 'Recording' event (75 min\
+ , 15-min buffers\, Riverside link as location\, 3 intake questions)\; co
+ nfirm the invite carries the link and the prep doc resolves view-only. (
+ 7) Write the guest prep one-pager (Google Doc\, view-only). (8) Set up t
+ he shared master-asset cloud folder (Drive/Dropbox)\, one folder per epi
+ sode. (9) Add both Rich and Carla as admins on each account where allowe
+ d\; record logins in a credentials note. (10) Confirm editor lanes: Rich
+  owns the cut/multicam/export\; Carla owns clip selection + caption QA +
+  guest-clip send. DONE WHEN: Accounts live + both admins\; trailer publi
+ shed and feeds submitted for early review\; private end-to-end publish p
+ roven\; YouTube connected\; Calendly + prep doc verified\; shared asset 
+ folder ready.. YOUR TASK: We are at STEP 6: Day-1 software setup. Give m
+ e an ordered runbook with the exact click-path for each task\, the trail
+ er + private-test-episode procedure\, the precise Calendly 'Recording' f
+ ields\, and the full text of the guest prep one-pager (include a one-lin
+ e audio+video reuse consent).\n\nFULL PROJECT SPEC (optional\, for deep 
+ context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
+ on/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
