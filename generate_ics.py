@@ -23,6 +23,7 @@ DTSTAMP = "20260603T160000Z"  # fixed so re-runs are reproducible
 # to a shared URL (so Carla's web assistant can fetch it too), then re-run to refresh every prompt.
 SPEC_REF = "https://raw.githubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md"
 HOWTO = "https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/"  # plain-language guides
+REPO_URL = "https://github.com/rwsmith96/mechanisms-in-motion"  # canonical project repo
 
 # Self-contained preamble: works pasted into ANY assistant (Claude.ai, ChatGPT, Claude Code),
 # with no repo or file access required. build_desc embeds the DO + done INTO the prompt so it
@@ -76,11 +77,17 @@ def build_desc(lead, do, buy, done, prompt, guides=None):
     parts.append("")
     parts.append("ASSISTANT PROMPT (paste into Claude or ChatGPT for step-by-step help)")
     do_txt = " ".join(f"({i + 1}) {x}" for i, x in enumerate(do))
-    done_txt = "; ".join(done)
-    parts.append(f"{PROMPT_HEAD}Today's step: {lead} WHAT TO DO: {do_txt} DONE WHEN: {done_txt}. "
-                 f"YOUR TASK: {prompt}")
+    done_txt = "; ".join(done).rstrip(".")
+    refs = (f"First, if you can open links, read the project spec for full, current context: {SPEC_REF} "
+            f"and the project repo: {REPO_URL} .")
+    if guides:
+        guide_urls = "; ".join(g.split(": ", 1)[-1] for g in guides)
+        refs += f" The relevant how-to guide(s): {guide_urls} ."
+    refs += (" If you cannot open links, the brief below is self-contained; use it. ")
+    parts.append(f"{PROMPT_HEAD}{refs}Today's step: {lead} WHAT TO DO: {do_txt} "
+                 f"DONE WHEN: {done_txt}. YOUR TASK: {prompt}")
     parts.append("")
-    parts.append(f"FULL PROJECT SPEC (optional, for deep context): {SPEC_REF}")
+    parts.append(f"FULL PROJECT (all files + guides): {REPO_URL}")
     return "\n".join(parts)
 
 
