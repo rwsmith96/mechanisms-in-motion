@@ -30,22 +30,30 @@ DTEND;VALUE=DATE:20260606
 SUMMARY:MiM DUE: Lock the stack + Aug/Sept recording dates with Carla
 DESCRIPTION:The gate that starts everything. Confirm the build with Carla
   and lock the dates.\n\nDO\n- Walk Carla through the six-pager (mim-podc
- ast-roadmap.pdf).\n- Confirm the four-tool stack and the ~$1\,700 two-ki
- t hardware spend.\n- Lock the eight Tue/Thu recording slots on both cale
- ndars.\n- Confirm the split: Rich = logistics\, Carla = guest slate.\n\n
- RIGHT LOOKS LIKE\n- Stack approved\; 8 slots on both calendars\; guest-s
- late ownership confirmed with Carla.\n\nHOW-TO GUIDES (plain language\, 
- jargon decoded\, each with a chatbot prompt)\n- Import this calendar int
- o your own: https://github.com/rwsmith96/mechanisms-in-motion/blob/main/
- how-to/import-calendar.md\n- All guides: https://github.com/rwsmith96/me
- chanisms-in-motion/blob/main/how-to/README.md\n\nASSISTANT PROMPT (paste
-  into Claude or ChatGPT for step-by-step help)\nYou are helping run Mech
- anisms in Motion\, the AES podcast: a remote\, two-host video interview 
- show that turns Amazon's internal operating mechanisms into playbooks an
- y company can use (tagline 'Day 1 Energy for Every Stage of Growth'). Ri
- ch owns logistics\; Carla owns the guest slate. The DO list and RIGHT LO
- OKS LIKE in this calendar event (above) are your brief for this step. Us
- e them. Then do this: We are at STEP 1: lock the stack and dates. Draft 
+ ast-roadmap.pdf).\n- Confirm the four-tool stack (Riverside for recordin
+ g\, Descript for editing\, Transistor for publishing\, Calendly for gues
+ t booking) and the ~$1\,700 two-kit hardware spend.\n- Lock the eight Tu
+ e/Thu recording slots on both calendars.\n- Confirm the split: Rich = lo
+ gistics\, Carla = guest slate.\n\nRIGHT LOOKS LIKE\n- Stack approved\; 8
+  slots on both calendars\; guest-slate ownership confirmed with Carla.\n
+ \nHOW-TO GUIDES (plain language\, jargon decoded\, each with a chatbot p
+ rompt)\n- Import this calendar into your own: https://github.com/rwsmith
+ 96/mechanisms-in-motion/blob/main/how-to/import-calendar.md\n- All guide
+ s: https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/RE
+ ADME.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT for step-by-st
+ ep help)\nYou are helping run Mechanisms in Motion\, the AES podcast: a 
+ remote\, two-host video interview show that turns Amazon's internal oper
+ ating mechanisms into playbooks any company can use (tagline 'Day 1 Ener
+ gy for Every Stage of Growth'). Rich owns logistics\; Carla owns the gue
+ st slate. Today's step: The gate that starts everything. Confirm the bui
+ ld with Carla and lock the dates. WHAT TO DO: (1) Walk Carla through the
+  six-pager (mim-podcast-roadmap.pdf). (2) Confirm the four-tool stack (R
+ iverside for recording\, Descript for editing\, Transistor for publishin
+ g\, Calendly for guest booking) and the ~$1\,700 two-kit hardware spend.
+  (3) Lock the eight Tue/Thu recording slots on both calendars. (4) Confi
+ rm the split: Rich = logistics\, Carla = guest slate. DONE WHEN: Stack a
+ pproved\; 8 slots on both calendars\; guest-slate ownership confirmed wi
+ th Carla.. YOUR TASK: We are at STEP 1: lock the stack and dates. Draft 
  a 5-line confirmation message to Carla in Rich's voice summarizing the s
  tack\, the cost\, the Aug/Sept recording dates\, and the logistics/guest
  -slate split.\n\nFULL PROJECT SPEC (optional\, for deep context): https:
@@ -77,13 +85,17 @@ DESCRIPTION:Carla's first deliverable: seed the guest slate.\n\nDO\n- Nam
  mote\, two-host video interview show that turns Amazon's internal operat
  ing mechanisms into playbooks any company can use (tagline 'Day 1 Energy
   for Every Stage of Growth'). Rich owns logistics\; Carla owns the guest
-  slate. The DO list and RIGHT LOOKS LIKE in this calendar event (above) 
- are your brief for this step. Use them. Then do this: We are at STEP 2: 
- guest-slate kickoff (Carla owns). Draft a warm\, peer-to-peer guest-invi
- te template (subject + 6-8 lines): the show in one line\, the ask (75-mi
- n remote video)\, and a placeholder for the Calendly link.\n\nFULL PROJE
- CT SPEC (optional\, for deep context): https://raw.githubusercontent.com
- /rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
+  slate. Today's step: Carla's first deliverable: seed the guest slate. W
+ HAT TO DO: (1) Name the first 4 guests for the launch block and their or
+ der. (2) Send warm invites with the Calendly booking link for the Aug 25
+ + slots. (3) Aim for a full 6-8 slate by early July. DONE WHEN: 4 names 
+ chosen\; 4 warm invites sent\; a 6-8 guest slate forming.. YOUR TASK: We
+  are at STEP 2: guest-slate kickoff (Carla owns). Draft a warm\, peer-to
+ -peer guest-invite template (subject + 6-8 lines): the show in one line\
+ , the ask (75-min remote video)\, and a placeholder for the Calendly lin
+ k.\n\nFULL PROJECT SPEC (optional\, for deep context): https://raw.githu
+ busercontent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-conte
+ xt.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -118,14 +130,20 @@ DESCRIPTION:Order two identical kits (~$850 each) so they arrive together
   run Mechanisms in Motion\, the AES podcast: a remote\, two-host video i
  nterview show that turns Amazon's internal operating mechanisms into pla
  ybooks any company can use (tagline 'Day 1 Energy for Every Stage of Gro
- wth'). Rich owns logistics\; Carla owns the guest slate. The DO list and
-  RIGHT LOOKS LIKE in this calendar event (above) are your brief for this
-  step. Use them. Then do this: We are at STEP 3: order hardware. Confirm
-  the kit list and current prices/links\, flag any out-of-stock item with
-  the nearest equivalent\, and produce one ordered shopping list with dir
- ect buy links for both kits.\n\nFULL PROJECT SPEC (optional\, for deep c
- ontext): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-motio
- n/main/mim-assistant-context.md
+ wth'). Rich owns logistics\; Carla owns the guest slate. Today's step: O
+ rder two identical kits (~$850 each) so they arrive together and stay ma
+ tched. Pulled to Jul 1 from Jul 10 to absorb back-order risk on the long
+ -lead items. WHAT TO DO: (1) Order both kits in one pass\; add a spare X
+ LR cable. (2) Ship one to Rich (San Diego)\, one to Carla (Seattle area)
+ . (3) Target arrival before late July\; if any item is back-ordered\, su
+ b the nearest equivalent now. DONE WHEN: Two identical kits ordered\; ar
+ riving before late July\; no item silently back-ordered past Jul 25.. YO
+ UR TASK: We are at STEP 3: order hardware. Confirm the kit list and curr
+ ent prices/links\, flag any out-of-stock item with the nearest equivalen
+ t\, and produce one ordered shopping list with direct buy links for both
+  kits.\n\nFULL PROJECT SPEC (optional\, for deep context): https://raw.g
+ ithubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-c
+ ontext.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -144,23 +162,31 @@ DESCRIPTION:Hard go/no-go gate. The slate is the critical path\, so it ge
  ts a gate of its own.\n\nDO\n- Confirm at least 3 guests are BOOKED in C
  alendly (not just invited) for the sprint.\n- Carla curates names + warm
   intros\; Rich executes the outreach\, chasing\, and booking off the sha
- red list.\n- If short of 3\, hold the sprint start or plan to open with 
- hosts-only evergreens.\n\nRIGHT LOOKS LIKE\n- 3+ guests booked into real
-  Aug/Sept slots\; Rich has made the go/no-go call on the sprint.\n\nHOW-
- TO GUIDES (plain language\, jargon decoded\, each with a chatbot prompt)
- \n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/blob/m
- ain/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT f
- or step-by-step help)\nYou are helping run Mechanisms in Motion\, the AE
- S podcast: a remote\, two-host video interview show that turns Amazon's 
- internal operating mechanisms into playbooks any company can use (taglin
- e 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Carla
-  owns the guest slate. The DO list and RIGHT LOOKS LIKE in this calendar
-  event (above) are your brief for this step. Use them. Then do this: We 
- are at the GUEST GATE. Help me check we have 3+ guests booked\, draft ch
- ase notes to any invited-but-unbooked guests\, and decide go / no-go on 
- starting the Aug 25 sprint.\n\nFULL PROJECT SPEC (optional\, for deep co
- ntext): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-motion
- /main/mim-assistant-context.md
+ red list.\n- If short of 3\, text Rich\; he makes the call on whether to
+  push the first recording date or to open with a hosts-only evergreen (a
+  guest-free episode recorded in advance as a safety net).\n\nRIGHT LOOKS
+  LIKE\n- 3+ guests booked into real Aug/Sept slots\; Rich has made the g
+ o/no-go call on the sprint.\n\nHOW-TO GUIDES (plain language\, jargon de
+ coded\, each with a chatbot prompt)\n- All guides: https://github.com/rw
+ smith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTANT PRO
+ MPT (paste into Claude or ChatGPT for step-by-step help)\nYou are helpin
+ g run Mechanisms in Motion\, the AES podcast: a remote\, two-host video 
+ interview show that turns Amazon's internal operating mechanisms into pl
+ aybooks any company can use (tagline 'Day 1 Energy for Every Stage of Gr
+ owth'). Rich owns logistics\; Carla owns the guest slate. Today's step: 
+ Hard go/no-go gate. The slate is the critical path\, so it gets a gate o
+ f its own. WHAT TO DO: (1) Confirm at least 3 guests are BOOKED in Calen
+ dly (not just invited) for the sprint. (2) Carla curates names + warm in
+ tros\; Rich executes the outreach\, chasing\, and booking off the shared
+  list. (3) If short of 3\, text Rich\; he makes the call on whether to p
+ ush the first recording date or to open with a hosts-only evergreen (a g
+ uest-free episode recorded in advance as a safety net). DONE WHEN: 3+ gu
+ ests booked into real Aug/Sept slots\; Rich has made the go/no-go call o
+ n the sprint.. YOUR TASK: We are at the GUEST GATE. Help me check we hav
+ e 3+ guests booked\, draft chase notes to any invited-but-unbooked guest
+ s\, and decide go / no-go on starting the Aug 25 sprint.\n\nFULL PROJECT
+  SPEC (optional\, for deep context): https://raw.githubusercontent.com/r
+ wsmith96/mechanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -189,14 +215,18 @@ DESCRIPTION:Build and bench-test both kits before the test run.\n\nDO\n-
   AES podcast: a remote\, two-host video interview show that turns Amazon
  's internal operating mechanisms into playbooks any company can use (tag
  line 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Ca
- rla owns the guest slate. The DO list and RIGHT LOOKS LIKE in this calen
- dar event (above) are your brief for this step. Use them. Then do this: 
- We are at STEP 4: assemble + bench-test the kits. Give me a 10-minute se
- tup checklist for the MV7+ (USB-C mode + Motiv settings)\, the MX Brio\,
-  Key Light Neo placement (45 degrees\, slightly above eye level)\, and a
-  30-second test-recording to confirm each kit.\n\nFULL PROJECT SPEC (opt
- ional\, for deep context): https://raw.githubusercontent.com/rwsmith96/m
- echanisms-in-motion/main/mim-assistant-context.md
+ rla owns the guest slate. Today's step: Build and bench-test both kits b
+ efore the test run. WHAT TO DO: (1) Assemble both kits\; mount the MV7+ 
+ on the PSA1+ arm. (2) Install the Shure Motiv app\; set Auto Level on\, 
+ light denoise\, reverb OFF. (3) Confirm mic\, webcam\, light\, and headp
+ hones work on each machine. DONE WHEN: Both kits built and bench-tested\
+ ; Motiv settings applied on each machine.. YOUR TASK: We are at STEP 4: 
+ assemble + bench-test the kits. Give me a 10-minute setup checklist for 
+ the MV7+ (USB-C mode + Motiv settings)\, the MX Brio\, Key Light Neo pla
+ cement (45 degrees\, slightly above eye level)\, and a 30-second test-re
+ cording to confirm each kit.\n\nFULL PROJECT SPEC (optional\, for deep c
+ ontext): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-motio
+ n/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -226,15 +256,19 @@ DESCRIPTION:Build Descript muscle memory before the test run.\n\nDO\n- Ru
  n Motion\, the AES podcast: a remote\, two-host video interview show tha
  t turns Amazon's internal operating mechanisms into playbooks any compan
  y can use (tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns 
- logistics\; Carla owns the guest slate. The DO list and RIGHT LOOKS LIKE
-  in this calendar event (above) are your brief for this step. Use them. 
- Then do this: We are at STEP 5: learn Descript. Walk me\, in order\, thr
- ough one full mock edit of a 5-minute multitrack remote interview with t
- he exact spec settings (Studio Sound 60-80%\, filler removal\, Automatic
-  Multicam\, captions\, one 9:16 clip\, export -14 LUFS / -1.0 dBTP at 10
- 80p/30fps). Flag the top 3 beginner mistakes as we go.\n\nFULL PROJECT S
- PEC (optional\, for deep context): https://raw.githubusercontent.com/rws
- mith96/mechanisms-in-motion/main/mim-assistant-context.md
+ logistics\; Carla owns the guest slate. Today's step: Build Descript mus
+ cle memory before the test run. WHAT TO DO: (1) Run one full mock edit e
+ nd to end on throwaway footage. (2) Import multitrack\, Studio Sound 60-
+ 80%\, filler removal\, Automatic Multicam\, captions\, one vertical clip
+ \, export to spec. DONE WHEN: One full mock edit done\; export reads -14
+  LUFS / -1.0 dBTP at 1080p/30fps.. YOUR TASK: We are at STEP 5: learn De
+ script. Walk me\, in order\, through one full mock edit of a 5-minute mu
+ ltitrack remote interview with the exact spec settings (Studio Sound 60-
+ 80%\, filler removal\, Automatic Multicam\, captions\, one 9:16 clip\, e
+ xport -14 LUFS / -1.0 dBTP at 1080p/30fps). Flag the top 3 beginner mist
+ akes as we go.\n\nFULL PROJECT SPEC (optional\, for deep context): https
+ ://raw.githubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-ass
+ istant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -278,15 +312,35 @@ DESCRIPTION:One-time account setup. Do it once\, never touch again.\n\nDO
  ng run Mechanisms in Motion\, the AES podcast: a remote\, two-host video
   interview show that turns Amazon's internal operating mechanisms into p
  laybooks any company can use (tagline 'Day 1 Energy for Every Stage of G
- rowth'). Rich owns logistics\; Carla owns the guest slate. The DO list a
- nd RIGHT LOOKS LIKE in this calendar event (above) are your brief for th
- is step. Use them. Then do this: We are at STEP 6: Day-1 software setup.
-  Give me an ordered runbook with the exact click-path for each task\, th
- e trailer + private-test-episode procedure\, the precise Calendly 'Recor
- ding' fields\, and the full text of the guest prep one-pager (include a 
- one-line audio+video reuse consent).\n\nFULL PROJECT SPEC (optional\, fo
- r deep context): https://raw.githubusercontent.com/rwsmith96/mechanisms-
- in-motion/main/mim-assistant-context.md
+ rowth'). Rich owns logistics\; Carla owns the guest slate. Today's step:
+  One-time account setup. Do it once\, never touch again. WHAT TO DO: (1)
+  Create the 4 accounts on annual billing (Riverside Pro\, Descript Creat
+ or\, Transistor Pro\, Calendly Standard). (2) In Riverside\, enable 'Exp
+ ort to Descript' (email Riverside support now if the button is missing).
+  (3) Connect the YouTube channel inside Transistor (document the manual-
+ upload fallback if it won't connect). (4) Publish a 60-second TRAILER no
+ w and submit the RSS feed to Apple Podcasts Connect + Spotify for Creato
+ rs\, so directory review (days\, sometimes weeks) clears well before lau
+ nch. (5) Run one private/unlisted end-to-end test episode: Transistor ->
+  confirm Apple/Spotify ingest + YouTube auto-post actually fire. (6) Bui
+ ld the Calendly 'Recording' event (75 min\, 15-min buffers\, Riverside l
+ ink as location\, 3 intake questions)\; confirm the invite carries the l
+ ink and the prep doc resolves view-only. (7) Write the guest prep one-pa
+ ger (Google Doc\, view-only). (8) Set up the shared master-asset cloud f
+ older (Drive/Dropbox)\, one folder per episode. (9) Add both Rich and Ca
+ rla as admins on each account where allowed\; record logins in a credent
+ ials note. (10) Confirm editor lanes: Rich owns the cut/multicam/export\
+ ; Carla owns clip selection + caption QA + guest-clip send. DONE WHEN: A
+ ccounts live + both admins\; trailer published and feeds submitted for e
+ arly review\; private end-to-end publish proven\; YouTube connected\; Ca
+ lendly + prep doc verified\; shared asset folder ready.. YOUR TASK: We a
+ re at STEP 6: Day-1 software setup. Give me an ordered runbook with the 
+ exact click-path for each task\, the trailer + private-test-episode proc
+ edure\, the precise Calendly 'Recording' fields\, and the full text of t
+ he guest prep one-pager (include a one-line audio+video reuse consent).\
+ n\nFULL PROJECT SPEC (optional\, for deep context): https://raw.githubus
+ ercontent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.
+ md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -308,31 +362,44 @@ DESCRIPTION:Prove the whole chain AND rehearse the real failure modes bef
  + Carla + a stand-in on a RANDOM laptop with a default webcam (rehearse 
  the degraded guest\, not the happy path).\n- Mid-record\, have the stand
  -in close the tab and rejoin\; confirm their local track survived.\n- Co
- nfirm every participant's tracks upload to 100%\; rehearse the transcode
- -to-CFR step on the guest track.\n- Export to Descript\; confirm each pe
- rson lands as a SEPARATE track\; verify lip-sync at the END of the take.
- \n- Confirm 30fps everywhere\; export reads -14 LUFS / -1.0 dBTP.\n\nRIG
- HT LOOKS LIKE\n- Chain proven AND a disconnect/rejoin + degraded-guest +
-  CFR-transcode rehearsed. Lip-sync clean at the end.\n\nHOW-TO GUIDES (p
- lain language\, jargon decoded\, each with a chatbot prompt)\n- Recordin
- g in Riverside: https://github.com/rwsmith96/mechanisms-in-motion/blob/m
- ain/how-to/riverside-record.md\n- Editing + export numbers: https://gith
- ub.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/descript-edit.md\
- n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/blob/ma
- in/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT fo
- r step-by-step help)\nYou are helping run Mechanisms in Motion\, the AES
-  podcast: a remote\, two-host video interview show that turns Amazon's i
- nternal operating mechanisms into playbooks any company can use (tagline
-  'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Carla 
- owns the guest slate. The DO list and RIGHT LOOKS LIKE in this calendar 
- event (above) are your brief for this step. Use them. Then do this: We a
- re at STEP 7: full test run. Give me a 10-minute test-run script that de
- liberately rehearses a degraded guest\, a mid-record disconnect/rejoin\,
-  and the transcode-to-CFR fix\, plus a pass/fail checklist for the chain
-  (100% upload\, separate-track export\, end-of-take lip-sync\, -14 LUFS 
- / -1.0 dBTP\, 30fps)\, and exactly what to do if any check fails.\n\nFUL
- L PROJECT SPEC (optional\, for deep context): https://raw.githubusercont
- ent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
+ nfirm every participant's tracks upload to 100%\; rehearse the fix for a
+  guest whose camera recorded at an odd frame rate (converting it to a st
+ eady 30fps\, called CFR / constant frame rate\; the descript-edit guide 
+ has the one-click fix).\n- Export to Descript\; confirm each person land
+ s as a SEPARATE track\; verify lip-sync at the END of the take.\n- Confi
+ rm 30fps everywhere\; export reads -14 LUFS / -1.0 dBTP.\n\nRIGHT LOOKS 
+ LIKE\n- Chain proven AND a disconnect/rejoin + degraded-guest + CFR-tran
+ scode rehearsed. Lip-sync clean at the end.\n\nHOW-TO GUIDES (plain lang
+ uage\, jargon decoded\, each with a chatbot prompt)\n- Recording in Rive
+ rside: https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-t
+ o/riverside-record.md\n- Editing + export numbers: https://github.com/rw
+ smith96/mechanisms-in-motion/blob/main/how-to/descript-edit.md\n- All gu
+ ides: https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to
+ /README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT for step-by
+ -step help)\nYou are helping run Mechanisms in Motion\, the AES podcast:
+  a remote\, two-host video interview show that turns Amazon's internal o
+ perating mechanisms into playbooks any company can use (tagline 'Day 1 E
+ nergy for Every Stage of Growth'). Rich owns logistics\; Carla owns the 
+ guest slate. Today's step: Prove the whole chain AND rehearse the real f
+ ailure modes before the first marquee guest. Costs nothing to break here
+ . WHAT TO DO: (1) Rich + Carla + a stand-in on a RANDOM laptop with a de
+ fault webcam (rehearse the degraded guest\, not the happy path). (2) Mid
+ -record\, have the stand-in close the tab and rejoin\; confirm their loc
+ al track survived. (3) Confirm every participant's tracks upload to 100%
+ \; rehearse the fix for a guest whose camera recorded at an odd frame ra
+ te (converting it to a steady 30fps\, called CFR / constant frame rate\;
+  the descript-edit guide has the one-click fix). (4) Export to Descript\
+ ; confirm each person lands as a SEPARATE track\; verify lip-sync at the
+  END of the take. (5) Confirm 30fps everywhere\; export reads -14 LUFS /
+  -1.0 dBTP. DONE WHEN: Chain proven AND a disconnect/rejoin + degraded-g
+ uest + CFR-transcode rehearsed. Lip-sync clean at the end.. YOUR TASK: W
+ e are at STEP 7: full test run. Give me a 10-minute test-run script that
+  deliberately rehearses a degraded guest\, a mid-record disconnect/rejoi
+ n\, and the transcode-to-CFR fix\, plus a pass/fail checklist for the ch
+ ain (100% upload\, separate-track export\, end-of-take lip-sync\, -14 LU
+ FS / -1.0 dBTP\, 30fps)\, and exactly what to do if any check fails.\n\n
+ FULL PROJECT SPEC (optional\, for deep context): https://raw.githubuserc
+ ontent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -357,44 +424,67 @@ LOCATION:Riverside studio link (paste the persistent studio URL here once
 DESCRIPTION:Mechanisms in Motion\, Episode 01. 105-min block: 15 setup + 
  75 record + 15 buffer. The guest's local track is the one irreplaceable 
  asset\; protect it (upload marshal + archive below).\n\nDO\n- T-minus 5 
- min\, BEFORE the guest joins: both hosts confirm MV7+ selected\, 'separa
- te tracks / local recording' ON\, and QuickTime backup rolling. If any i
- s unconfirmed\, fix it before admitting the guest.\n- Headphones on for 
- everyone (kills echo).\n- Hit Record\; say the slate ('Episode N\, take 
- 1')\; pause 3 seconds silent for sync.\n- Record ~60 min of conversation
- . If a guest's audio is rough\, ask them live to move closer\, turn off 
- fans/AC\, and put on headphones.\n- UPLOAD MARSHAL: one host's only end-
+ min\, BEFORE the guest joins: both hosts confirm the MV7+ is chosen as t
+ he microphone in Riverside's settings (a software pick\, not just pluggi
+ ng it in)\, 'separate tracks / local recording' is ON (in Riverside's St
+ udio settings\; it saves each person's audio to their own computer as in
+ surance)\, and the QuickTime backup is rolling. Fix any before admitting
+  the guest.\n- Headphones on for everyone (kills echo).\n- Hit Record\; 
+ say the slate ('Episode N\, take 1')\; pause 3 seconds silent for sync.\
+ n- Record ~60 min of conversation. If a guest's audio is rough\, ask the
+ m live to move closer\, turn off fans/AC\, and put on headphones.\n- UPL
+ OAD MARSHAL: one host's only end-of-session job is to watch EVERY track 
+ (including the GUEST's) to 100% in the Riverside dashboard. The other ho
+ st handles the goodbye. The guest is NOT released until the marshal call
+ s 'clear.'\n- If a track is missing or stalls\, do NOT end the call: kee
+ p the guest on while it re-uploads\; if it can't\, rebook on the spot wh
+ ile you have them.\n- Archive immediately: both QuickTime backups + the 
+ Riverside download go to the shared cloud folder 'MiM-EpNN-Guest-YYYY-MM
+ -DD/' before any editing.\n\nRIGHT LOOKS LIKE\n- Clean separate local tr
+ acks captured\; slate + 3-sec sync pause\; GUEST track confirmed 100% be
+ fore release\; Ep01 archived to the shared cloud folder\; edit started w
+ ithin 48 hours.\n\nHOW-TO GUIDES (plain language\, jargon decoded\, each
+  with a chatbot prompt)\n- Recording run-of-show: https://github.com/rws
+ mith96/mechanisms-in-motion/blob/main/how-to/riverside-record.md\n- Your
+  free local backup: https://github.com/rwsmith96/mechanisms-in-motion/bl
+ ob/main/how-to/quicktime-audio-backup.md\n- Editing afterward: https://g
+ ithub.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/descript-edit.
+ md\n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/blob
+ /main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT
+  for step-by-step help)\nYou are helping run Mechanisms in Motion\, the 
+ AES podcast: a remote\, two-host video interview show that turns Amazon'
+ s internal operating mechanisms into playbooks any company can use (tagl
+ ine 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Car
+ la owns the guest slate. Today's step: Mechanisms in Motion\, Episode 01
+ . 105-min block: 15 setup + 75 record + 15 buffer. The guest's local tra
+ ck is the one irreplaceable asset\; protect it (upload marshal + archive
+  below). WHAT TO DO: (1) T-minus 5 min\, BEFORE the guest joins: both ho
+ sts confirm the MV7+ is chosen as the microphone in Riverside's settings
+  (a software pick\, not just plugging it in)\, 'separate tracks / local 
+ recording' is ON (in Riverside's Studio settings\; it saves each person'
+ s audio to their own computer as insurance)\, and the QuickTime backup i
+ s rolling. Fix any before admitting the guest. (2) Headphones on for eve
+ ryone (kills echo). (3) Hit Record\; say the slate ('Episode N\, take 1'
+ )\; pause 3 seconds silent for sync. (4) Record ~60 min of conversation.
+  If a guest's audio is rough\, ask them live to move closer\, turn off f
+ ans/AC\, and put on headphones. (5) UPLOAD MARSHAL: one host's only end-
  of-session job is to watch EVERY track (including the GUEST's) to 100% i
  n the Riverside dashboard. The other host handles the goodbye. The guest
-  is NOT released until the marshal calls 'clear.'\n- If a track is missi
- ng or stalls\, do NOT end the call: keep the guest on while it re-upload
- s\; if it can't\, rebook on the spot while you have them.\n- Archive imm
- ediately: both QuickTime backups + the Riverside download go to the shar
- ed cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing.\n\nRIGH
- T LOOKS LIKE\n- Clean separate local tracks captured\; slate + 3-sec syn
- c pause\; GUEST track confirmed 100% before release\; Ep01 archived to t
- he shared cloud folder\; edit started within 48 hours.\n\nHOW-TO GUIDES 
- (plain language\, jargon decoded\, each with a chatbot prompt)\n- Record
- ing run-of-show: https://github.com/rwsmith96/mechanisms-in-motion/blob/
- main/how-to/riverside-record.md\n- Your free local backup: https://githu
- b.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-ba
- ckup.md\n- Editing afterward: https://github.com/rwsmith96/mechanisms-in
- -motion/blob/main/how-to/descript-edit.md\n- All guides: https://github.
- com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTA
- NT PROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are 
- helping run Mechanisms in Motion\, the AES podcast: a remote\, two-host 
- video interview show that turns Amazon's internal operating mechanisms i
- nto playbooks any company can use (tagline 'Day 1 Energy for Every Stage
-  of Growth'). Rich owns logistics\; Carla owns the guest slate. The DO l
- ist and RIGHT LOOKS LIKE in this calendar event (above) are your brief f
- or this step. Use them. Then do this: We are recording Episode 01 today.
-  Before we start\, quiz me on the record-day non-negotiables (T-minus mi
- c/local-recording/QuickTime check\, headphones\, slate + sync pause\, up
- load marshal confirms the GUEST track to 100% before release\, archive t
- o the shared folder). After the session\, remind me to archive and to st
- art the edit within 48 hours.\n\nFULL PROJECT SPEC (optional\, for deep 
- context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
- on/main/mim-assistant-context.md
+  is NOT released until the marshal calls 'clear.' (6) If a track is miss
+ ing or stalls\, do NOT end the call: keep the guest on while it re-uploa
+ ds\; if it can't\, rebook on the spot while you have them. (7) Archive i
+ mmediately: both QuickTime backups + the Riverside download go to the sh
+ ared cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing. DONE 
+ WHEN: Clean separate local tracks captured\; slate + 3-sec sync pause\; 
+ GUEST track confirmed 100% before release\; Ep01 archived to the shared 
+ cloud folder\; edit started within 48 hours.. YOUR TASK: We are recordin
+ g Episode 01 today. Before we start\, quiz me on the record-day non-nego
+ tiables (T-minus mic/local-recording/QuickTime check\, headphones\, slat
+ e + sync pause\, upload marshal confirms the GUEST track to 100% before 
+ release\, archive to the shared folder). After the session\, remind me t
+ o archive and to start the edit within 48 hours.\n\nFULL PROJECT SPEC (o
+ ptional\, for deep context): https://raw.githubusercontent.com/rwsmith96
+ /mechanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -419,44 +509,67 @@ LOCATION:Riverside studio link (paste the persistent studio URL here once
 DESCRIPTION:Mechanisms in Motion\, Episode 02. 105-min block: 15 setup + 
  75 record + 15 buffer. The guest's local track is the one irreplaceable 
  asset\; protect it (upload marshal + archive below).\n\nDO\n- T-minus 5 
- min\, BEFORE the guest joins: both hosts confirm MV7+ selected\, 'separa
- te tracks / local recording' ON\, and QuickTime backup rolling. If any i
- s unconfirmed\, fix it before admitting the guest.\n- Headphones on for 
- everyone (kills echo).\n- Hit Record\; say the slate ('Episode N\, take 
- 1')\; pause 3 seconds silent for sync.\n- Record ~60 min of conversation
- . If a guest's audio is rough\, ask them live to move closer\, turn off 
- fans/AC\, and put on headphones.\n- UPLOAD MARSHAL: one host's only end-
+ min\, BEFORE the guest joins: both hosts confirm the MV7+ is chosen as t
+ he microphone in Riverside's settings (a software pick\, not just pluggi
+ ng it in)\, 'separate tracks / local recording' is ON (in Riverside's St
+ udio settings\; it saves each person's audio to their own computer as in
+ surance)\, and the QuickTime backup is rolling. Fix any before admitting
+  the guest.\n- Headphones on for everyone (kills echo).\n- Hit Record\; 
+ say the slate ('Episode N\, take 1')\; pause 3 seconds silent for sync.\
+ n- Record ~60 min of conversation. If a guest's audio is rough\, ask the
+ m live to move closer\, turn off fans/AC\, and put on headphones.\n- UPL
+ OAD MARSHAL: one host's only end-of-session job is to watch EVERY track 
+ (including the GUEST's) to 100% in the Riverside dashboard. The other ho
+ st handles the goodbye. The guest is NOT released until the marshal call
+ s 'clear.'\n- If a track is missing or stalls\, do NOT end the call: kee
+ p the guest on while it re-uploads\; if it can't\, rebook on the spot wh
+ ile you have them.\n- Archive immediately: both QuickTime backups + the 
+ Riverside download go to the shared cloud folder 'MiM-EpNN-Guest-YYYY-MM
+ -DD/' before any editing.\n\nRIGHT LOOKS LIKE\n- Clean separate local tr
+ acks captured\; slate + 3-sec sync pause\; GUEST track confirmed 100% be
+ fore release\; Ep02 archived to the shared cloud folder\; edit started w
+ ithin 48 hours.\n\nHOW-TO GUIDES (plain language\, jargon decoded\, each
+  with a chatbot prompt)\n- Recording run-of-show: https://github.com/rws
+ mith96/mechanisms-in-motion/blob/main/how-to/riverside-record.md\n- Your
+  free local backup: https://github.com/rwsmith96/mechanisms-in-motion/bl
+ ob/main/how-to/quicktime-audio-backup.md\n- Editing afterward: https://g
+ ithub.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/descript-edit.
+ md\n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/blob
+ /main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT
+  for step-by-step help)\nYou are helping run Mechanisms in Motion\, the 
+ AES podcast: a remote\, two-host video interview show that turns Amazon'
+ s internal operating mechanisms into playbooks any company can use (tagl
+ ine 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Car
+ la owns the guest slate. Today's step: Mechanisms in Motion\, Episode 02
+ . 105-min block: 15 setup + 75 record + 15 buffer. The guest's local tra
+ ck is the one irreplaceable asset\; protect it (upload marshal + archive
+  below). WHAT TO DO: (1) T-minus 5 min\, BEFORE the guest joins: both ho
+ sts confirm the MV7+ is chosen as the microphone in Riverside's settings
+  (a software pick\, not just plugging it in)\, 'separate tracks / local 
+ recording' is ON (in Riverside's Studio settings\; it saves each person'
+ s audio to their own computer as insurance)\, and the QuickTime backup i
+ s rolling. Fix any before admitting the guest. (2) Headphones on for eve
+ ryone (kills echo). (3) Hit Record\; say the slate ('Episode N\, take 1'
+ )\; pause 3 seconds silent for sync. (4) Record ~60 min of conversation.
+  If a guest's audio is rough\, ask them live to move closer\, turn off f
+ ans/AC\, and put on headphones. (5) UPLOAD MARSHAL: one host's only end-
  of-session job is to watch EVERY track (including the GUEST's) to 100% i
  n the Riverside dashboard. The other host handles the goodbye. The guest
-  is NOT released until the marshal calls 'clear.'\n- If a track is missi
- ng or stalls\, do NOT end the call: keep the guest on while it re-upload
- s\; if it can't\, rebook on the spot while you have them.\n- Archive imm
- ediately: both QuickTime backups + the Riverside download go to the shar
- ed cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing.\n\nRIGH
- T LOOKS LIKE\n- Clean separate local tracks captured\; slate + 3-sec syn
- c pause\; GUEST track confirmed 100% before release\; Ep02 archived to t
- he shared cloud folder\; edit started within 48 hours.\n\nHOW-TO GUIDES 
- (plain language\, jargon decoded\, each with a chatbot prompt)\n- Record
- ing run-of-show: https://github.com/rwsmith96/mechanisms-in-motion/blob/
- main/how-to/riverside-record.md\n- Your free local backup: https://githu
- b.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-ba
- ckup.md\n- Editing afterward: https://github.com/rwsmith96/mechanisms-in
- -motion/blob/main/how-to/descript-edit.md\n- All guides: https://github.
- com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTA
- NT PROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are 
- helping run Mechanisms in Motion\, the AES podcast: a remote\, two-host 
- video interview show that turns Amazon's internal operating mechanisms i
- nto playbooks any company can use (tagline 'Day 1 Energy for Every Stage
-  of Growth'). Rich owns logistics\; Carla owns the guest slate. The DO l
- ist and RIGHT LOOKS LIKE in this calendar event (above) are your brief f
- or this step. Use them. Then do this: We are recording Episode 02 today.
-  Before we start\, quiz me on the record-day non-negotiables (T-minus mi
- c/local-recording/QuickTime check\, headphones\, slate + sync pause\, up
- load marshal confirms the GUEST track to 100% before release\, archive t
- o the shared folder). After the session\, remind me to archive and to st
- art the edit within 48 hours.\n\nFULL PROJECT SPEC (optional\, for deep 
- context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
- on/main/mim-assistant-context.md
+  is NOT released until the marshal calls 'clear.' (6) If a track is miss
+ ing or stalls\, do NOT end the call: keep the guest on while it re-uploa
+ ds\; if it can't\, rebook on the spot while you have them. (7) Archive i
+ mmediately: both QuickTime backups + the Riverside download go to the sh
+ ared cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing. DONE 
+ WHEN: Clean separate local tracks captured\; slate + 3-sec sync pause\; 
+ GUEST track confirmed 100% before release\; Ep02 archived to the shared 
+ cloud folder\; edit started within 48 hours.. YOUR TASK: We are recordin
+ g Episode 02 today. Before we start\, quiz me on the record-day non-nego
+ tiables (T-minus mic/local-recording/QuickTime check\, headphones\, slat
+ e + sync pause\, upload marshal confirms the GUEST track to 100% before 
+ release\, archive to the shared folder). After the session\, remind me t
+ o archive and to start the edit within 48 hours.\n\nFULL PROJECT SPEC (o
+ ptional\, for deep context): https://raw.githubusercontent.com/rwsmith96
+ /mechanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -481,44 +594,67 @@ LOCATION:Riverside studio link (paste the persistent studio URL here once
 DESCRIPTION:Mechanisms in Motion\, Episode 03. 105-min block: 15 setup + 
  75 record + 15 buffer. The guest's local track is the one irreplaceable 
  asset\; protect it (upload marshal + archive below).\n\nDO\n- T-minus 5 
- min\, BEFORE the guest joins: both hosts confirm MV7+ selected\, 'separa
- te tracks / local recording' ON\, and QuickTime backup rolling. If any i
- s unconfirmed\, fix it before admitting the guest.\n- Headphones on for 
- everyone (kills echo).\n- Hit Record\; say the slate ('Episode N\, take 
- 1')\; pause 3 seconds silent for sync.\n- Record ~60 min of conversation
- . If a guest's audio is rough\, ask them live to move closer\, turn off 
- fans/AC\, and put on headphones.\n- UPLOAD MARSHAL: one host's only end-
+ min\, BEFORE the guest joins: both hosts confirm the MV7+ is chosen as t
+ he microphone in Riverside's settings (a software pick\, not just pluggi
+ ng it in)\, 'separate tracks / local recording' is ON (in Riverside's St
+ udio settings\; it saves each person's audio to their own computer as in
+ surance)\, and the QuickTime backup is rolling. Fix any before admitting
+  the guest.\n- Headphones on for everyone (kills echo).\n- Hit Record\; 
+ say the slate ('Episode N\, take 1')\; pause 3 seconds silent for sync.\
+ n- Record ~60 min of conversation. If a guest's audio is rough\, ask the
+ m live to move closer\, turn off fans/AC\, and put on headphones.\n- UPL
+ OAD MARSHAL: one host's only end-of-session job is to watch EVERY track 
+ (including the GUEST's) to 100% in the Riverside dashboard. The other ho
+ st handles the goodbye. The guest is NOT released until the marshal call
+ s 'clear.'\n- If a track is missing or stalls\, do NOT end the call: kee
+ p the guest on while it re-uploads\; if it can't\, rebook on the spot wh
+ ile you have them.\n- Archive immediately: both QuickTime backups + the 
+ Riverside download go to the shared cloud folder 'MiM-EpNN-Guest-YYYY-MM
+ -DD/' before any editing.\n\nRIGHT LOOKS LIKE\n- Clean separate local tr
+ acks captured\; slate + 3-sec sync pause\; GUEST track confirmed 100% be
+ fore release\; Ep03 archived to the shared cloud folder\; edit started w
+ ithin 48 hours.\n\nHOW-TO GUIDES (plain language\, jargon decoded\, each
+  with a chatbot prompt)\n- Recording run-of-show: https://github.com/rws
+ mith96/mechanisms-in-motion/blob/main/how-to/riverside-record.md\n- Your
+  free local backup: https://github.com/rwsmith96/mechanisms-in-motion/bl
+ ob/main/how-to/quicktime-audio-backup.md\n- Editing afterward: https://g
+ ithub.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/descript-edit.
+ md\n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/blob
+ /main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT
+  for step-by-step help)\nYou are helping run Mechanisms in Motion\, the 
+ AES podcast: a remote\, two-host video interview show that turns Amazon'
+ s internal operating mechanisms into playbooks any company can use (tagl
+ ine 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Car
+ la owns the guest slate. Today's step: Mechanisms in Motion\, Episode 03
+ . 105-min block: 15 setup + 75 record + 15 buffer. The guest's local tra
+ ck is the one irreplaceable asset\; protect it (upload marshal + archive
+  below). WHAT TO DO: (1) T-minus 5 min\, BEFORE the guest joins: both ho
+ sts confirm the MV7+ is chosen as the microphone in Riverside's settings
+  (a software pick\, not just plugging it in)\, 'separate tracks / local 
+ recording' is ON (in Riverside's Studio settings\; it saves each person'
+ s audio to their own computer as insurance)\, and the QuickTime backup i
+ s rolling. Fix any before admitting the guest. (2) Headphones on for eve
+ ryone (kills echo). (3) Hit Record\; say the slate ('Episode N\, take 1'
+ )\; pause 3 seconds silent for sync. (4) Record ~60 min of conversation.
+  If a guest's audio is rough\, ask them live to move closer\, turn off f
+ ans/AC\, and put on headphones. (5) UPLOAD MARSHAL: one host's only end-
  of-session job is to watch EVERY track (including the GUEST's) to 100% i
  n the Riverside dashboard. The other host handles the goodbye. The guest
-  is NOT released until the marshal calls 'clear.'\n- If a track is missi
- ng or stalls\, do NOT end the call: keep the guest on while it re-upload
- s\; if it can't\, rebook on the spot while you have them.\n- Archive imm
- ediately: both QuickTime backups + the Riverside download go to the shar
- ed cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing.\n\nRIGH
- T LOOKS LIKE\n- Clean separate local tracks captured\; slate + 3-sec syn
- c pause\; GUEST track confirmed 100% before release\; Ep03 archived to t
- he shared cloud folder\; edit started within 48 hours.\n\nHOW-TO GUIDES 
- (plain language\, jargon decoded\, each with a chatbot prompt)\n- Record
- ing run-of-show: https://github.com/rwsmith96/mechanisms-in-motion/blob/
- main/how-to/riverside-record.md\n- Your free local backup: https://githu
- b.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-ba
- ckup.md\n- Editing afterward: https://github.com/rwsmith96/mechanisms-in
- -motion/blob/main/how-to/descript-edit.md\n- All guides: https://github.
- com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTA
- NT PROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are 
- helping run Mechanisms in Motion\, the AES podcast: a remote\, two-host 
- video interview show that turns Amazon's internal operating mechanisms i
- nto playbooks any company can use (tagline 'Day 1 Energy for Every Stage
-  of Growth'). Rich owns logistics\; Carla owns the guest slate. The DO l
- ist and RIGHT LOOKS LIKE in this calendar event (above) are your brief f
- or this step. Use them. Then do this: We are recording Episode 03 today.
-  Before we start\, quiz me on the record-day non-negotiables (T-minus mi
- c/local-recording/QuickTime check\, headphones\, slate + sync pause\, up
- load marshal confirms the GUEST track to 100% before release\, archive t
- o the shared folder). After the session\, remind me to archive and to st
- art the edit within 48 hours.\n\nFULL PROJECT SPEC (optional\, for deep 
- context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
- on/main/mim-assistant-context.md
+  is NOT released until the marshal calls 'clear.' (6) If a track is miss
+ ing or stalls\, do NOT end the call: keep the guest on while it re-uploa
+ ds\; if it can't\, rebook on the spot while you have them. (7) Archive i
+ mmediately: both QuickTime backups + the Riverside download go to the sh
+ ared cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing. DONE 
+ WHEN: Clean separate local tracks captured\; slate + 3-sec sync pause\; 
+ GUEST track confirmed 100% before release\; Ep03 archived to the shared 
+ cloud folder\; edit started within 48 hours.. YOUR TASK: We are recordin
+ g Episode 03 today. Before we start\, quiz me on the record-day non-nego
+ tiables (T-minus mic/local-recording/QuickTime check\, headphones\, slat
+ e + sync pause\, upload marshal confirms the GUEST track to 100% before 
+ release\, archive to the shared folder). After the session\, remind me t
+ o archive and to start the edit within 48 hours.\n\nFULL PROJECT SPEC (o
+ ptional\, for deep context): https://raw.githubusercontent.com/rwsmith96
+ /mechanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -543,44 +679,67 @@ LOCATION:Riverside studio link (paste the persistent studio URL here once
 DESCRIPTION:Mechanisms in Motion\, Episode 04. 105-min block: 15 setup + 
  75 record + 15 buffer. The guest's local track is the one irreplaceable 
  asset\; protect it (upload marshal + archive below).\n\nDO\n- T-minus 5 
- min\, BEFORE the guest joins: both hosts confirm MV7+ selected\, 'separa
- te tracks / local recording' ON\, and QuickTime backup rolling. If any i
- s unconfirmed\, fix it before admitting the guest.\n- Headphones on for 
- everyone (kills echo).\n- Hit Record\; say the slate ('Episode N\, take 
- 1')\; pause 3 seconds silent for sync.\n- Record ~60 min of conversation
- . If a guest's audio is rough\, ask them live to move closer\, turn off 
- fans/AC\, and put on headphones.\n- UPLOAD MARSHAL: one host's only end-
+ min\, BEFORE the guest joins: both hosts confirm the MV7+ is chosen as t
+ he microphone in Riverside's settings (a software pick\, not just pluggi
+ ng it in)\, 'separate tracks / local recording' is ON (in Riverside's St
+ udio settings\; it saves each person's audio to their own computer as in
+ surance)\, and the QuickTime backup is rolling. Fix any before admitting
+  the guest.\n- Headphones on for everyone (kills echo).\n- Hit Record\; 
+ say the slate ('Episode N\, take 1')\; pause 3 seconds silent for sync.\
+ n- Record ~60 min of conversation. If a guest's audio is rough\, ask the
+ m live to move closer\, turn off fans/AC\, and put on headphones.\n- UPL
+ OAD MARSHAL: one host's only end-of-session job is to watch EVERY track 
+ (including the GUEST's) to 100% in the Riverside dashboard. The other ho
+ st handles the goodbye. The guest is NOT released until the marshal call
+ s 'clear.'\n- If a track is missing or stalls\, do NOT end the call: kee
+ p the guest on while it re-uploads\; if it can't\, rebook on the spot wh
+ ile you have them.\n- Archive immediately: both QuickTime backups + the 
+ Riverside download go to the shared cloud folder 'MiM-EpNN-Guest-YYYY-MM
+ -DD/' before any editing.\n\nRIGHT LOOKS LIKE\n- Clean separate local tr
+ acks captured\; slate + 3-sec sync pause\; GUEST track confirmed 100% be
+ fore release\; Ep04 archived to the shared cloud folder\; edit started w
+ ithin 48 hours.\n\nHOW-TO GUIDES (plain language\, jargon decoded\, each
+  with a chatbot prompt)\n- Recording run-of-show: https://github.com/rws
+ mith96/mechanisms-in-motion/blob/main/how-to/riverside-record.md\n- Your
+  free local backup: https://github.com/rwsmith96/mechanisms-in-motion/bl
+ ob/main/how-to/quicktime-audio-backup.md\n- Editing afterward: https://g
+ ithub.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/descript-edit.
+ md\n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/blob
+ /main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT
+  for step-by-step help)\nYou are helping run Mechanisms in Motion\, the 
+ AES podcast: a remote\, two-host video interview show that turns Amazon'
+ s internal operating mechanisms into playbooks any company can use (tagl
+ ine 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Car
+ la owns the guest slate. Today's step: Mechanisms in Motion\, Episode 04
+ . 105-min block: 15 setup + 75 record + 15 buffer. The guest's local tra
+ ck is the one irreplaceable asset\; protect it (upload marshal + archive
+  below). WHAT TO DO: (1) T-minus 5 min\, BEFORE the guest joins: both ho
+ sts confirm the MV7+ is chosen as the microphone in Riverside's settings
+  (a software pick\, not just plugging it in)\, 'separate tracks / local 
+ recording' is ON (in Riverside's Studio settings\; it saves each person'
+ s audio to their own computer as insurance)\, and the QuickTime backup i
+ s rolling. Fix any before admitting the guest. (2) Headphones on for eve
+ ryone (kills echo). (3) Hit Record\; say the slate ('Episode N\, take 1'
+ )\; pause 3 seconds silent for sync. (4) Record ~60 min of conversation.
+  If a guest's audio is rough\, ask them live to move closer\, turn off f
+ ans/AC\, and put on headphones. (5) UPLOAD MARSHAL: one host's only end-
  of-session job is to watch EVERY track (including the GUEST's) to 100% i
  n the Riverside dashboard. The other host handles the goodbye. The guest
-  is NOT released until the marshal calls 'clear.'\n- If a track is missi
- ng or stalls\, do NOT end the call: keep the guest on while it re-upload
- s\; if it can't\, rebook on the spot while you have them.\n- Archive imm
- ediately: both QuickTime backups + the Riverside download go to the shar
- ed cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing.\n\nRIGH
- T LOOKS LIKE\n- Clean separate local tracks captured\; slate + 3-sec syn
- c pause\; GUEST track confirmed 100% before release\; Ep04 archived to t
- he shared cloud folder\; edit started within 48 hours.\n\nHOW-TO GUIDES 
- (plain language\, jargon decoded\, each with a chatbot prompt)\n- Record
- ing run-of-show: https://github.com/rwsmith96/mechanisms-in-motion/blob/
- main/how-to/riverside-record.md\n- Your free local backup: https://githu
- b.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-ba
- ckup.md\n- Editing afterward: https://github.com/rwsmith96/mechanisms-in
- -motion/blob/main/how-to/descript-edit.md\n- All guides: https://github.
- com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTA
- NT PROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are 
- helping run Mechanisms in Motion\, the AES podcast: a remote\, two-host 
- video interview show that turns Amazon's internal operating mechanisms i
- nto playbooks any company can use (tagline 'Day 1 Energy for Every Stage
-  of Growth'). Rich owns logistics\; Carla owns the guest slate. The DO l
- ist and RIGHT LOOKS LIKE in this calendar event (above) are your brief f
- or this step. Use them. Then do this: We are recording Episode 04 today.
-  Before we start\, quiz me on the record-day non-negotiables (T-minus mi
- c/local-recording/QuickTime check\, headphones\, slate + sync pause\, up
- load marshal confirms the GUEST track to 100% before release\, archive t
- o the shared folder). After the session\, remind me to archive and to st
- art the edit within 48 hours.\n\nFULL PROJECT SPEC (optional\, for deep 
- context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
- on/main/mim-assistant-context.md
+  is NOT released until the marshal calls 'clear.' (6) If a track is miss
+ ing or stalls\, do NOT end the call: keep the guest on while it re-uploa
+ ds\; if it can't\, rebook on the spot while you have them. (7) Archive i
+ mmediately: both QuickTime backups + the Riverside download go to the sh
+ ared cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing. DONE 
+ WHEN: Clean separate local tracks captured\; slate + 3-sec sync pause\; 
+ GUEST track confirmed 100% before release\; Ep04 archived to the shared 
+ cloud folder\; edit started within 48 hours.. YOUR TASK: We are recordin
+ g Episode 04 today. Before we start\, quiz me on the record-day non-nego
+ tiables (T-minus mic/local-recording/QuickTime check\, headphones\, slat
+ e + sync pause\, upload marshal confirms the GUEST track to 100% before 
+ release\, archive to the shared folder). After the session\, remind me t
+ o archive and to start the edit within 48 hours.\n\nFULL PROJECT SPEC (o
+ ptional\, for deep context): https://raw.githubusercontent.com/rwsmith96
+ /mechanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -605,44 +764,67 @@ LOCATION:Riverside studio link (paste the persistent studio URL here once
 DESCRIPTION:Mechanisms in Motion\, Episode 05. 105-min block: 15 setup + 
  75 record + 15 buffer. The guest's local track is the one irreplaceable 
  asset\; protect it (upload marshal + archive below).\n\nDO\n- T-minus 5 
- min\, BEFORE the guest joins: both hosts confirm MV7+ selected\, 'separa
- te tracks / local recording' ON\, and QuickTime backup rolling. If any i
- s unconfirmed\, fix it before admitting the guest.\n- Headphones on for 
- everyone (kills echo).\n- Hit Record\; say the slate ('Episode N\, take 
- 1')\; pause 3 seconds silent for sync.\n- Record ~60 min of conversation
- . If a guest's audio is rough\, ask them live to move closer\, turn off 
- fans/AC\, and put on headphones.\n- UPLOAD MARSHAL: one host's only end-
+ min\, BEFORE the guest joins: both hosts confirm the MV7+ is chosen as t
+ he microphone in Riverside's settings (a software pick\, not just pluggi
+ ng it in)\, 'separate tracks / local recording' is ON (in Riverside's St
+ udio settings\; it saves each person's audio to their own computer as in
+ surance)\, and the QuickTime backup is rolling. Fix any before admitting
+  the guest.\n- Headphones on for everyone (kills echo).\n- Hit Record\; 
+ say the slate ('Episode N\, take 1')\; pause 3 seconds silent for sync.\
+ n- Record ~60 min of conversation. If a guest's audio is rough\, ask the
+ m live to move closer\, turn off fans/AC\, and put on headphones.\n- UPL
+ OAD MARSHAL: one host's only end-of-session job is to watch EVERY track 
+ (including the GUEST's) to 100% in the Riverside dashboard. The other ho
+ st handles the goodbye. The guest is NOT released until the marshal call
+ s 'clear.'\n- If a track is missing or stalls\, do NOT end the call: kee
+ p the guest on while it re-uploads\; if it can't\, rebook on the spot wh
+ ile you have them.\n- Archive immediately: both QuickTime backups + the 
+ Riverside download go to the shared cloud folder 'MiM-EpNN-Guest-YYYY-MM
+ -DD/' before any editing.\n\nRIGHT LOOKS LIKE\n- Clean separate local tr
+ acks captured\; slate + 3-sec sync pause\; GUEST track confirmed 100% be
+ fore release\; Ep05 archived to the shared cloud folder\; edit started w
+ ithin 48 hours.\n\nHOW-TO GUIDES (plain language\, jargon decoded\, each
+  with a chatbot prompt)\n- Recording run-of-show: https://github.com/rws
+ mith96/mechanisms-in-motion/blob/main/how-to/riverside-record.md\n- Your
+  free local backup: https://github.com/rwsmith96/mechanisms-in-motion/bl
+ ob/main/how-to/quicktime-audio-backup.md\n- Editing afterward: https://g
+ ithub.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/descript-edit.
+ md\n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/blob
+ /main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT
+  for step-by-step help)\nYou are helping run Mechanisms in Motion\, the 
+ AES podcast: a remote\, two-host video interview show that turns Amazon'
+ s internal operating mechanisms into playbooks any company can use (tagl
+ ine 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Car
+ la owns the guest slate. Today's step: Mechanisms in Motion\, Episode 05
+ . 105-min block: 15 setup + 75 record + 15 buffer. The guest's local tra
+ ck is the one irreplaceable asset\; protect it (upload marshal + archive
+  below). WHAT TO DO: (1) T-minus 5 min\, BEFORE the guest joins: both ho
+ sts confirm the MV7+ is chosen as the microphone in Riverside's settings
+  (a software pick\, not just plugging it in)\, 'separate tracks / local 
+ recording' is ON (in Riverside's Studio settings\; it saves each person'
+ s audio to their own computer as insurance)\, and the QuickTime backup i
+ s rolling. Fix any before admitting the guest. (2) Headphones on for eve
+ ryone (kills echo). (3) Hit Record\; say the slate ('Episode N\, take 1'
+ )\; pause 3 seconds silent for sync. (4) Record ~60 min of conversation.
+  If a guest's audio is rough\, ask them live to move closer\, turn off f
+ ans/AC\, and put on headphones. (5) UPLOAD MARSHAL: one host's only end-
  of-session job is to watch EVERY track (including the GUEST's) to 100% i
  n the Riverside dashboard. The other host handles the goodbye. The guest
-  is NOT released until the marshal calls 'clear.'\n- If a track is missi
- ng or stalls\, do NOT end the call: keep the guest on while it re-upload
- s\; if it can't\, rebook on the spot while you have them.\n- Archive imm
- ediately: both QuickTime backups + the Riverside download go to the shar
- ed cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing.\n\nRIGH
- T LOOKS LIKE\n- Clean separate local tracks captured\; slate + 3-sec syn
- c pause\; GUEST track confirmed 100% before release\; Ep05 archived to t
- he shared cloud folder\; edit started within 48 hours.\n\nHOW-TO GUIDES 
- (plain language\, jargon decoded\, each with a chatbot prompt)\n- Record
- ing run-of-show: https://github.com/rwsmith96/mechanisms-in-motion/blob/
- main/how-to/riverside-record.md\n- Your free local backup: https://githu
- b.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-ba
- ckup.md\n- Editing afterward: https://github.com/rwsmith96/mechanisms-in
- -motion/blob/main/how-to/descript-edit.md\n- All guides: https://github.
- com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTA
- NT PROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are 
- helping run Mechanisms in Motion\, the AES podcast: a remote\, two-host 
- video interview show that turns Amazon's internal operating mechanisms i
- nto playbooks any company can use (tagline 'Day 1 Energy for Every Stage
-  of Growth'). Rich owns logistics\; Carla owns the guest slate. The DO l
- ist and RIGHT LOOKS LIKE in this calendar event (above) are your brief f
- or this step. Use them. Then do this: We are recording Episode 05 today.
-  Before we start\, quiz me on the record-day non-negotiables (T-minus mi
- c/local-recording/QuickTime check\, headphones\, slate + sync pause\, up
- load marshal confirms the GUEST track to 100% before release\, archive t
- o the shared folder). After the session\, remind me to archive and to st
- art the edit within 48 hours.\n\nFULL PROJECT SPEC (optional\, for deep 
- context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
- on/main/mim-assistant-context.md
+  is NOT released until the marshal calls 'clear.' (6) If a track is miss
+ ing or stalls\, do NOT end the call: keep the guest on while it re-uploa
+ ds\; if it can't\, rebook on the spot while you have them. (7) Archive i
+ mmediately: both QuickTime backups + the Riverside download go to the sh
+ ared cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing. DONE 
+ WHEN: Clean separate local tracks captured\; slate + 3-sec sync pause\; 
+ GUEST track confirmed 100% before release\; Ep05 archived to the shared 
+ cloud folder\; edit started within 48 hours.. YOUR TASK: We are recordin
+ g Episode 05 today. Before we start\, quiz me on the record-day non-nego
+ tiables (T-minus mic/local-recording/QuickTime check\, headphones\, slat
+ e + sync pause\, upload marshal confirms the GUEST track to 100% before 
+ release\, archive to the shared folder). After the session\, remind me t
+ o archive and to start the edit within 48 hours.\n\nFULL PROJECT SPEC (o
+ ptional\, for deep context): https://raw.githubusercontent.com/rwsmith96
+ /mechanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -667,44 +849,67 @@ LOCATION:Riverside studio link (paste the persistent studio URL here once
 DESCRIPTION:Mechanisms in Motion\, Episode 06. 105-min block: 15 setup + 
  75 record + 15 buffer. The guest's local track is the one irreplaceable 
  asset\; protect it (upload marshal + archive below).\n\nDO\n- T-minus 5 
- min\, BEFORE the guest joins: both hosts confirm MV7+ selected\, 'separa
- te tracks / local recording' ON\, and QuickTime backup rolling. If any i
- s unconfirmed\, fix it before admitting the guest.\n- Headphones on for 
- everyone (kills echo).\n- Hit Record\; say the slate ('Episode N\, take 
- 1')\; pause 3 seconds silent for sync.\n- Record ~60 min of conversation
- . If a guest's audio is rough\, ask them live to move closer\, turn off 
- fans/AC\, and put on headphones.\n- UPLOAD MARSHAL: one host's only end-
+ min\, BEFORE the guest joins: both hosts confirm the MV7+ is chosen as t
+ he microphone in Riverside's settings (a software pick\, not just pluggi
+ ng it in)\, 'separate tracks / local recording' is ON (in Riverside's St
+ udio settings\; it saves each person's audio to their own computer as in
+ surance)\, and the QuickTime backup is rolling. Fix any before admitting
+  the guest.\n- Headphones on for everyone (kills echo).\n- Hit Record\; 
+ say the slate ('Episode N\, take 1')\; pause 3 seconds silent for sync.\
+ n- Record ~60 min of conversation. If a guest's audio is rough\, ask the
+ m live to move closer\, turn off fans/AC\, and put on headphones.\n- UPL
+ OAD MARSHAL: one host's only end-of-session job is to watch EVERY track 
+ (including the GUEST's) to 100% in the Riverside dashboard. The other ho
+ st handles the goodbye. The guest is NOT released until the marshal call
+ s 'clear.'\n- If a track is missing or stalls\, do NOT end the call: kee
+ p the guest on while it re-uploads\; if it can't\, rebook on the spot wh
+ ile you have them.\n- Archive immediately: both QuickTime backups + the 
+ Riverside download go to the shared cloud folder 'MiM-EpNN-Guest-YYYY-MM
+ -DD/' before any editing.\n\nRIGHT LOOKS LIKE\n- Clean separate local tr
+ acks captured\; slate + 3-sec sync pause\; GUEST track confirmed 100% be
+ fore release\; Ep06 archived to the shared cloud folder\; edit started w
+ ithin 48 hours.\n\nHOW-TO GUIDES (plain language\, jargon decoded\, each
+  with a chatbot prompt)\n- Recording run-of-show: https://github.com/rws
+ mith96/mechanisms-in-motion/blob/main/how-to/riverside-record.md\n- Your
+  free local backup: https://github.com/rwsmith96/mechanisms-in-motion/bl
+ ob/main/how-to/quicktime-audio-backup.md\n- Editing afterward: https://g
+ ithub.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/descript-edit.
+ md\n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/blob
+ /main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT
+  for step-by-step help)\nYou are helping run Mechanisms in Motion\, the 
+ AES podcast: a remote\, two-host video interview show that turns Amazon'
+ s internal operating mechanisms into playbooks any company can use (tagl
+ ine 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Car
+ la owns the guest slate. Today's step: Mechanisms in Motion\, Episode 06
+ . 105-min block: 15 setup + 75 record + 15 buffer. The guest's local tra
+ ck is the one irreplaceable asset\; protect it (upload marshal + archive
+  below). WHAT TO DO: (1) T-minus 5 min\, BEFORE the guest joins: both ho
+ sts confirm the MV7+ is chosen as the microphone in Riverside's settings
+  (a software pick\, not just plugging it in)\, 'separate tracks / local 
+ recording' is ON (in Riverside's Studio settings\; it saves each person'
+ s audio to their own computer as insurance)\, and the QuickTime backup i
+ s rolling. Fix any before admitting the guest. (2) Headphones on for eve
+ ryone (kills echo). (3) Hit Record\; say the slate ('Episode N\, take 1'
+ )\; pause 3 seconds silent for sync. (4) Record ~60 min of conversation.
+  If a guest's audio is rough\, ask them live to move closer\, turn off f
+ ans/AC\, and put on headphones. (5) UPLOAD MARSHAL: one host's only end-
  of-session job is to watch EVERY track (including the GUEST's) to 100% i
  n the Riverside dashboard. The other host handles the goodbye. The guest
-  is NOT released until the marshal calls 'clear.'\n- If a track is missi
- ng or stalls\, do NOT end the call: keep the guest on while it re-upload
- s\; if it can't\, rebook on the spot while you have them.\n- Archive imm
- ediately: both QuickTime backups + the Riverside download go to the shar
- ed cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing.\n\nRIGH
- T LOOKS LIKE\n- Clean separate local tracks captured\; slate + 3-sec syn
- c pause\; GUEST track confirmed 100% before release\; Ep06 archived to t
- he shared cloud folder\; edit started within 48 hours.\n\nHOW-TO GUIDES 
- (plain language\, jargon decoded\, each with a chatbot prompt)\n- Record
- ing run-of-show: https://github.com/rwsmith96/mechanisms-in-motion/blob/
- main/how-to/riverside-record.md\n- Your free local backup: https://githu
- b.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-ba
- ckup.md\n- Editing afterward: https://github.com/rwsmith96/mechanisms-in
- -motion/blob/main/how-to/descript-edit.md\n- All guides: https://github.
- com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTA
- NT PROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are 
- helping run Mechanisms in Motion\, the AES podcast: a remote\, two-host 
- video interview show that turns Amazon's internal operating mechanisms i
- nto playbooks any company can use (tagline 'Day 1 Energy for Every Stage
-  of Growth'). Rich owns logistics\; Carla owns the guest slate. The DO l
- ist and RIGHT LOOKS LIKE in this calendar event (above) are your brief f
- or this step. Use them. Then do this: We are recording Episode 06 today.
-  Before we start\, quiz me on the record-day non-negotiables (T-minus mi
- c/local-recording/QuickTime check\, headphones\, slate + sync pause\, up
- load marshal confirms the GUEST track to 100% before release\, archive t
- o the shared folder). After the session\, remind me to archive and to st
- art the edit within 48 hours.\n\nFULL PROJECT SPEC (optional\, for deep 
- context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
- on/main/mim-assistant-context.md
+  is NOT released until the marshal calls 'clear.' (6) If a track is miss
+ ing or stalls\, do NOT end the call: keep the guest on while it re-uploa
+ ds\; if it can't\, rebook on the spot while you have them. (7) Archive i
+ mmediately: both QuickTime backups + the Riverside download go to the sh
+ ared cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing. DONE 
+ WHEN: Clean separate local tracks captured\; slate + 3-sec sync pause\; 
+ GUEST track confirmed 100% before release\; Ep06 archived to the shared 
+ cloud folder\; edit started within 48 hours.. YOUR TASK: We are recordin
+ g Episode 06 today. Before we start\, quiz me on the record-day non-nego
+ tiables (T-minus mic/local-recording/QuickTime check\, headphones\, slat
+ e + sync pause\, upload marshal confirms the GUEST track to 100% before 
+ release\, archive to the shared folder). After the session\, remind me t
+ o archive and to start the edit within 48 hours.\n\nFULL PROJECT SPEC (o
+ ptional\, for deep context): https://raw.githubusercontent.com/rwsmith96
+ /mechanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -729,44 +934,67 @@ LOCATION:Riverside studio link (paste the persistent studio URL here once
 DESCRIPTION:Mechanisms in Motion\, Episode 07. 105-min block: 15 setup + 
  75 record + 15 buffer. The guest's local track is the one irreplaceable 
  asset\; protect it (upload marshal + archive below).\n\nDO\n- T-minus 5 
- min\, BEFORE the guest joins: both hosts confirm MV7+ selected\, 'separa
- te tracks / local recording' ON\, and QuickTime backup rolling. If any i
- s unconfirmed\, fix it before admitting the guest.\n- Headphones on for 
- everyone (kills echo).\n- Hit Record\; say the slate ('Episode N\, take 
- 1')\; pause 3 seconds silent for sync.\n- Record ~60 min of conversation
- . If a guest's audio is rough\, ask them live to move closer\, turn off 
- fans/AC\, and put on headphones.\n- UPLOAD MARSHAL: one host's only end-
+ min\, BEFORE the guest joins: both hosts confirm the MV7+ is chosen as t
+ he microphone in Riverside's settings (a software pick\, not just pluggi
+ ng it in)\, 'separate tracks / local recording' is ON (in Riverside's St
+ udio settings\; it saves each person's audio to their own computer as in
+ surance)\, and the QuickTime backup is rolling. Fix any before admitting
+  the guest.\n- Headphones on for everyone (kills echo).\n- Hit Record\; 
+ say the slate ('Episode N\, take 1')\; pause 3 seconds silent for sync.\
+ n- Record ~60 min of conversation. If a guest's audio is rough\, ask the
+ m live to move closer\, turn off fans/AC\, and put on headphones.\n- UPL
+ OAD MARSHAL: one host's only end-of-session job is to watch EVERY track 
+ (including the GUEST's) to 100% in the Riverside dashboard. The other ho
+ st handles the goodbye. The guest is NOT released until the marshal call
+ s 'clear.'\n- If a track is missing or stalls\, do NOT end the call: kee
+ p the guest on while it re-uploads\; if it can't\, rebook on the spot wh
+ ile you have them.\n- Archive immediately: both QuickTime backups + the 
+ Riverside download go to the shared cloud folder 'MiM-EpNN-Guest-YYYY-MM
+ -DD/' before any editing.\n\nRIGHT LOOKS LIKE\n- Clean separate local tr
+ acks captured\; slate + 3-sec sync pause\; GUEST track confirmed 100% be
+ fore release\; Ep07 archived to the shared cloud folder\; edit started w
+ ithin 48 hours.\n\nHOW-TO GUIDES (plain language\, jargon decoded\, each
+  with a chatbot prompt)\n- Recording run-of-show: https://github.com/rws
+ mith96/mechanisms-in-motion/blob/main/how-to/riverside-record.md\n- Your
+  free local backup: https://github.com/rwsmith96/mechanisms-in-motion/bl
+ ob/main/how-to/quicktime-audio-backup.md\n- Editing afterward: https://g
+ ithub.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/descript-edit.
+ md\n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/blob
+ /main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT
+  for step-by-step help)\nYou are helping run Mechanisms in Motion\, the 
+ AES podcast: a remote\, two-host video interview show that turns Amazon'
+ s internal operating mechanisms into playbooks any company can use (tagl
+ ine 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Car
+ la owns the guest slate. Today's step: Mechanisms in Motion\, Episode 07
+ . 105-min block: 15 setup + 75 record + 15 buffer. The guest's local tra
+ ck is the one irreplaceable asset\; protect it (upload marshal + archive
+  below). WHAT TO DO: (1) T-minus 5 min\, BEFORE the guest joins: both ho
+ sts confirm the MV7+ is chosen as the microphone in Riverside's settings
+  (a software pick\, not just plugging it in)\, 'separate tracks / local 
+ recording' is ON (in Riverside's Studio settings\; it saves each person'
+ s audio to their own computer as insurance)\, and the QuickTime backup i
+ s rolling. Fix any before admitting the guest. (2) Headphones on for eve
+ ryone (kills echo). (3) Hit Record\; say the slate ('Episode N\, take 1'
+ )\; pause 3 seconds silent for sync. (4) Record ~60 min of conversation.
+  If a guest's audio is rough\, ask them live to move closer\, turn off f
+ ans/AC\, and put on headphones. (5) UPLOAD MARSHAL: one host's only end-
  of-session job is to watch EVERY track (including the GUEST's) to 100% i
  n the Riverside dashboard. The other host handles the goodbye. The guest
-  is NOT released until the marshal calls 'clear.'\n- If a track is missi
- ng or stalls\, do NOT end the call: keep the guest on while it re-upload
- s\; if it can't\, rebook on the spot while you have them.\n- Archive imm
- ediately: both QuickTime backups + the Riverside download go to the shar
- ed cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing.\n\nRIGH
- T LOOKS LIKE\n- Clean separate local tracks captured\; slate + 3-sec syn
- c pause\; GUEST track confirmed 100% before release\; Ep07 archived to t
- he shared cloud folder\; edit started within 48 hours.\n\nHOW-TO GUIDES 
- (plain language\, jargon decoded\, each with a chatbot prompt)\n- Record
- ing run-of-show: https://github.com/rwsmith96/mechanisms-in-motion/blob/
- main/how-to/riverside-record.md\n- Your free local backup: https://githu
- b.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-ba
- ckup.md\n- Editing afterward: https://github.com/rwsmith96/mechanisms-in
- -motion/blob/main/how-to/descript-edit.md\n- All guides: https://github.
- com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTA
- NT PROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are 
- helping run Mechanisms in Motion\, the AES podcast: a remote\, two-host 
- video interview show that turns Amazon's internal operating mechanisms i
- nto playbooks any company can use (tagline 'Day 1 Energy for Every Stage
-  of Growth'). Rich owns logistics\; Carla owns the guest slate. The DO l
- ist and RIGHT LOOKS LIKE in this calendar event (above) are your brief f
- or this step. Use them. Then do this: We are recording Episode 07 today.
-  Before we start\, quiz me on the record-day non-negotiables (T-minus mi
- c/local-recording/QuickTime check\, headphones\, slate + sync pause\, up
- load marshal confirms the GUEST track to 100% before release\, archive t
- o the shared folder). After the session\, remind me to archive and to st
- art the edit within 48 hours.\n\nFULL PROJECT SPEC (optional\, for deep 
- context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
- on/main/mim-assistant-context.md
+  is NOT released until the marshal calls 'clear.' (6) If a track is miss
+ ing or stalls\, do NOT end the call: keep the guest on while it re-uploa
+ ds\; if it can't\, rebook on the spot while you have them. (7) Archive i
+ mmediately: both QuickTime backups + the Riverside download go to the sh
+ ared cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing. DONE 
+ WHEN: Clean separate local tracks captured\; slate + 3-sec sync pause\; 
+ GUEST track confirmed 100% before release\; Ep07 archived to the shared 
+ cloud folder\; edit started within 48 hours.. YOUR TASK: We are recordin
+ g Episode 07 today. Before we start\, quiz me on the record-day non-nego
+ tiables (T-minus mic/local-recording/QuickTime check\, headphones\, slat
+ e + sync pause\, upload marshal confirms the GUEST track to 100% before 
+ release\, archive to the shared folder). After the session\, remind me t
+ o archive and to start the edit within 48 hours.\n\nFULL PROJECT SPEC (o
+ ptional\, for deep context): https://raw.githubusercontent.com/rwsmith96
+ /mechanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -791,44 +1019,67 @@ LOCATION:Riverside studio link (paste the persistent studio URL here once
 DESCRIPTION:Mechanisms in Motion\, Episode 08. 105-min block: 15 setup + 
  75 record + 15 buffer. The guest's local track is the one irreplaceable 
  asset\; protect it (upload marshal + archive below).\n\nDO\n- T-minus 5 
- min\, BEFORE the guest joins: both hosts confirm MV7+ selected\, 'separa
- te tracks / local recording' ON\, and QuickTime backup rolling. If any i
- s unconfirmed\, fix it before admitting the guest.\n- Headphones on for 
- everyone (kills echo).\n- Hit Record\; say the slate ('Episode N\, take 
- 1')\; pause 3 seconds silent for sync.\n- Record ~60 min of conversation
- . If a guest's audio is rough\, ask them live to move closer\, turn off 
- fans/AC\, and put on headphones.\n- UPLOAD MARSHAL: one host's only end-
+ min\, BEFORE the guest joins: both hosts confirm the MV7+ is chosen as t
+ he microphone in Riverside's settings (a software pick\, not just pluggi
+ ng it in)\, 'separate tracks / local recording' is ON (in Riverside's St
+ udio settings\; it saves each person's audio to their own computer as in
+ surance)\, and the QuickTime backup is rolling. Fix any before admitting
+  the guest.\n- Headphones on for everyone (kills echo).\n- Hit Record\; 
+ say the slate ('Episode N\, take 1')\; pause 3 seconds silent for sync.\
+ n- Record ~60 min of conversation. If a guest's audio is rough\, ask the
+ m live to move closer\, turn off fans/AC\, and put on headphones.\n- UPL
+ OAD MARSHAL: one host's only end-of-session job is to watch EVERY track 
+ (including the GUEST's) to 100% in the Riverside dashboard. The other ho
+ st handles the goodbye. The guest is NOT released until the marshal call
+ s 'clear.'\n- If a track is missing or stalls\, do NOT end the call: kee
+ p the guest on while it re-uploads\; if it can't\, rebook on the spot wh
+ ile you have them.\n- Archive immediately: both QuickTime backups + the 
+ Riverside download go to the shared cloud folder 'MiM-EpNN-Guest-YYYY-MM
+ -DD/' before any editing.\n\nRIGHT LOOKS LIKE\n- Clean separate local tr
+ acks captured\; slate + 3-sec sync pause\; GUEST track confirmed 100% be
+ fore release\; Ep08 archived to the shared cloud folder\; edit started w
+ ithin 48 hours.\n\nHOW-TO GUIDES (plain language\, jargon decoded\, each
+  with a chatbot prompt)\n- Recording run-of-show: https://github.com/rws
+ mith96/mechanisms-in-motion/blob/main/how-to/riverside-record.md\n- Your
+  free local backup: https://github.com/rwsmith96/mechanisms-in-motion/bl
+ ob/main/how-to/quicktime-audio-backup.md\n- Editing afterward: https://g
+ ithub.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/descript-edit.
+ md\n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/blob
+ /main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT
+  for step-by-step help)\nYou are helping run Mechanisms in Motion\, the 
+ AES podcast: a remote\, two-host video interview show that turns Amazon'
+ s internal operating mechanisms into playbooks any company can use (tagl
+ ine 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Car
+ la owns the guest slate. Today's step: Mechanisms in Motion\, Episode 08
+ . 105-min block: 15 setup + 75 record + 15 buffer. The guest's local tra
+ ck is the one irreplaceable asset\; protect it (upload marshal + archive
+  below). WHAT TO DO: (1) T-minus 5 min\, BEFORE the guest joins: both ho
+ sts confirm the MV7+ is chosen as the microphone in Riverside's settings
+  (a software pick\, not just plugging it in)\, 'separate tracks / local 
+ recording' is ON (in Riverside's Studio settings\; it saves each person'
+ s audio to their own computer as insurance)\, and the QuickTime backup i
+ s rolling. Fix any before admitting the guest. (2) Headphones on for eve
+ ryone (kills echo). (3) Hit Record\; say the slate ('Episode N\, take 1'
+ )\; pause 3 seconds silent for sync. (4) Record ~60 min of conversation.
+  If a guest's audio is rough\, ask them live to move closer\, turn off f
+ ans/AC\, and put on headphones. (5) UPLOAD MARSHAL: one host's only end-
  of-session job is to watch EVERY track (including the GUEST's) to 100% i
  n the Riverside dashboard. The other host handles the goodbye. The guest
-  is NOT released until the marshal calls 'clear.'\n- If a track is missi
- ng or stalls\, do NOT end the call: keep the guest on while it re-upload
- s\; if it can't\, rebook on the spot while you have them.\n- Archive imm
- ediately: both QuickTime backups + the Riverside download go to the shar
- ed cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing.\n\nRIGH
- T LOOKS LIKE\n- Clean separate local tracks captured\; slate + 3-sec syn
- c pause\; GUEST track confirmed 100% before release\; Ep08 archived to t
- he shared cloud folder\; edit started within 48 hours.\n\nHOW-TO GUIDES 
- (plain language\, jargon decoded\, each with a chatbot prompt)\n- Record
- ing run-of-show: https://github.com/rwsmith96/mechanisms-in-motion/blob/
- main/how-to/riverside-record.md\n- Your free local backup: https://githu
- b.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/quicktime-audio-ba
- ckup.md\n- Editing afterward: https://github.com/rwsmith96/mechanisms-in
- -motion/blob/main/how-to/descript-edit.md\n- All guides: https://github.
- com/rwsmith96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTA
- NT PROMPT (paste into Claude or ChatGPT for step-by-step help)\nYou are 
- helping run Mechanisms in Motion\, the AES podcast: a remote\, two-host 
- video interview show that turns Amazon's internal operating mechanisms i
- nto playbooks any company can use (tagline 'Day 1 Energy for Every Stage
-  of Growth'). Rich owns logistics\; Carla owns the guest slate. The DO l
- ist and RIGHT LOOKS LIKE in this calendar event (above) are your brief f
- or this step. Use them. Then do this: We are recording Episode 08 today.
-  Before we start\, quiz me on the record-day non-negotiables (T-minus mi
- c/local-recording/QuickTime check\, headphones\, slate + sync pause\, up
- load marshal confirms the GUEST track to 100% before release\, archive t
- o the shared folder). After the session\, remind me to archive and to st
- art the edit within 48 hours.\n\nFULL PROJECT SPEC (optional\, for deep 
- context): https://raw.githubusercontent.com/rwsmith96/mechanisms-in-moti
- on/main/mim-assistant-context.md
+  is NOT released until the marshal calls 'clear.' (6) If a track is miss
+ ing or stalls\, do NOT end the call: keep the guest on while it re-uploa
+ ds\; if it can't\, rebook on the spot while you have them. (7) Archive i
+ mmediately: both QuickTime backups + the Riverside download go to the sh
+ ared cloud folder 'MiM-EpNN-Guest-YYYY-MM-DD/' before any editing. DONE 
+ WHEN: Clean separate local tracks captured\; slate + 3-sec sync pause\; 
+ GUEST track confirmed 100% before release\; Ep08 archived to the shared 
+ cloud folder\; edit started within 48 hours.. YOUR TASK: We are recordin
+ g Episode 08 today. Before we start\, quiz me on the record-day non-nego
+ tiables (T-minus mic/local-recording/QuickTime check\, headphones\, slat
+ e + sync pause\, upload marshal confirms the GUEST track to 100% before 
+ release\, archive to the shared folder). After the session\, remind me t
+ o archive and to start the edit within 48 hours.\n\nFULL PROJECT SPEC (o
+ ptional\, for deep context): https://raw.githubusercontent.com/rwsmith96
+ /mechanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -854,29 +1105,39 @@ DESCRIPTION:New episode goes live today. The first occurrence is launch d
   and QA-passed (plus the evergreen). If not\, move launch right.\n\nDO\n
  - Confirm the episode passed the pre-publish QA gate.\n- Publish\, or co
  nfirm the Transistor scheduled-publish fired.\n- Send the guest their cl
- ips.\n- Buffer rule: never publish below a 1-episode buffer. If the buff
- er hits zero\, pause the streak by design with a pre-written note\; do n
- ot ship unedited.\n\nRIGHT LOOKS LIKE\n- Episode live\; QA gate passed\;
-  guest sent their clips\; buffer >= 1 maintained (or streak paused on pu
- rpose).\n\nHOW-TO GUIDES (plain language\, jargon decoded\, each with a 
- chatbot prompt)\n- Publish + the QA check: https://github.com/rwsmith96/
- mechanisms-in-motion/blob/main/how-to/publish-and-qa.md\n- What the loud
- ness numbers mean: https://github.com/rwsmith96/mechanisms-in-motion/blo
- b/main/how-to/export-settings.md\n- All guides: https://github.com/rwsmi
- th96/mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTANT PROMPT
-  (paste into Claude or ChatGPT for step-by-step help)\nYou are helping r
- un Mechanisms in Motion\, the AES podcast: a remote\, two-host video int
- erview show that turns Amazon's internal operating mechanisms into playb
- ooks any company can use (tagline 'Day 1 Energy for Every Stage of Growt
- h'). Rich owns logistics\; Carla owns the guest slate. The DO list and R
- IGHT LOOKS LIKE in this calendar event (above) are your brief for this s
- tep. Use them. Then do this: We are at the weekly PUBLISH step. First co
- nfirm we still hold a 1-episode buffer (if not\, help me decide pause-vs
- -ship). Then run the 3-check pre-publish QA gate (-14 LUFS / -1.0 dBTP\,
-  lip-sync at start/mid/end\, captions tracking)\, the Transistor publish
-  steps\, and a short note to the guest with clips.\n\nFULL PROJECT SPEC 
- (optional\, for deep context): https://raw.githubusercontent.com/rwsmith
- 96/mechanisms-in-motion/main/mim-assistant-context.md
+ ips.\n- Buffer rule: never publish below a 1-episode buffer (a buffer is
+  at least one edited\, unreleased episode held in reserve). If it hits z
+ ero\, pause the streak by design with a pre-written note\; do not ship u
+ nedited.\n\nRIGHT LOOKS LIKE\n- Episode live\; QA gate passed\; guest se
+ nt their clips\; buffer >= 1 maintained (or streak paused on purpose).\n
+ \nHOW-TO GUIDES (plain language\, jargon decoded\, each with a chatbot p
+ rompt)\n- Publish + the QA check: https://github.com/rwsmith96/mechanism
+ s-in-motion/blob/main/how-to/publish-and-qa.md\n- What the loudness numb
+ ers mean: https://github.com/rwsmith96/mechanisms-in-motion/blob/main/ho
+ w-to/export-settings.md\n- All guides: https://github.com/rwsmith96/mech
+ anisms-in-motion/blob/main/how-to/README.md\n\nASSISTANT PROMPT (paste i
+ nto Claude or ChatGPT for step-by-step help)\nYou are helping run Mechan
+ isms in Motion\, the AES podcast: a remote\, two-host video interview sh
+ ow that turns Amazon's internal operating mechanisms into playbooks any 
+ company can use (tagline 'Day 1 Energy for Every Stage of Growth'). Rich
+  owns logistics\; Carla owns the guest slate. Today's step: New episode 
+ goes live today. The first occurrence is launch day. LAUNCH GATE: do not
+  launch Sep 22 unless 4 episodes are fully edited and QA-passed (plus th
+ e evergreen). If not\, move launch right. WHAT TO DO: (1) Confirm the ep
+ isode passed the pre-publish QA gate. (2) Publish\, or confirm the Trans
+ istor scheduled-publish fired. (3) Send the guest their clips. (4) Buffe
+ r rule: never publish below a 1-episode buffer (a buffer is at least one
+  edited\, unreleased episode held in reserve). If it hits zero\, pause t
+ he streak by design with a pre-written note\; do not ship unedited. DONE
+  WHEN: Episode live\; QA gate passed\; guest sent their clips\; buffer >
+ = 1 maintained (or streak paused on purpose).. YOUR TASK: We are at the 
+ weekly PUBLISH step. First confirm we still hold a 1-episode buffer (if 
+ not\, help me decide pause-vs-ship). Then run the 3-check pre-publish QA
+  gate (-14 LUFS / -1.0 dBTP\, lip-sync at start/mid/end\, captions track
+ ing)\, the Transistor publish steps\, and a short note to the guest with
+  clips.\n\nFULL PROJECT SPEC (optional\, for deep context): https://raw.
+ githubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-
+ context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -906,13 +1167,19 @@ DESCRIPTION:Short standing check so the slate and the schedule never drif
  e AES podcast: a remote\, two-host video interview show that turns Amazo
  n's internal operating mechanisms into playbooks any company can use (ta
  gline 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; C
- arla owns the guest slate. The DO list and RIGHT LOOKS LIKE in this cale
- ndar event (above) are your brief for this step. Use them. Then do this:
-  This is our weekly MiM check-in. Ask me the 4 numbers that matter (gues
- ts named / invited / booked\, episodes edited) and flag anything off-tra
- ck against the calendar with a recommended fix.\n\nFULL PROJECT SPEC (op
- tional\, for deep context): https://raw.githubusercontent.com/rwsmith96/
- mechanisms-in-motion/main/mim-assistant-context.md
+ arla owns the guest slate. Today's step: Short standing check so the sla
+ te and the schedule never drift silently. Runs Jun 22 through the sprint
+ . WHAT TO DO: (1) Review the guest pipeline: named\, invited\, booked co
+ unts against the gate (3+ booked by Jul 24). (2) Surface any slip in gea
+ r\, setup\, or editing against the calendar. (3) Make any go/no-go or da
+ te-shift calls now\, not on a record morning. DONE WHEN: Slate and sched
+ ule status known\; any slip named and owned\; decisions made by Rich as 
+ launch-readiness owner.. YOUR TASK: This is our weekly MiM check-in. Ask
+  me the 4 numbers that matter (guests named / invited / booked\, episode
+ s edited) and flag anything off-track against the calendar with a recomm
+ ended fix.\n\nFULL PROJECT SPEC (optional\, for deep context): https://r
+ aw.githubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-assista
+ nt-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -944,13 +1211,21 @@ DESCRIPTION:A protected 3-hr editing block so the edit backlog can't coll
   AES podcast: a remote\, two-host video interview show that turns Amazon
  's internal operating mechanisms into playbooks any company can use (tag
  line 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Ca
- rla owns the guest slate. The DO list and RIGHT LOOKS LIKE in this calen
- dar event (above) are your brief for this step. Use them. Then do this: 
- This is my weekly edit block. Help me pick which episode to edit\, run t
- he Descript steps in order to the spec\, and tell me honestly if I'm fal
- ling behind the publish cadence and should outsource a cut.\n\nFULL PROJ
- ECT SPEC (optional\, for deep context): https://raw.githubusercontent.co
- m/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
+ rla owns the guest slate. Today's step: A protected 3-hr editing block s
+ o the edit backlog can't collapse the buffer. Edit throughput\, not reco
+ rding\, is the real constraint: budget 5-8 hrs/episode for the first thr
+ ee\, 3-5 after. WHAT TO DO: (1) Edit the most recent recording toward th
+ e spec (Studio Sound\, multicam\, captions\, clips\, export). (2) Honor 
+ the 48-hour SLA: no recording sits un-started for more than two days. (3
+ ) If editing falls more than one episode behind\, publish from buffer an
+ d outsource the next first-pass to a freelance Descript editor. DONE WHE
+ N: Backlog held to <= 1 episode\; every recording edit-started within 48
+ h\; buffer protected.. YOUR TASK: This is my weekly edit block. Help me 
+ pick which episode to edit\, run the Descript steps in order to the spec
+ \, and tell me honestly if I'm falling behind the publish cadence and sh
+ ould outsource a cut.\n\nFULL PROJECT SPEC (optional\, for deep context)
+ : https://raw.githubusercontent.com/rwsmith96/mechanisms-in-motion/main/
+ mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -983,14 +1258,20 @@ DESCRIPTION:Bank one publishable hosts-only episode as launch insurance a
  ing run Mechanisms in Motion\, the AES podcast: a remote\, two-host vide
  o interview show that turns Amazon's internal operating mechanisms into 
  playbooks any company can use (tagline 'Day 1 Energy for Every Stage of 
- Growth'). Rich owns logistics\; Carla owns the guest slate. The DO list 
- and RIGHT LOOKS LIKE in this calendar event (above) are your brief for t
- his step. Use them. Then do this: We are recording the evergreen buffer 
- episode (hosts-only). Suggest a strong standalone topic from the Amazon-
- mechanisms catalog that needs no guest\, and run me through the same rec
- ord-day checklist.\n\nFULL PROJECT SPEC (optional\, for deep context): h
- ttps://raw.githubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim
- -assistant-context.md
+ Growth'). Rich owns logistics\; Carla owns the guest slate. Today's step
+ : Bank one publishable hosts-only episode as launch insurance and a no-s
+ how release valve. Same kit and checklist as a real session\; no guest t
+ o coordinate. WHAT TO DO: (1) Rich + Carla record a real\, publishable h
+ osts-only episode (a mechanism deep-dive works well). (2) Run the full r
+ ecord-day discipline (mic select\, local recording\, upload marshal\, ar
+ chive). (3) Edit it like any episode\; keep it ready to drop into any we
+ ek the pipeline gaps. DONE WHEN: One evergreen episode recorded\, edited
+ \, archived\, and held in reserve before launch.. YOUR TASK: We are reco
+ rding the evergreen buffer episode (hosts-only). Suggest a strong standa
+ lone topic from the Amazon-mechanisms catalog that needs no guest\, and 
+ run me through the same record-day checklist.\n\nFULL PROJECT SPEC (opti
+ onal\, for deep context): https://raw.githubusercontent.com/rwsmith96/me
+ chanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -1019,13 +1300,17 @@ DESCRIPTION:The Season 1 backlog runs out in November. Start the next bat
  e AES podcast: a remote\, two-host video interview show that turns Amazo
  n's internal operating mechanisms into playbooks any company can use (ta
  gline 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; C
- arla owns the guest slate. The DO list and RIGHT LOOKS LIKE in this cale
- ndar event (above) are your brief for this step. Use them. Then do this:
-  We are at the Season 2 trigger. Help me plan the next recording batch s
- o the weekly streak never breaks: how many to book\, by when\, given the
-  Season 1 buffer.\n\nFULL PROJECT SPEC (optional\, for deep context): ht
- tps://raw.githubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-
- assistant-context.md
+ arla owns the guest slate. Today's step: The Season 1 backlog runs out i
+ n November. Start the next batch now so the show does not cliff. WHAT TO
+  DO: (1) Carla seeds the Season 2 guest slate\; Rich opens Calendly slot
+ s for late Oct / Nov. (2) Book and record the next 4-6 before the Season
+  1 buffer is exhausted. (3) Keep one evergreen in reserve at all times. 
+ DONE WHEN: Season 2 slate started and first sessions booked while Season
+  1 is still publishing.. YOUR TASK: We are at the Season 2 trigger. Help
+  me plan the next recording batch so the weekly streak never breaks: how
+  many to book\, by when\, given the Season 1 buffer.\n\nFULL PROJECT SPE
+ C (optional\, for deep context): https://raw.githubusercontent.com/rwsmi
+ th96/mechanisms-in-motion/main/mim-assistant-context.md
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM

@@ -46,6 +46,16 @@ The prompts are self-contained: you do not need to open any other file. Just:
 
 If you want the full background, the prompt also links to the project spec ([mim-assistant-context.md](mim-assistant-context.md)); you can paste that link to your assistant too, but you rarely need to.
 
+## 5b. When you're actually doing a step
+
+You never have to figure anything out alone. There is a short, plain-language **how-to guide** for every hands-on task, and each one decodes the jargon and ends with a prompt you can paste into Claude or ChatGPT. See the **[how-to guides](how-to/README.md)**:
+
+- [import-calendar](how-to/import-calendar.md) and [hardware-setup](how-to/hardware-setup.md) to get started
+- [riverside-record](how-to/riverside-record.md) and [quicktime-audio-backup](how-to/quicktime-audio-backup.md) on a recording day
+- [descript-edit](how-to/descript-edit.md), [export-settings](how-to/export-settings.md) (what all the numbers mean), and [publish-and-qa](how-to/publish-and-qa.md) afterward
+
+Each calendar event also links straight to the guide it needs, right in the event's notes.
+
 ## 6. Your part
 
 You own the **guest slate**: who comes on, in what order, the warm outreach, and the question arc (with Rich). Rich owns everything else (tools, gear, editing, publishing). Your first dated milestone is on the calendar: **first 4 guests identified and invited by June 19.** The recording sessions are Tuesday and Thursday mornings, August 25 through September 17. You co-host every one.

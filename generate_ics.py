@@ -25,13 +25,12 @@ SPEC_REF = "https://raw.githubusercontent.com/rwsmith96/mechanisms-in-motion/mai
 HOWTO = "https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/"  # plain-language guides
 
 # Self-contained preamble: works pasted into ANY assistant (Claude.ai, ChatGPT, Claude Code),
-# with no repo or file access required. The event's own DO and RIGHT LOOKS LIKE are the brief.
+# with no repo or file access required. build_desc embeds the DO + done INTO the prompt so it
+# stands alone even if only the prompt block is copied (no dangling "above" reference).
 PROMPT_HEAD = (
     "You are helping run Mechanisms in Motion, the AES podcast: a remote, two-host video interview "
     "show that turns Amazon's internal operating mechanisms into playbooks any company can use "
-    "(tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics; Carla owns the guest "
-    "slate. The DO list and RIGHT LOOKS LIKE in this calendar event (above) are your brief for this "
-    "step. Use them. Then do this: "
+    "(tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics; Carla owns the guest slate. "
 )
 
 
@@ -76,7 +75,10 @@ def build_desc(lead, do, buy, done, prompt, guides=None):
     parts.append(f"- All guides: {HOWTO}README.md")
     parts.append("")
     parts.append("ASSISTANT PROMPT (paste into Claude or ChatGPT for step-by-step help)")
-    parts.append(PROMPT_HEAD + prompt)
+    do_txt = " ".join(f"({i + 1}) {x}" for i, x in enumerate(do))
+    done_txt = "; ".join(done)
+    parts.append(f"{PROMPT_HEAD}Today's step: {lead} WHAT TO DO: {do_txt} DONE WHEN: {done_txt}. "
+                 f"YOUR TASK: {prompt}")
     parts.append("")
     parts.append(f"FULL PROJECT SPEC (optional, for deep context): {SPEC_REF}")
     return "\n".join(parts)
@@ -126,7 +128,7 @@ events.append(event(
     desc=build_desc(
         "The gate that starts everything. Confirm the build with Carla and lock the dates.",
         ["Walk Carla through the six-pager (mim-podcast-roadmap.pdf).",
-         "Confirm the four-tool stack and the ~$1,700 two-kit hardware spend.",
+         "Confirm the four-tool stack (Riverside for recording, Descript for editing, Transistor for publishing, Calendly for guest booking) and the ~$1,700 two-kit hardware spend.",
          "Lock the eight Tue/Thu recording slots on both calendars.",
          "Confirm the split: Rich = logistics, Carla = guest slate."],
         None,
@@ -177,7 +179,7 @@ events.append(event(
         "Hard go/no-go gate. The slate is the critical path, so it gets a gate of its own.",
         ["Confirm at least 3 guests are BOOKED in Calendly (not just invited) for the sprint.",
          "Carla curates names + warm intros; Rich executes the outreach, chasing, and booking off the shared list.",
-         "If short of 3, hold the sprint start or plan to open with hosts-only evergreens."],
+         "If short of 3, text Rich; he makes the call on whether to push the first recording date or to open with a hosts-only evergreen (a guest-free episode recorded in advance as a safety net)."],
         None,
         ["3+ guests booked into real Aug/Sept slots; Rich has made the go/no-go call on the sprint."],
         "We are at the GUEST GATE. Help me check we have 3+ guests booked, draft chase notes to any "
@@ -249,7 +251,7 @@ events.append(event(
         "Prove the whole chain AND rehearse the real failure modes before the first marquee guest. Costs nothing to break here.",
         ["Rich + Carla + a stand-in on a RANDOM laptop with a default webcam (rehearse the degraded guest, not the happy path).",
          "Mid-record, have the stand-in close the tab and rejoin; confirm their local track survived.",
-         "Confirm every participant's tracks upload to 100%; rehearse the transcode-to-CFR step on the guest track.",
+         "Confirm every participant's tracks upload to 100%; rehearse the fix for a guest whose camera recorded at an odd frame rate (converting it to a steady 30fps, called CFR / constant frame rate; the descript-edit guide has the one-click fix).",
          "Export to Descript; confirm each person lands as a SEPARATE track; verify lip-sync at the END of the take.",
          "Confirm 30fps everywhere; export reads -14 LUFS / -1.0 dBTP."],
         None,
@@ -265,7 +267,7 @@ events.append(event(
 SESSIONS = [("2026-08-25", 1), ("2026-08-27", 2), ("2026-09-01", 3), ("2026-09-03", 4),
             ("2026-09-08", 5), ("2026-09-10", 6), ("2026-09-15", 7), ("2026-09-17", 8)]
 REC_DO = [
-    "T-minus 5 min, BEFORE the guest joins: both hosts confirm MV7+ selected, 'separate tracks / local recording' ON, and QuickTime backup rolling. If any is unconfirmed, fix it before admitting the guest.",
+    "T-minus 5 min, BEFORE the guest joins: both hosts confirm the MV7+ is chosen as the microphone in Riverside's settings (a software pick, not just plugging it in), 'separate tracks / local recording' is ON (in Riverside's Studio settings; it saves each person's audio to their own computer as insurance), and the QuickTime backup is rolling. Fix any before admitting the guest.",
     "Headphones on for everyone (kills echo).",
     "Hit Record; say the slate ('Episode N, take 1'); pause 3 seconds silent for sync.",
     "Record ~60 min of conversation. If a guest's audio is rough, ask them live to move closer, turn off fans/AC, and put on headphones.",
@@ -303,7 +305,7 @@ events.append(event(
         ["Confirm the episode passed the pre-publish QA gate.",
          "Publish, or confirm the Transistor scheduled-publish fired.",
          "Send the guest their clips.",
-         "Buffer rule: never publish below a 1-episode buffer. If the buffer hits zero, pause the streak by design with a pre-written note; do not ship unedited."],
+         "Buffer rule: never publish below a 1-episode buffer (a buffer is at least one edited, unreleased episode held in reserve). If it hits zero, pause the streak by design with a pre-written note; do not ship unedited."],
         None,
         ["Episode live; QA gate passed; guest sent their clips; buffer >= 1 maintained (or streak paused on purpose)."],
         "We are at the weekly PUBLISH step. First confirm we still hold a 1-episode buffer (if not, help me "
