@@ -11,7 +11,7 @@ Files: `mim-podcast-roadmap.pdf` (human six-pager) · `mim-recording-schedule.ic
 
 Mechanisms in Motion is the AES podcast: Amazon's internal operating mechanisms translated into playbooks any company can use. Tagline: **"Day 1 Energy for Every Stage of Growth."** The podcast feeds the book ("Mechanisms: The Scaling Playbook") and brings in consulting leads: guests become relationships, relationships move the book, consulting closes from both. Format: remote video interview, two hosts plus one guest, ~60 minutes of conversation.
 
-**Roles.** Rich owns logistics: the tools, billing, hardware, editing, publishing, and the booking system. Carla Anderson Skogland owns the guest slate: who comes on, in what order, the outreach, and the question arc (with Rich). Both co-host every recording. Neither has run a podcast before, so the whole system is built for the fewest moving parts that still produce clean separate tracks, broadcast-compliant audio, and video that looks like it was shot in a studio.
+**Roles.** Rich owns logistics: the tools, billing, hardware, publishing, QA, and the booking system. Carla Anderson Skogland owns the guest slate: who comes on, in what order, the outreach, and the question arc (with Rich). **Editing is owned by Kenzie (Carla's daughter, sound-mixing degree), with a backup editor in Carla's network behind her** — Rich does QA/oversight on the cut, not the cut itself (decided on the 2026-06-05 call). Both Rich and Carla co-host every recording. Neither host has run a podcast before, so the whole system is built for the fewest moving parts that still produce clean separate tracks, broadcast-compliant audio, and video that looks like it was shot in a studio.
 
 ## 2. The locked stack (do not re-litigate)
 
@@ -20,11 +20,11 @@ Mechanisms in Motion is the AES podcast: Amazon's internal operating mechanisms 
 | Record | Riverside.fm | Pro, ~$24/mo annual | Local-first remote recording at 1080p/30fps; guests join in Chrome, no install |
 | Edit | Descript | Creator, ~$24/mo annual ($35 monthly) | Edit by text; Studio Sound, filler removal, Automatic Multicam, AI clips |
 | Host/distribute | Transistor.fm | Professional, $49/mo | One upload → audio RSS to Apple+Spotify + auto-post full video to YouTube |
-| Schedule | Calendly | Standard, ~$15/mo | Guests self-book; auto-timezone; sends Riverside link + prep doc |
+| Schedule | Calendly | **Carla's existing subscription, renamed (no new cost)** | Guests self-book; auto-timezone; sends Riverside link + prep doc |
 
-Run-rate ≈ **$112/mo** on annual billing. One-time hardware ≈ **$1,700** for two matched host kits. Riverside can pause after the recording sprint.
+Run-rate ≈ **$97/mo** on annual billing (Calendly runs off Carla's existing account, so no new $15/mo line). One-time hardware ≈ **$1,600** for two matched host kits (Rich already owns his headphones, so only one headphone set is bought). Riverside can pause after the recording sprint.
 
-**Decisions already set by Rich (treat as fixed):** fully remote cloud-studio recording · prosumer hardware (~$850/host) · Descript DIY post · 6–8 episodes recorded in an Aug/Sept 2026 block · recording starts late August.
+**Decisions already set (treat as fixed):** fully remote cloud-studio recording · prosumer hardware (~$850/host) · Descript post · 6–8 episodes recorded in an Aug/Sept 2026 block · recording starts late August · **recordings on Tuesday/Friday mornings** (Thursdays are hard for Carla; Fridays also open more exec calendars) · **editing owned by Kenzie, not Rich** · **Calendly reuses Carla's account** · **Keith (Carla's husband, a sound engineer) is vetting the gear list before the kit order.**
 
 **Distribution truth:** the guaranteed path is audio via RSS (Apple + Spotify) plus auto-posted full video to YouTube. Native video on Apple/Spotify (HLS via Transistor) is a 2026 rollout; treat it as a bonus only if it is live on the account at setup. Never promise it.
 
@@ -35,11 +35,11 @@ Run-rate ≈ **$112/mo** on annual billing. One-time hardware ≈ **$1,700** for
 | Mic | Shure MV7+ (black, USB-C) | $279 | The highest-impact dollar. Run over USB-C, no interface. |
 | Webcam | Logitech MX Brio 4K | $199 | One USB-C cable, no capture card, no dummy battery. |
 | Key light | Elgato Key Light Neo | $99 | USB-powered, no Wi-Fi/app to fail on record day. |
-| Headphones | Sony MDR-7506 | $100 | Closed-back, kills echo. Plug into the mic. |
+| Headphones | Sony MDR-7506 | $100 | Closed-back, kills echo. Plug into the mic. **Rich already owns his; buy one set (Carla's).** |
 | Boom arm | RODE PSA1+ | $126 | Silent, rated to hold the heavy MV7+. |
 | Room | Reflection filter / foam | ~$50 | Plus rug/curtains/bookshelf, free. |
 
-Buy two identical kits (Rich in San Diego, Carla near Seattle) and change components together so both feeds stay matched. Optional guest-uplift kit for marquee guests: a clip light + USB mic/lav (~$25–60) shipped ahead.
+Buy two matched kits (Rich in San Diego, Carla near Seattle) and change components together so both feeds stay matched; only one headphone set is bought since Rich already owns his. **Keith (Carla's husband, a sound engineer/musician who has researched the build) is vetting this list and the setup; incorporate his write-up before ordering on Jul 1, and confirm whether he is coming to San Diego to set up Rich's kit.** Optional guest-uplift kit for marquee guests: a clip light + USB mic/lav (~$25–60) shipped ahead.
 
 ## 4. Production spec (the numbers that never change)
 
@@ -61,16 +61,17 @@ Buy two identical kits (Rich in San Diego, Carla near Seattle) and change compon
 
 Each step matches a calendar event. "Right looks like" is the acceptance test.
 
-1. **Lock the stack + dates with Carla (due Jun 5).** Right: stack confirmed, eight Tue/Thu slots on both calendars, guest-slate ownership confirmed with Carla.
-2. **First 4 guests identified + invites out (Carla, due Jun 19).** Right: four names, four warm invites sent with the Calendly link; a 6–8 slate forming.
-3. **Order both hardware kits (Rich, due Jul 10).** Right: two identical kits ordered, arriving before late July.
-4. **Kits assembled + bench-tested (due Jul 27).** Right: both kits built; mic on the arm; Shure Motiv app set (Auto Level, light denoise, reverb off); mic/cam/light/headphones confirmed working on each machine.
-5. **Learn Descript on scrap footage (Rich, due Jul 31).** Right: one full mock edit done end to end (import multitrack → Studio Sound → filler removal → multicam → captions → one clip → export to spec).
-6. **Day-1 software setup (Aug 3).** Right: four accounts live on annual billing; Riverside "Export to Descript" enabled; YouTube channel connected in Transistor; RSS submitted once to Apple Podcasts Connect and Spotify for Creators; Calendly "Recording" event built; prep one-pager written; editor decided (Rich drafts, Carla reviews).
-7. **Full test run (Thu Aug 13).** Right: 5–10 min recorded with a stand-in; all tracks uploaded to 100%; Descript export lands separate tracks; lip-sync clean at the END of the take; export reads −14 LUFS / −1.0 dBTP at 30fps.
-8. **Record Ep01–Ep08 (Aug 25 – Sep 17, Tue/Thu).** Right per session: clean separate local tracks captured, slate + 3-sec sync pause recorded, uploads confirmed 100%, QuickTime backup saved.
-9. **Edit each episode (rolling).** Right: episode cut to the production spec, 2–4 vertical clips made, passes the pre-publish QA gate.
-10. **Launch + weekly publish (Tue Sep 22 →).** Right: first episode live; 1–2 episode buffer held; season queued in Transistor scheduled-publish; each guest sent their clips.
+1. **Lock the stack + dates with Carla (due Jun 5).** Right: stack confirmed, eight Tue/Fri slots on both calendars, guest-slate ownership confirmed with Carla. *(Done on the 2026-06-05 call.)*
+2. **Keith's gear review incorporated (due Jun 19).** Right: Keith's written notes captured; kit list reconciled to any swaps he flags; San Diego setup visit confirmed or declined.
+3. **First 4 guests identified + invites out (Carla, due Jun 19).** Right: four names, four warm invites sent with the Calendly link; a 6–8 slate forming.
+4. **Order both hardware kits (Rich, due Jul 1).** Right: two matched kits ordered (one headphone set), arriving before late July, Keith's review folded in.
+5. **Kits assembled + bench-tested (due Jul 27).** Right: both kits built; mic on the arm; Shure Motiv app set (Auto Level, light denoise, reverb off); mic/cam/light/headphones confirmed working on each machine.
+6. **Editor (Kenzie) learns Descript on scrap footage (due Jul 31).** Right: editor confirmed (Kenzie, else Lauren, else a pro); one full mock edit done end to end (import multitrack → Studio Sound → filler removal → multicam → captions → one clip → export to spec).
+7. **Day-1 software setup (Aug 3).** Right: three accounts live on annual billing (Calendly reuses Carla's existing account, renamed); Riverside "Export to Descript" enabled; YouTube channel connected in Transistor; RSS submitted once to Apple Podcasts Connect and Spotify for Creators; Calendly "Recording" event built; prep one-pager written; editor lanes confirmed (Kenzie cuts, Rich QA, Carla clips/caption-QA).
+8. **Full test run (Fri Aug 14).** Right: 5–10 min recorded with a stand-in; all tracks uploaded to 100%; Descript export lands separate tracks; lip-sync clean at the END of the take; export reads −14 LUFS / −1.0 dBTP at 30fps.
+9. **Record Ep01–Ep08 (Aug 25 – Sep 18, Tue/Fri).** Right per session: clean separate local tracks captured, slate + 3-sec sync pause recorded, uploads confirmed 100%, QuickTime backup saved.
+10. **Edit each episode (rolling, Kenzie).** Right: episode cut to the production spec, 2–4 vertical clips made, passes the pre-publish QA gate (Rich runs the gate).
+11. **Launch + weekly publish (Tue Sep 22 →).** Right: first episode live; 1–2 episode buffer held; season queued in Transistor scheduled-publish; each guest sent their clips.
 
 ## 7. Guest ops (one Calendly event, one prep doc)
 
@@ -84,7 +85,7 @@ Record the 8 in the Aug/Sept block plus one hosts-only evergreen, then publish w
 
 The recording design is sound; the two structural risks are **edit throughput concentrated on one person** and **no redundancy for the irreplaceable asset (the guest track) and operator (Rich)**. The plan handles them with gates and runbooks, not hope.
 
-**Edit throughput is the real constraint, not recording.** Budget 5–8 hrs/episode for the first three, 3–5 after (active edit + clips + two exports + QA, plus any CFR transcode). It is a protected weekly block on the calendar. Split the work: Rich owns the cut, multicam, and export; Carla owns clip selection, caption QA, and the guest-clip send. 48-hour SLA: no recording sits un-started for more than two days. If editing falls more than one episode behind, publish from buffer and outsource the next first-pass to a freelance Descript editor (a shared project link makes this trivial; it is the single highest-leverage spend).
+**Edit throughput is the real constraint, not recording.** Budget 5–8 hrs/episode for the first three, 3–5 after (active edit + clips + two exports + QA, plus any CFR transcode). It is a protected weekly block on the calendar. Split the work: **Kenzie owns the cut, multicam, and export** (with a backup editor in Carla's network); Rich runs the QA gate and tracks throughput; Carla owns clip selection, caption QA, and the guest-clip send. Handing editing to a dedicated editor materially de-risks this constraint versus the original Rich-edits-everything plan, but it adds a person to confirm and onboard (the Jul 31 Descript step). 48-hour SLA: no recording sits un-started for more than two days. If editing falls more than one episode behind, publish from buffer and add a second freelance Descript editor behind Kenzie (a shared project link makes this trivial; it is the single highest-leverage spend).
 
 **Gates and decision ownership.** Rich is the accountable launch-readiness owner (go/no-go on sprint start and on each publish); Carla is consulted. Pre-committed thresholds, so no live debate: start the sprint only with **3+ guests booked** (the Jul 24 gate); **never publish below a 1-episode buffer.**
 
@@ -92,7 +93,7 @@ The recording design is sound; the two structural risks are **edit throughput co
 
 **Data-loss runbook (the guest's local track is irreplaceable).** Every session has an "upload marshal": one host's only end-of-session job is to confirm EVERY track, including the guest's, to 100% in the Riverside dashboard before the guest is released. If a track is missing or stalls, do not end the call: keep the guest on while it re-uploads; if it can't, rebook on the spot. Immediately archive both QuickTime backups + the Riverside download to a shared cloud folder, one per episode (`MiM-EpNN-Guest-YYYY-MM-DD/`), which is the system of record, not laptop-local files.
 
-**Single-point-of-failure coverage.** Both Rich and Carla are admins on each account (logins in a credentials note); Carla (or the freelance editor) is the backup publisher and can run the QA gate and hit publish if Rich is out. The publish runbook is written so a second person can execute it.
+**Single-point-of-failure coverage.** Both Rich and Carla are admins on each account (logins in a credentials note); Carla (or Kenzie / the freelance editor) is the backup publisher and can run the QA gate and hit publish if Rich is out. Editing already has a backup chain (Kenzie, then a backup editor). The publish runbook is written so a second person can execute it.
 
 **Integration and directory latency.** Apple/Spotify directory review is not instant. Publish a 60-second trailer at Day-1 setup to start the review clock weeks early, and run one private end-to-end test episode (Transistor → Apple/Spotify ingest + YouTube auto-post) before launch. Document the manual-YouTube-upload fallback if Transistor's auto-post won't connect.
 

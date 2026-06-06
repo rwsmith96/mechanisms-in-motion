@@ -120,7 +120,7 @@ KIT_ITEMS = [
     "Shure MV7+ (black, USB-C) $279 - shure.com or B&H",
     "Logitech MX Brio 4K $199 - logitech.com",
     "Elgato Key Light Neo $99 - elgato.com",
-    "Sony MDR-7506 headphones $100 - any pro-audio retailer",
+    "Sony MDR-7506 headphones $100 - any pro-audio retailer (RICH ALREADY OWNS HIS; order ONE set for Carla only)",
     "RODE PSA1+ boom arm $126 - rode.com",
     "Reflection filter / acoustic foam ~$50 - Amazon (TONOR / TroyStudio)",
 ]
@@ -135,8 +135,8 @@ events.append(event(
     desc=build_desc(
         "The gate that starts everything. Confirm the build with Carla and lock the dates.",
         ["Walk Carla through the six-pager (mim-podcast-roadmap.pdf).",
-         "Confirm the four-tool stack (Riverside for recording, Descript for editing, Transistor for publishing, Calendly for guest booking) and the ~$1,700 two-kit hardware spend.",
-         "Lock the eight Tue/Thu recording slots on both calendars.",
+         "Confirm the four-tool stack (Riverside for recording, Descript for editing, Transistor for publishing, Calendly for guest booking; Calendly runs off Carla's existing subscription, just renamed) and the ~$1,600 hardware spend (one kit; Rich already owns his headphones).",
+         "Lock the eight Tue/Fri recording slots on both calendars (Carla: Thursdays are rough; Fridays also open more exec calendars).",
          "Confirm the split: Rich = logistics, Carla = guest slate."],
         None,
         ["Stack approved; 8 slots on both calendars; guest-slate ownership confirmed with Carla."],
@@ -161,17 +161,36 @@ events.append(event(
         "placeholder for the Calendly link.")))
 
 events.append(event(
+    "mim-keith-gear-review",
+    "MiM DUE: Keith's gear review write-up incorporated (before kit order)",
+    date="2026-06-19", all_day_end="2026-06-20", alarms=["-P2D"],
+    desc=build_desc(
+        "Keith (Carla's husband, a sound engineer/musician who has researched the build) is vetting the full "
+        "gear list and setup. Get his write-up and fold any changes into the kit list before the Jul 1 order. "
+        "Keith + family may come to San Diego to help set up Rich's kit.",
+        ["Collect Keith's written notes on the mic/cam/light/arm/room list and any swaps he recommends.",
+         "Update the kit list (in generate_ics.py KIT_ITEMS and the six-pager) for anything he flags.",
+         "Confirm whether Keith is coming to San Diego to set up Rich's kit, and when."],
+        None,
+        ["Keith's review captured; kit list reconciled to it; order step ready to fire on Jul 1."],
+        "We are incorporating Keith's gear review. Help me reconcile his notes against the current kit list "
+        "(Shure MV7+, Logitech MX Brio, Elgato Key Light Neo, Sony MDR-7506, RODE PSA1+, reflection filter) "
+        "and produce the final order list, flagging any item he wants swapped.")))
+
+events.append(event(
     "mim-order-kits",
     "MiM DUE: Order both hardware kits (Rich)",
     date="2026-07-01", all_day_end="2026-07-02", alarms=["-P2D"],
     desc=build_desc(
-        "Order two identical kits (~$850 each) so they arrive together and stay matched. Pulled to Jul 1 "
-        "from Jul 10 to absorb back-order risk on the long-lead items.",
-        ["Order both kits in one pass; add a spare XLR cable (a common audio cable; order one as backup).",
+        "Order two matched kits (~$850 each, ~$1,600 total since Rich already owns his headphones) so they "
+        "arrive together and stay matched. Pulled to Jul 1 from Jul 10 to absorb back-order risk on the long-lead "
+        "items. FIRST incorporate Keith's gear write-up (Carla's husband, a sound engineer, vetting the list).",
+        ["Read Keith's gear review first; adjust the list for any swap he flags before ordering.",
+         "Order both kits in one pass; order ONE set of headphones (Carla's) since Rich already owns his; add a spare XLR cable (a common audio cable; order one as backup).",
          "Ship one to Rich (San Diego), one to Carla (Seattle area).",
          "Target arrival before late July; if any item is back-ordered, sub the nearest equivalent now."],
         KIT_ITEMS,
-        ["Two identical kits ordered; arriving before late July; no item silently back-ordered past Jul 25."],
+        ["Keith's write-up incorporated; two matched kits ordered (one headphone set); arriving before late July; no item silently back-ordered past Jul 25."],
         "We are at STEP 3: order hardware. Confirm the kit list and current prices/links, flag any "
         "out-of-stock item with the nearest equivalent, and produce one ordered shopping list with "
         "direct buy links for both kits.",
@@ -210,15 +229,18 @@ events.append(event(
 
 events.append(event(
     "mim-learn-descript",
-    "MiM DUE: Learn Descript on scrap footage (Rich)",
+    "MiM DUE: Editor (Kenzie) learns Descript on scrap footage",
     date="2026-07-31", all_day_end="2026-08-01", alarms=["-P2D"],
     desc=build_desc(
-        "Build Descript muscle memory before the test run.",
-        ["Run one full mock edit end to end on throwaway footage.",
+        "Build Descript muscle memory before the test run. Editing is now owned by Kenzie (Carla's daughter, "
+        "sound-mixing degree), with a backup editor in Carla's network behind her. CONFIRM Kenzie first. "
+        "Rich is QA/oversight, not the primary cut.",
+        ["Confirm Kenzie (or backup) as editor; give her the project access.",
+         "Run one full mock edit end to end on throwaway footage.",
          "Import multitrack, Studio Sound 60-80%, filler removal, Automatic Multicam, captions, one vertical clip, export to spec."],
         None,
-        ["One full mock edit done; export reads -14 LUFS / -1.0 dBTP at 1080p/30fps."],
-        "We are at STEP 5: learn Descript. Walk me, in order, through one full mock edit of a 5-minute "
+        ["Editor confirmed; one full mock edit done; export reads -14 LUFS / -1.0 dBTP at 1080p/30fps."],
+        "We are at STEP 5: learn Descript (editor = Kenzie/backup, not Rich). Walk the editor, in order, through one full mock edit of a 5-minute "
         "multitrack remote interview with the exact spec settings (Studio Sound 60-80%, filler removal, "
         "Automatic Multicam, captions, one 9:16 clip, export -14 LUFS / -1.0 dBTP at 1080p/30fps). Flag "
         "the top 3 beginner mistakes as we go.",
@@ -232,7 +254,7 @@ events.append(event(
     date="2026-08-03", start="09:00", end="11:00", alarms=["-P1D"],
     desc=build_desc(
         "One-time account setup. Do it once, never touch again.",
-        ["Create the 4 accounts on annual billing (Riverside Pro, Descript Creator, Transistor Pro, Calendly Standard).",
+        ["Create 3 accounts on annual billing (Riverside Pro, Descript Creator, Transistor Pro); REUSE Carla's existing Calendly subscription (rename it for the show) rather than buying a new one.",
          "In Riverside, enable 'Export to Descript' (email Riverside support now if the button is missing).",
          "Connect the YouTube channel inside Transistor (document the manual-upload fallback if it won't connect).",
          "Publish a 60-second TRAILER now and submit the RSS feed to Apple Podcasts Connect and Spotify for Creators (Apple's and Spotify's podcast submission sites), so directory review (days, sometimes weeks) clears well before launch.",
@@ -241,7 +263,7 @@ events.append(event(
          "Write the guest prep one-pager (Google Doc, view-only).",
          "Set up the shared master-asset cloud folder (Drive/Dropbox), one folder per episode.",
          "Add both Rich and Carla as admins on each account where allowed; record logins in a credentials note.",
-         "Confirm editor lanes: Rich owns the cut/multicam/export; Carla owns clip selection + caption QA + guest-clip send."],
+         "Confirm editor lanes: Kenzie (Carla's daughter) owns the cut/multicam/export; Rich does QA/oversight; Carla owns clip selection + caption QA + guest-clip send."],
         None,
         ["Accounts live + both admins; trailer published and feeds submitted for early review; private end-to-end publish proven; YouTube connected; Calendly + prep doc verified; shared asset folder ready."],
         "We are at STEP 6: Day-1 software setup. Give me an ordered runbook with the exact click-path for "
@@ -253,7 +275,7 @@ events.append(event(
 events.append(event(
     "mim-test-run",
     "MiM: Full test run (Rich + Carla + stand-in guest)",
-    date="2026-08-13", start="09:00", end="09:45", location=RIVERSIDE, alarms=["-P1D", "-PT1H"],
+    date="2026-08-14", start="09:00", end="09:45", location=RIVERSIDE, alarms=["-P1D", "-PT1H"],
     desc=build_desc(
         "Prove the whole chain AND rehearse the real failure modes before the first marquee guest. Costs nothing to break here.",
         ["Rich + Carla + a stand-in on a RANDOM laptop with a default webcam (rehearse the degraded guest, not the happy path).",
@@ -271,8 +293,8 @@ events.append(event(
                 f"Editing + export numbers: {HOWTO}descript-edit.md"])))
 
 # --- Recording sessions ---
-SESSIONS = [("2026-08-25", 1), ("2026-08-27", 2), ("2026-09-01", 3), ("2026-09-03", 4),
-            ("2026-09-08", 5), ("2026-09-10", 6), ("2026-09-15", 7), ("2026-09-17", 8)]
+SESSIONS = [("2026-08-25", 1), ("2026-08-28", 2), ("2026-09-01", 3), ("2026-09-04", 4),
+            ("2026-09-08", 5), ("2026-09-11", 6), ("2026-09-15", 7), ("2026-09-18", 8)]
 REC_DO = [
     "T-minus 5 min, BEFORE the guest joins: both hosts confirm the MV7+ is chosen as the microphone in Riverside's settings (a software pick, not just plugging it in), 'separate tracks / local recording' is ON (in Riverside's Studio settings; it saves each person's audio to their own computer as insurance), and the QuickTime backup is rolling. Fix any before admitting the guest.",
     "Headphones on for everyone (kills echo).",
@@ -341,20 +363,21 @@ events.append(event(
     "MiM: Edit + QA block (protect editing throughput)",
     date="2026-08-26", start="13:00", end="16:00", rrule="FREQ=WEEKLY;BYDAY=WE;COUNT=9", alarms=["-PT30M"],
     desc=build_desc(
-        "A protected 3-hr editing block so the edit backlog can't collapse the buffer. Edit throughput, not "
+        "A protected 3-hr edit + QA block so the edit backlog can't collapse the buffer. Editing is owned by "
+        "Kenzie (Carla's daughter); Rich runs the QA gate and tracks throughput here. Edit throughput, not "
         "recording, is the real constraint: budget 5-8 hrs/episode for the first three, 3-5 after.",
-        ["Edit the most recent recording toward the spec (Studio Sound, multicam, captions, clips, export).",
-         "Honor the 48-hour SLA: no recording sits un-started for more than two days.",
-         "If editing falls more than one episode behind, publish from buffer and outsource the next first-pass to a freelance Descript editor."],
+        ["Confirm Kenzie has edited the most recent recording toward the spec (Studio Sound, multicam, captions, clips, export).",
+         "Run the pre-publish QA gate on whatever is cut; honor the 48-hour SLA: no recording sits un-started for more than two days.",
+         "If editing falls more than one episode behind, publish from buffer and add a second freelance Descript editor behind Kenzie."],
         None,
         ["Backlog held to <= 1 episode; every recording edit-started within 48h; buffer protected."],
-        "This is my weekly edit block. Help me pick which episode to edit, run the Descript steps in order to "
-        "the spec, and tell me honestly if I'm falling behind the publish cadence and should outsource a cut.")))
+        "This is the weekly MiM edit + QA block. Help me confirm Kenzie's cut is on spec, run the QA gate, and "
+        "tell me honestly if we're falling behind the publish cadence and should add a second editor.")))
 
 events.append(event(
     "mim-evergreen",
     "MiM: Record evergreen buffer episode (hosts-only, no guest)",
-    date="2026-08-20", start="09:00", end="10:15", location=RIVERSIDE, alarms=["-P1D"],
+    date="2026-08-21", start="09:00", end="10:15", location=RIVERSIDE, alarms=["-P1D"],
     desc=build_desc(
         "Bank one publishable hosts-only episode as launch insurance and a no-show release valve. Same kit and "
         "checklist as a real session; no guest to coordinate.",

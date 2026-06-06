@@ -32,38 +32,43 @@ DESCRIPTION:The gate that starts everything. Confirm the build with Carla
   and lock the dates.\n\nDO\n- Walk Carla through the six-pager (mim-podc
  ast-roadmap.pdf).\n- Confirm the four-tool stack (Riverside for recordin
  g\, Descript for editing\, Transistor for publishing\, Calendly for gues
- t booking) and the ~$1\,700 two-kit hardware spend.\n- Lock the eight Tu
- e/Thu recording slots on both calendars.\n- Confirm the split: Rich = lo
- gistics\, Carla = guest slate.\n\nRIGHT LOOKS LIKE\n- Stack approved\; 8
-  slots on both calendars\; guest-slate ownership confirmed with Carla.\n
- \nHOW-TO GUIDES (plain language\, jargon decoded\, each with a chatbot p
- rompt)\n- Import this calendar into your own: https://github.com/rwsmith
- 96/mechanisms-in-motion/blob/main/how-to/import-calendar.md\n- All guide
- s: https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/RE
- ADME.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT for step-by-st
- ep help)\nYou are helping run Mechanisms in Motion\, the AES podcast: a 
- remote\, two-host video interview show that turns Amazon's internal oper
- ating mechanisms into playbooks any company can use (tagline 'Day 1 Ener
- gy for Every Stage of Growth'). Rich owns logistics\; Carla owns the gue
- st slate. First\, if you can open links\, read the project spec for full
- \, current context: https://raw.githubusercontent.com/rwsmith96/mechanis
- ms-in-motion/main/mim-assistant-context.md and the project repo: https:/
- /github.com/rwsmith96/mechanisms-in-motion . The relevant how-to guide(s
- ): https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/im
- port-calendar.md . If you cannot open links\, the brief below is self-co
- ntained\; use it. Today's step: The gate that starts everything. Confirm
-  the build with Carla and lock the dates. WHAT TO DO: (1) Walk Carla thr
- ough the six-pager (mim-podcast-roadmap.pdf). (2) Confirm the four-tool 
- stack (Riverside for recording\, Descript for editing\, Transistor for p
- ublishing\, Calendly for guest booking) and the ~$1\,700 two-kit hardwar
- e spend. (3) Lock the eight Tue/Thu recording slots on both calendars. (
- 4) Confirm the split: Rich = logistics\, Carla = guest slate. DONE WHEN:
-  Stack approved\; 8 slots on both calendars\; guest-slate ownership conf
- irmed with Carla. YOUR TASK: We are at STEP 1: lock the stack and dates.
-  Draft a 5-line confirmation message to Carla in Rich's voice summarizin
- g the stack\, the cost\, the Aug/Sept recording dates\, and the logistic
- s/guest-slate split.\n\nFULL PROJECT (all files + guides): https://githu
- b.com/rwsmith96/mechanisms-in-motion
+ t booking\; Calendly runs off Carla's existing subscription\, just renam
+ ed) and the ~$1\,600 hardware spend (one kit\; Rich already owns his hea
+ dphones).\n- Lock the eight Tue/Fri recording slots on both calendars (C
+ arla: Thursdays are rough\; Fridays also open more exec calendars).\n- C
+ onfirm the split: Rich = logistics\, Carla = guest slate.\n\nRIGHT LOOKS
+  LIKE\n- Stack approved\; 8 slots on both calendars\; guest-slate owners
+ hip confirmed with Carla.\n\nHOW-TO GUIDES (plain language\, jargon deco
+ ded\, each with a chatbot prompt)\n- Import this calendar into your own:
+  https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/impo
+ rt-calendar.md\n- All guides: https://github.com/rwsmith96/mechanisms-in
+ -motion/blob/main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claud
+ e or ChatGPT for step-by-step help)\nYou are helping run Mechanisms in M
+ otion\, the AES podcast: a remote\, two-host video interview show that t
+ urns Amazon's internal operating mechanisms into playbooks any company c
+ an use (tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns log
+ istics\; Carla owns the guest slate. First\, if you can open links\, rea
+ d the project spec for full\, current context: https://raw.githubusercon
+ tent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md an
+ d the project repo: https://github.com/rwsmith96/mechanisms-in-motion . 
+ The relevant how-to guide(s): https://github.com/rwsmith96/mechanisms-in
+ -motion/blob/main/how-to/import-calendar.md . If you cannot open links\,
+  the brief below is self-contained\; use it. Today's step: The gate that
+  starts everything. Confirm the build with Carla and lock the dates. WHA
+ T TO DO: (1) Walk Carla through the six-pager (mim-podcast-roadmap.pdf).
+  (2) Confirm the four-tool stack (Riverside for recording\, Descript for
+  editing\, Transistor for publishing\, Calendly for guest booking\; Cale
+ ndly runs off Carla's existing subscription\, just renamed) and the ~$1\
+ ,600 hardware spend (one kit\; Rich already owns his headphones). (3) Lo
+ ck the eight Tue/Fri recording slots on both calendars (Carla: Thursdays
+  are rough\; Fridays also open more exec calendars). (4) Confirm the spl
+ it: Rich = logistics\, Carla = guest slate. DONE WHEN: Stack approved\; 
+ 8 slots on both calendars\; guest-slate ownership confirmed with Carla. 
+ YOUR TASK: We are at STEP 1: lock the stack and dates. Draft a 5-line co
+ nfirmation message to Carla in Rich's voice summarizing the stack\, the 
+ cost\, the Aug/Sept recording dates\, and the logistics/guest-slate spli
+ t.\n\nFULL PROJECT (all files + guides): https://github.com/rwsmith96/me
+ chanisms-in-motion
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -113,51 +118,114 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:mim-keith-gear-review@mechanismsinmotion.aes
+DTSTAMP:20260603T160000Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+SUMMARY:MiM DUE: Keith's gear review write-up incorporated (before kit or
+ der)
+DESCRIPTION:Keith (Carla's husband\, a sound engineer/musician who has re
+ searched the build) is vetting the full gear list and setup. Get his wri
+ te-up and fold any changes into the kit list before the Jul 1 order. Kei
+ th + family may come to San Diego to help set up Rich's kit.\n\nDO\n- Co
+ llect Keith's written notes on the mic/cam/light/arm/room list and any s
+ waps he recommends.\n- Update the kit list (in generate_ics.py KIT_ITEMS
+  and the six-pager) for anything he flags.\n- Confirm whether Keith is c
+ oming to San Diego to set up Rich's kit\, and when.\n\nRIGHT LOOKS LIKE\
+ n- Keith's review captured\; kit list reconciled to it\; order step read
+ y to fire on Jul 1.\n\nHOW-TO GUIDES (plain language\, jargon decoded\, 
+ each with a chatbot prompt)\n- All guides: https://github.com/rwsmith96/
+ mechanisms-in-motion/blob/main/how-to/README.md\n\nASSISTANT PROMPT (pas
+ te into Claude or ChatGPT for step-by-step help)\nYou are helping run Me
+ chanisms in Motion\, the AES podcast: a remote\, two-host video intervie
+ w show that turns Amazon's internal operating mechanisms into playbooks 
+ any company can use (tagline 'Day 1 Energy for Every Stage of Growth'). 
+ Rich owns logistics\; Carla owns the guest slate. First\, if you can ope
+ n links\, read the project spec for full\, current context: https://raw.
+ githubusercontent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-
+ context.md and the project repo: https://github.com/rwsmith96/mechanisms
+ -in-motion . If you cannot open links\, the brief below is self-containe
+ d\; use it. Today's step: Keith (Carla's husband\, a sound engineer/musi
+ cian who has researched the build) is vetting the full gear list and set
+ up. Get his write-up and fold any changes into the kit list before the J
+ ul 1 order. Keith + family may come to San Diego to help set up Rich's k
+ it. WHAT TO DO: (1) Collect Keith's written notes on the mic/cam/light/a
+ rm/room list and any swaps he recommends. (2) Update the kit list (in ge
+ nerate_ics.py KIT_ITEMS and the six-pager) for anything he flags. (3) Co
+ nfirm whether Keith is coming to San Diego to set up Rich's kit\, and wh
+ en. DONE WHEN: Keith's review captured\; kit list reconciled to it\; ord
+ er step ready to fire on Jul 1. YOUR TASK: We are incorporating Keith's 
+ gear review. Help me reconcile his notes against the current kit list (S
+ hure MV7+\, Logitech MX Brio\, Elgato Key Light Neo\, Sony MDR-7506\, RO
+ DE PSA1+\, reflection filter) and produce the final order list\, flaggin
+ g any item he wants swapped.\n\nFULL PROJECT (all files + guides): https
+ ://github.com/rwsmith96/mechanisms-in-motion
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MiM DUE: Keith's gear review write-up incorporated (before ki
+ t order)
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:mim-order-kits@mechanismsinmotion.aes
 DTSTAMP:20260603T160000Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:MiM DUE: Order both hardware kits (Rich)
-DESCRIPTION:Order two identical kits (~$850 each) so they arrive together
-  and stay matched. Pulled to Jul 1 from Jul 10 to absorb back-order risk
-  on the long-lead items.\n\nDO\n- Order both kits in one pass\; add a sp
- are XLR cable (a common audio cable\; order one as backup).\n- Ship one 
- to Rich (San Diego)\, one to Carla (Seattle area).\n- Target arrival bef
- ore late July\; if any item is back-ordered\, sub the nearest equivalent
-  now.\n\nBUY / HAVE READY\n- Shure MV7+ (black\, USB-C) $279 - shure.com
-  or B&H\n- Logitech MX Brio 4K $199 - logitech.com\n- Elgato Key Light N
- eo $99 - elgato.com\n- Sony MDR-7506 headphones $100 - any pro-audio ret
- ailer\n- RODE PSA1+ boom arm $126 - rode.com\n- Reflection filter / acou
- stic foam ~$50 - Amazon (TONOR / TroyStudio)\n\nRIGHT LOOKS LIKE\n- Two 
- identical kits ordered\; arriving before late July\; no item silently ba
- ck-ordered past Jul 25.\n\nHOW-TO GUIDES (plain language\, jargon decode
- d\, each with a chatbot prompt)\n- Set up the kit once it arrives: https
- ://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/hardware-s
- etup.md\n- All guides: https://github.com/rwsmith96/mechanisms-in-motion
- /blob/main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or Ch
- atGPT for step-by-step help)\nYou are helping run Mechanisms in Motion\,
-  the AES podcast: a remote\, two-host video interview show that turns Am
- azon's internal operating mechanisms into playbooks any company can use 
- (tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\
- ; Carla owns the guest slate. First\, if you can open links\, read the p
- roject spec for full\, current context: https://raw.githubusercontent.co
- m/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md and the p
- roject repo: https://github.com/rwsmith96/mechanisms-in-motion . The rel
- evant how-to guide(s): https://github.com/rwsmith96/mechanisms-in-motion
- /blob/main/how-to/hardware-setup.md . If you cannot open links\, the bri
- ef below is self-contained\; use it. Today's step: Order two identical k
- its (~$850 each) so they arrive together and stay matched. Pulled to Jul
-  1 from Jul 10 to absorb back-order risk on the long-lead items. WHAT TO
-  DO: (1) Order both kits in one pass\; add a spare XLR cable (a common a
- udio cable\; order one as backup). (2) Ship one to Rich (San Diego)\, on
- e to Carla (Seattle area). (3) Target arrival before late July\; if any 
- item is back-ordered\, sub the nearest equivalent now. DONE WHEN: Two id
- entical kits ordered\; arriving before late July\; no item silently back
- -ordered past Jul 25. YOUR TASK: We are at STEP 3: order hardware. Confi
- rm the kit list and current prices/links\, flag any out-of-stock item wi
- th the nearest equivalent\, and produce one ordered shopping list with d
- irect buy links for both kits.\n\nFULL PROJECT (all files + guides): htt
- ps://github.com/rwsmith96/mechanisms-in-motion
+DESCRIPTION:Order two matched kits (~$850 each\, ~$1\,600 total since Ric
+ h already owns his headphones) so they arrive together and stay matched.
+  Pulled to Jul 1 from Jul 10 to absorb back-order risk on the long-lead 
+ items. FIRST incorporate Keith's gear write-up (Carla's husband\, a soun
+ d engineer\, vetting the list).\n\nDO\n- Read Keith's gear review first\
+ ; adjust the list for any swap he flags before ordering.\n- Order both k
+ its in one pass\; order ONE set of headphones (Carla's) since Rich alrea
+ dy owns his\; add a spare XLR cable (a common audio cable\; order one as
+  backup).\n- Ship one to Rich (San Diego)\, one to Carla (Seattle area).
+ \n- Target arrival before late July\; if any item is back-ordered\, sub 
+ the nearest equivalent now.\n\nBUY / HAVE READY\n- Shure MV7+ (black\, U
+ SB-C) $279 - shure.com or B&H\n- Logitech MX Brio 4K $199 - logitech.com
+ \n- Elgato Key Light Neo $99 - elgato.com\n- Sony MDR-7506 headphones $1
+ 00 - any pro-audio retailer (RICH ALREADY OWNS HIS\; order ONE set for C
+ arla only)\n- RODE PSA1+ boom arm $126 - rode.com\n- Reflection filter /
+  acoustic foam ~$50 - Amazon (TONOR / TroyStudio)\n\nRIGHT LOOKS LIKE\n-
+  Keith's write-up incorporated\; two matched kits ordered (one headphone
+  set)\; arriving before late July\; no item silently back-ordered past J
+ ul 25.\n\nHOW-TO GUIDES (plain language\, jargon decoded\, each with a c
+ hatbot prompt)\n- Set up the kit once it arrives: https://github.com/rws
+ mith96/mechanisms-in-motion/blob/main/how-to/hardware-setup.md\n- All gu
+ ides: https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to
+ /README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT for step-by
+ -step help)\nYou are helping run Mechanisms in Motion\, the AES podcast:
+  a remote\, two-host video interview show that turns Amazon's internal o
+ perating mechanisms into playbooks any company can use (tagline 'Day 1 E
+ nergy for Every Stage of Growth'). Rich owns logistics\; Carla owns the 
+ guest slate. First\, if you can open links\, read the project spec for f
+ ull\, current context: https://raw.githubusercontent.com/rwsmith96/mecha
+ nisms-in-motion/main/mim-assistant-context.md and the project repo: http
+ s://github.com/rwsmith96/mechanisms-in-motion . The relevant how-to guid
+ e(s): https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to
+ /hardware-setup.md . If you cannot open links\, the brief below is self-
+ contained\; use it. Today's step: Order two matched kits (~$850 each\, ~
+ $1\,600 total since Rich already owns his headphones) so they arrive tog
+ ether and stay matched. Pulled to Jul 1 from Jul 10 to absorb back-order
+  risk on the long-lead items. FIRST incorporate Keith's gear write-up (C
+ arla's husband\, a sound engineer\, vetting the list). WHAT TO DO: (1) R
+ ead Keith's gear review first\; adjust the list for any swap he flags be
+ fore ordering. (2) Order both kits in one pass\; order ONE set of headph
+ ones (Carla's) since Rich already owns his\; add a spare XLR cable (a co
+ mmon audio cable\; order one as backup). (3) Ship one to Rich (San Diego
+ )\, one to Carla (Seattle area). (4) Target arrival before late July\; i
+ f any item is back-ordered\, sub the nearest equivalent now. DONE WHEN: 
+ Keith's write-up incorporated\; two matched kits ordered (one headphone 
+ set)\; arriving before late July\; no item silently back-ordered past Ju
+ l 25. YOUR TASK: We are at STEP 3: order hardware. Confirm the kit list 
+ and current prices/links\, flag any out-of-stock item with the nearest e
+ quivalent\, and produce one ordered shopping list with direct buy links 
+ for both kits.\n\nFULL PROJECT (all files + guides): https://github.com/
+ rwsmith96/mechanisms-in-motion
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -263,46 +331,55 @@ UID:mim-learn-descript@mechanismsinmotion.aes
 DTSTAMP:20260603T160000Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
-SUMMARY:MiM DUE: Learn Descript on scrap footage (Rich)
-DESCRIPTION:Build Descript muscle memory before the test run.\n\nDO\n- Ru
- n one full mock edit end to end on throwaway footage.\n- Import multitra
- ck\, Studio Sound 60-80%\, filler removal\, Automatic Multicam\, caption
- s\, one vertical clip\, export to spec.\n\nRIGHT LOOKS LIKE\n- One full 
- mock edit done\; export reads -14 LUFS / -1.0 dBTP at 1080p/30fps.\n\nHO
- W-TO GUIDES (plain language\, jargon decoded\, each with a chatbot promp
- t)\n- The edit\, step by step: https://github.com/rwsmith96/mechanisms-i
- n-motion/blob/main/how-to/descript-edit.md\n- What the export numbers me
- an: https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/e
- xport-settings.md\n- All guides: https://github.com/rwsmith96/mechanisms
- -in-motion/blob/main/how-to/README.md\n\nASSISTANT PROMPT (paste into Cl
- aude or ChatGPT for step-by-step help)\nYou are helping run Mechanisms i
- n Motion\, the AES podcast: a remote\, two-host video interview show tha
- t turns Amazon's internal operating mechanisms into playbooks any compan
- y can use (tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns 
- logistics\; Carla owns the guest slate. First\, if you can open links\, 
- read the project spec for full\, current context: https://raw.githubuser
- content.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md
-  and the project repo: https://github.com/rwsmith96/mechanisms-in-motion
-  . The relevant how-to guide(s): https://github.com/rwsmith96/mechanisms
- -in-motion/blob/main/how-to/descript-edit.md\; https://github.com/rwsmit
- h96/mechanisms-in-motion/blob/main/how-to/export-settings.md . If you ca
- nnot open links\, the brief below is self-contained\; use it. Today's st
- ep: Build Descript muscle memory before the test run. WHAT TO DO: (1) Ru
- n one full mock edit end to end on throwaway footage. (2) Import multitr
- ack\, Studio Sound 60-80%\, filler removal\, Automatic Multicam\, captio
- ns\, one vertical clip\, export to spec. DONE WHEN: One full mock edit d
- one\; export reads -14 LUFS / -1.0 dBTP at 1080p/30fps. YOUR TASK: We ar
- e at STEP 5: learn Descript. Walk me\, in order\, through one full mock 
- edit of a 5-minute multitrack remote interview with the exact spec setti
- ngs (Studio Sound 60-80%\, filler removal\, Automatic Multicam\, caption
- s\, one 9:16 clip\, export -14 LUFS / -1.0 dBTP at 1080p/30fps). Flag th
- e top 3 beginner mistakes as we go.\n\nFULL PROJECT (all files + guides)
- : https://github.com/rwsmith96/mechanisms-in-motion
+SUMMARY:MiM DUE: Editor (Kenzie) learns Descript on scrap footage
+DESCRIPTION:Build Descript muscle memory before the test run. Editing is 
+ now owned by Kenzie (Carla's daughter\, sound-mixing degree)\, with a ba
+ ckup editor in Carla's network behind her. CONFIRM Kenzie first. Rich is
+  QA/oversight\, not the primary cut.\n\nDO\n- Confirm Kenzie (or backup)
+  as editor\; give her the project access.\n- Run one full mock edit end 
+ to end on throwaway footage.\n- Import multitrack\, Studio Sound 60-80%\
+ , filler removal\, Automatic Multicam\, captions\, one vertical clip\, e
+ xport to spec.\n\nRIGHT LOOKS LIKE\n- Editor confirmed\; one full mock e
+ dit done\; export reads -14 LUFS / -1.0 dBTP at 1080p/30fps.\n\nHOW-TO G
+ UIDES (plain language\, jargon decoded\, each with a chatbot prompt)\n- 
+ The edit\, step by step: https://github.com/rwsmith96/mechanisms-in-moti
+ on/blob/main/how-to/descript-edit.md\n- What the export numbers mean: ht
+ tps://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-to/export-
+ settings.md\n- All guides: https://github.com/rwsmith96/mechanisms-in-mo
+ tion/blob/main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude o
+ r ChatGPT for step-by-step help)\nYou are helping run Mechanisms in Moti
+ on\, the AES podcast: a remote\, two-host video interview show that turn
+ s Amazon's internal operating mechanisms into playbooks any company can 
+ use (tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns logist
+ ics\; Carla owns the guest slate. First\, if you can open links\, read t
+ he project spec for full\, current context: https://raw.githubuserconten
+ t.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md and t
+ he project repo: https://github.com/rwsmith96/mechanisms-in-motion . The
+  relevant how-to guide(s): https://github.com/rwsmith96/mechanisms-in-mo
+ tion/blob/main/how-to/descript-edit.md\; https://github.com/rwsmith96/me
+ chanisms-in-motion/blob/main/how-to/export-settings.md . If you cannot o
+ pen links\, the brief below is self-contained\; use it. Today's step: Bu
+ ild Descript muscle memory before the test run. Editing is now owned by 
+ Kenzie (Carla's daughter\, sound-mixing degree)\, with a backup editor i
+ n Carla's network behind her. CONFIRM Kenzie first. Rich is QA/oversight
+ \, not the primary cut. WHAT TO DO: (1) Confirm Kenzie (or backup) as ed
+ itor\; give her the project access. (2) Run one full mock edit end to en
+ d on throwaway footage. (3) Import multitrack\, Studio Sound 60-80%\, fi
+ ller removal\, Automatic Multicam\, captions\, one vertical clip\, expor
+ t to spec. DONE WHEN: Editor confirmed\; one full mock edit done\; expor
+ t reads -14 LUFS / -1.0 dBTP at 1080p/30fps. YOUR TASK: We are at STEP 5
+ : learn Descript (editor = Kenzie/backup\, not Rich). Walk the editor\, 
+ in order\, through one full mock edit of a 5-minute multitrack remote in
+ terview with the exact spec settings (Studio Sound 60-80%\, filler remov
+ al\, Automatic Multicam\, captions\, one 9:16 clip\, export -14 LUFS / -
+ 1.0 dBTP at 1080p/30fps). Flag the top 3 beginner mistakes as we go.\n\n
+ FULL PROJECT (all files + guides): https://github.com/rwsmith96/mechanis
+ ms-in-motion
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:MiM DUE: Learn Descript on scrap footage (Rich)
+DESCRIPTION:MiM DUE: Editor (Kenzie) learns Descript on scrap footage
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -313,69 +390,73 @@ DTSTART;TZID=America/Los_Angeles:20260803T090000
 DTEND;TZID=America/Los_Angeles:20260803T110000
 SUMMARY:MiM: Day-1 software setup (one time)
 DESCRIPTION:One-time account setup. Do it once\, never touch again.\n\nDO
- \n- Create the 4 accounts on annual billing (Riverside Pro\, Descript Cr
- eator\, Transistor Pro\, Calendly Standard).\n- In Riverside\, enable 'E
- xport to Descript' (email Riverside support now if the button is missing
- ).\n- Connect the YouTube channel inside Transistor (document the manual
- -upload fallback if it won't connect).\n- Publish a 60-second TRAILER no
- w and submit the RSS feed to Apple Podcasts Connect and Spotify for Crea
- tors (Apple's and Spotify's podcast submission sites)\, so directory rev
- iew (days\, sometimes weeks) clears well before launch.\n- Run one priva
- te/unlisted end-to-end test episode: Transistor -> confirm Apple/Spotify
-  ingest + YouTube auto-post actually fire.\n- Build the Calendly 'Record
- ing' event (75 min\, 15-min buffers\, Riverside link as location\, 3 int
- ake questions)\; confirm the invite carries the link and the prep doc re
- solves view-only.\n- Write the guest prep one-pager (Google Doc\, view-o
- nly).\n- Set up the shared master-asset cloud folder (Drive/Dropbox)\, o
- ne folder per episode.\n- Add both Rich and Carla as admins on each acco
- unt where allowed\; record logins in a credentials note.\n- Confirm edit
- or lanes: Rich owns the cut/multicam/export\; Carla owns clip selection 
- + caption QA + guest-clip send.\n\nRIGHT LOOKS LIKE\n- Accounts live + b
- oth admins\; trailer published and feeds submitted for early review\; pr
- ivate end-to-end publish proven\; YouTube connected\; Calendly + prep do
- c verified\; shared asset folder ready.\n\nHOW-TO GUIDES (plain language
- \, jargon decoded\, each with a chatbot prompt)\n- Day-1 setup\, step by
-  step: https://github.com/rwsmith96/mechanisms-in-motion/blob/main/how-t
- o/day1-setup.md\n- All guides: https://github.com/rwsmith96/mechanisms-i
- n-motion/blob/main/how-to/README.md\n\nASSISTANT PROMPT (paste into Clau
- de or ChatGPT for step-by-step help)\nYou are helping run Mechanisms in 
- Motion\, the AES podcast: a remote\, two-host video interview show that 
- turns Amazon's internal operating mechanisms into playbooks any company 
- can use (tagline 'Day 1 Energy for Every Stage of Growth'). Rich owns lo
- gistics\; Carla owns the guest slate. First\, if you can open links\, re
- ad the project spec for full\, current context: https://raw.githubuserco
- ntent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-context.md a
- nd the project repo: https://github.com/rwsmith96/mechanisms-in-motion .
-  The relevant how-to guide(s): https://github.com/rwsmith96/mechanisms-i
- n-motion/blob/main/how-to/day1-setup.md . If you cannot open links\, the
-  brief below is self-contained\; use it. Today's step: One-time account 
- setup. Do it once\, never touch again. WHAT TO DO: (1) Create the 4 acco
- unts on annual billing (Riverside Pro\, Descript Creator\, Transistor Pr
- o\, Calendly Standard). (2) In Riverside\, enable 'Export to Descript' (
- email Riverside support now if the button is missing). (3) Connect the Y
- ouTube channel inside Transistor (document the manual-upload fallback if
-  it won't connect). (4) Publish a 60-second TRAILER now and submit the R
- SS feed to Apple Podcasts Connect and Spotify for Creators (Apple's and 
- Spotify's podcast submission sites)\, so directory review (days\, someti
- mes weeks) clears well before launch. (5) Run one private/unlisted end-t
- o-end test episode: Transistor -> confirm Apple/Spotify ingest + YouTube
-  auto-post actually fire. (6) Build the Calendly 'Recording' event (75 m
- in\, 15-min buffers\, Riverside link as location\, 3 intake questions)\;
-  confirm the invite carries the link and the prep doc resolves view-only
- . (7) Write the guest prep one-pager (Google Doc\, view-only). (8) Set u
- p the shared master-asset cloud folder (Drive/Dropbox)\, one folder per 
- episode. (9) Add both Rich and Carla as admins on each account where all
- owed\; record logins in a credentials note. (10) Confirm editor lanes: R
- ich owns the cut/multicam/export\; Carla owns clip selection + caption Q
- A + guest-clip send. DONE WHEN: Accounts live + both admins\; trailer pu
- blished and feeds submitted for early review\; private end-to-end publis
- h proven\; YouTube connected\; Calendly + prep doc verified\; shared ass
- et folder ready. YOUR TASK: We are at STEP 6: Day-1 software setup. Give
-  me an ordered runbook with the exact click-path for each task\, the tra
- iler + private-test-episode procedure\, the precise Calendly 'Recording'
-  fields\, and the full text of the guest prep one-pager (include a one-l
- ine audio+video reuse consent).\n\nFULL PROJECT (all files + guides): ht
- tps://github.com/rwsmith96/mechanisms-in-motion
+ \n- Create 3 accounts on annual billing (Riverside Pro\, Descript Creato
+ r\, Transistor Pro)\; REUSE Carla's existing Calendly subscription (rena
+ me it for the show) rather than buying a new one.\n- In Riverside\, enab
+ le 'Export to Descript' (email Riverside support now if the button is mi
+ ssing).\n- Connect the YouTube channel inside Transistor (document the m
+ anual-upload fallback if it won't connect).\n- Publish a 60-second TRAIL
+ ER now and submit the RSS feed to Apple Podcasts Connect and Spotify for
+  Creators (Apple's and Spotify's podcast submission sites)\, so director
+ y review (days\, sometimes weeks) clears well before launch.\n- Run one 
+ private/unlisted end-to-end test episode: Transistor -> confirm Apple/Sp
+ otify ingest + YouTube auto-post actually fire.\n- Build the Calendly 'R
+ ecording' event (75 min\, 15-min buffers\, Riverside link as location\, 
+ 3 intake questions)\; confirm the invite carries the link and the prep d
+ oc resolves view-only.\n- Write the guest prep one-pager (Google Doc\, v
+ iew-only).\n- Set up the shared master-asset cloud folder (Drive/Dropbox
+ )\, one folder per episode.\n- Add both Rich and Carla as admins on each
+  account where allowed\; record logins in a credentials note.\n- Confirm
+  editor lanes: Kenzie (Carla's daughter) owns the cut/multicam/export\; 
+ Rich does QA/oversight\; Carla owns clip selection + caption QA + guest-
+ clip send.\n\nRIGHT LOOKS LIKE\n- Accounts live + both admins\; trailer 
+ published and feeds submitted for early review\; private end-to-end publ
+ ish proven\; YouTube connected\; Calendly + prep doc verified\; shared a
+ sset folder ready.\n\nHOW-TO GUIDES (plain language\, jargon decoded\, e
+ ach with a chatbot prompt)\n- Day-1 setup\, step by step: https://github
+ .com/rwsmith96/mechanisms-in-motion/blob/main/how-to/day1-setup.md\n- Al
+ l guides: https://github.com/rwsmith96/mechanisms-in-motion/blob/main/ho
+ w-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGPT for ste
+ p-by-step help)\nYou are helping run Mechanisms in Motion\, the AES podc
+ ast: a remote\, two-host video interview show that turns Amazon's intern
+ al operating mechanisms into playbooks any company can use (tagline 'Day
+  1 Energy for Every Stage of Growth'). Rich owns logistics\; Carla owns 
+ the guest slate. First\, if you can open links\, read the project spec f
+ or full\, current context: https://raw.githubusercontent.com/rwsmith96/m
+ echanisms-in-motion/main/mim-assistant-context.md and the project repo: 
+ https://github.com/rwsmith96/mechanisms-in-motion . The relevant how-to 
+ guide(s): https://github.com/rwsmith96/mechanisms-in-motion/blob/main/ho
+ w-to/day1-setup.md . If you cannot open links\, the brief below is self-
+ contained\; use it. Today's step: One-time account setup. Do it once\, n
+ ever touch again. WHAT TO DO: (1) Create 3 accounts on annual billing (R
+ iverside Pro\, Descript Creator\, Transistor Pro)\; REUSE Carla's existi
+ ng Calendly subscription (rename it for the show) rather than buying a n
+ ew one. (2) In Riverside\, enable 'Export to Descript' (email Riverside 
+ support now if the button is missing). (3) Connect the YouTube channel i
+ nside Transistor (document the manual-upload fallback if it won't connec
+ t). (4) Publish a 60-second TRAILER now and submit the RSS feed to Apple
+  Podcasts Connect and Spotify for Creators (Apple's and Spotify's podcas
+ t submission sites)\, so directory review (days\, sometimes weeks) clear
+ s well before launch. (5) Run one private/unlisted end-to-end test episo
+ de: Transistor -> confirm Apple/Spotify ingest + YouTube auto-post actua
+ lly fire. (6) Build the Calendly 'Recording' event (75 min\, 15-min buff
+ ers\, Riverside link as location\, 3 intake questions)\; confirm the inv
+ ite carries the link and the prep doc resolves view-only. (7) Write the 
+ guest prep one-pager (Google Doc\, view-only). (8) Set up the shared mas
+ ter-asset cloud folder (Drive/Dropbox)\, one folder per episode. (9) Add
+  both Rich and Carla as admins on each account where allowed\; record lo
+ gins in a credentials note. (10) Confirm editor lanes: Kenzie (Carla's d
+ aughter) owns the cut/multicam/export\; Rich does QA/oversight\; Carla o
+ wns clip selection + caption QA + guest-clip send. DONE WHEN: Accounts l
+ ive + both admins\; trailer published and feeds submitted for early revi
+ ew\; private end-to-end publish proven\; YouTube connected\; Calendly + 
+ prep doc verified\; shared asset folder ready. YOUR TASK: We are at STEP
+  6: Day-1 software setup. Give me an ordered runbook with the exact clic
+ k-path for each task\, the trailer + private-test-episode procedure\, th
+ e precise Calendly 'Recording' fields\, and the full text of the guest p
+ rep one-pager (include a one-line audio+video reuse consent).\n\nFULL PR
+ OJECT (all files + guides): https://github.com/rwsmith96/mechanisms-in-m
+ otion
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -387,8 +468,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mim-test-run@mechanismsinmotion.aes
 DTSTAMP:20260603T160000Z
-DTSTART;TZID=America/Los_Angeles:20260813T090000
-DTEND;TZID=America/Los_Angeles:20260813T094500
+DTSTART;TZID=America/Los_Angeles:20260814T090000
+DTEND;TZID=America/Los_Angeles:20260814T094500
 SUMMARY:MiM: Full test run (Rich + Carla + stand-in guest)
 LOCATION:Riverside studio link (paste the persistent studio URL here once
   created)
@@ -551,8 +632,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mim-record-ep02@mechanismsinmotion.aes
 DTSTAMP:20260603T160000Z
-DTSTART;TZID=America/Los_Angeles:20260827T090000
-DTEND;TZID=America/Los_Angeles:20260827T104500
+DTSTART;TZID=America/Los_Angeles:20260828T090000
+DTEND;TZID=America/Los_Angeles:20260828T104500
 SUMMARY:MiM: Record Ep02 (guest TBD)
 LOCATION:Riverside studio link (paste the persistent studio URL here once
   created)
@@ -737,8 +818,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mim-record-ep04@mechanismsinmotion.aes
 DTSTAMP:20260603T160000Z
-DTSTART;TZID=America/Los_Angeles:20260903T090000
-DTEND;TZID=America/Los_Angeles:20260903T104500
+DTSTART;TZID=America/Los_Angeles:20260904T090000
+DTEND;TZID=America/Los_Angeles:20260904T104500
 SUMMARY:MiM: Record Ep04 (guest TBD)
 LOCATION:Riverside studio link (paste the persistent studio URL here once
   created)
@@ -923,8 +1004,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mim-record-ep06@mechanismsinmotion.aes
 DTSTAMP:20260603T160000Z
-DTSTART;TZID=America/Los_Angeles:20260910T090000
-DTEND;TZID=America/Los_Angeles:20260910T104500
+DTSTART;TZID=America/Los_Angeles:20260911T090000
+DTEND;TZID=America/Los_Angeles:20260911T104500
 SUMMARY:MiM: Record Ep06 (guest TBD)
 LOCATION:Riverside studio link (paste the persistent studio URL here once
   created)
@@ -1109,8 +1190,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mim-record-ep08@mechanismsinmotion.aes
 DTSTAMP:20260603T160000Z
-DTSTART;TZID=America/Los_Angeles:20260917T090000
-DTEND;TZID=America/Los_Angeles:20260917T104500
+DTSTART;TZID=America/Los_Angeles:20260918T090000
+DTEND;TZID=America/Los_Angeles:20260918T104500
 SUMMARY:MiM: Record Ep08 (guest TBD)
 LOCATION:Riverside studio link (paste the persistent studio URL here once
   created)
@@ -1310,40 +1391,45 @@ DTSTART;TZID=America/Los_Angeles:20260826T130000
 DTEND;TZID=America/Los_Angeles:20260826T160000
 RRULE:FREQ=WEEKLY;BYDAY=WE;COUNT=9
 SUMMARY:MiM: Edit + QA block (protect editing throughput)
-DESCRIPTION:A protected 3-hr editing block so the edit backlog can't coll
- apse the buffer. Edit throughput\, not recording\, is the real constrain
- t: budget 5-8 hrs/episode for the first three\, 3-5 after.\n\nDO\n- Edit
-  the most recent recording toward the spec (Studio Sound\, multicam\, ca
- ptions\, clips\, export).\n- Honor the 48-hour SLA: no recording sits un
- -started for more than two days.\n- If editing falls more than one episo
- de behind\, publish from buffer and outsource the next first-pass to a f
- reelance Descript editor.\n\nRIGHT LOOKS LIKE\n- Backlog held to <= 1 ep
- isode\; every recording edit-started within 48h\; buffer protected.\n\nH
- OW-TO GUIDES (plain language\, jargon decoded\, each with a chatbot prom
- pt)\n- All guides: https://github.com/rwsmith96/mechanisms-in-motion/blo
- b/main/how-to/README.md\n\nASSISTANT PROMPT (paste into Claude or ChatGP
- T for step-by-step help)\nYou are helping run Mechanisms in Motion\, the
-  AES podcast: a remote\, two-host video interview show that turns Amazon
- 's internal operating mechanisms into playbooks any company can use (tag
- line 'Day 1 Energy for Every Stage of Growth'). Rich owns logistics\; Ca
- rla owns the guest slate. First\, if you can open links\, read the proje
- ct spec for full\, current context: https://raw.githubusercontent.com/rw
- smith96/mechanisms-in-motion/main/mim-assistant-context.md and the proje
- ct repo: https://github.com/rwsmith96/mechanisms-in-motion . If you cann
- ot open links\, the brief below is self-contained\; use it. Today's step
- : A protected 3-hr editing block so the edit backlog can't collapse the 
- buffer. Edit throughput\, not recording\, is the real constraint: budget
-  5-8 hrs/episode for the first three\, 3-5 after. WHAT TO DO: (1) Edit t
- he most recent recording toward the spec (Studio Sound\, multicam\, capt
- ions\, clips\, export). (2) Honor the 48-hour SLA: no recording sits un-
- started for more than two days. (3) If editing falls more than one episo
- de behind\, publish from buffer and outsource the next first-pass to a f
- reelance Descript editor. DONE WHEN: Backlog held to <= 1 episode\; ever
- y recording edit-started within 48h\; buffer protected. YOUR TASK: This 
- is my weekly edit block. Help me pick which episode to edit\, run the De
- script steps in order to the spec\, and tell me honestly if I'm falling 
- behind the publish cadence and should outsource a cut.\n\nFULL PROJECT (
- all files + guides): https://github.com/rwsmith96/mechanisms-in-motion
+DESCRIPTION:A protected 3-hr edit + QA block so the edit backlog can't co
+ llapse the buffer. Editing is owned by Kenzie (Carla's daughter)\; Rich 
+ runs the QA gate and tracks throughput here. Edit throughput\, not recor
+ ding\, is the real constraint: budget 5-8 hrs/episode for the first thre
+ e\, 3-5 after.\n\nDO\n- Confirm Kenzie has edited the most recent record
+ ing toward the spec (Studio Sound\, multicam\, captions\, clips\, export
+ ).\n- Run the pre-publish QA gate on whatever is cut\; honor the 48-hour
+  SLA: no recording sits un-started for more than two days.\n- If editing
+  falls more than one episode behind\, publish from buffer and add a seco
+ nd freelance Descript editor behind Kenzie.\n\nRIGHT LOOKS LIKE\n- Backl
+ og held to <= 1 episode\; every recording edit-started within 48h\; buff
+ er protected.\n\nHOW-TO GUIDES (plain language\, jargon decoded\, each w
+ ith a chatbot prompt)\n- All guides: https://github.com/rwsmith96/mechan
+ isms-in-motion/blob/main/how-to/README.md\n\nASSISTANT PROMPT (paste int
+ o Claude or ChatGPT for step-by-step help)\nYou are helping run Mechanis
+ ms in Motion\, the AES podcast: a remote\, two-host video interview show
+  that turns Amazon's internal operating mechanisms into playbooks any co
+ mpany can use (tagline 'Day 1 Energy for Every Stage of Growth'). Rich o
+ wns logistics\; Carla owns the guest slate. First\, if you can open link
+ s\, read the project spec for full\, current context: https://raw.github
+ usercontent.com/rwsmith96/mechanisms-in-motion/main/mim-assistant-contex
+ t.md and the project repo: https://github.com/rwsmith96/mechanisms-in-mo
+ tion . If you cannot open links\, the brief below is self-contained\; us
+ e it. Today's step: A protected 3-hr edit + QA block so the edit backlog
+  can't collapse the buffer. Editing is owned by Kenzie (Carla's daughter
+ )\; Rich runs the QA gate and tracks throughput here. Edit throughput\, 
+ not recording\, is the real constraint: budget 5-8 hrs/episode for the f
+ irst three\, 3-5 after. WHAT TO DO: (1) Confirm Kenzie has edited the mo
+ st recent recording toward the spec (Studio Sound\, multicam\, captions\
+ , clips\, export). (2) Run the pre-publish QA gate on whatever is cut\; 
+ honor the 48-hour SLA: no recording sits un-started for more than two da
+ ys. (3) If editing falls more than one episode behind\, publish from buf
+ fer and add a second freelance Descript editor behind Kenzie. DONE WHEN:
+  Backlog held to <= 1 episode\; every recording edit-started within 48h\
+ ; buffer protected. YOUR TASK: This is the weekly MiM edit + QA block. H
+ elp me confirm Kenzie's cut is on spec\, run the QA gate\, and tell me h
+ onestly if we're falling behind the publish cadence and should add a sec
+ ond editor.\n\nFULL PROJECT (all files + guides): https://github.com/rws
+ mith96/mechanisms-in-motion
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -1355,8 +1441,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mim-evergreen@mechanismsinmotion.aes
 DTSTAMP:20260603T160000Z
-DTSTART;TZID=America/Los_Angeles:20260820T090000
-DTEND;TZID=America/Los_Angeles:20260820T101500
+DTSTART;TZID=America/Los_Angeles:20260821T090000
+DTEND;TZID=America/Los_Angeles:20260821T101500
 SUMMARY:MiM: Record evergreen buffer episode (hosts-only\, no guest)
 LOCATION:Riverside studio link (paste the persistent studio URL here once
   created)
